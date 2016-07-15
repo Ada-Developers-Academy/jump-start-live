@@ -85,6 +85,36 @@ end
 - What lines in **B** are _indented_? Why?
 - What lines in **B** are _whitespace_? Why?
 
+#### Example #4
+##### A
+```ruby
+if username == "foo"
+if password == "bar"
+puts "Welcome, administrator!"
+else
+puts "Incorrect password."
+end
+else
+puts "Incorrect username."
+end
+```
+
+##### B
+```ruby
+if username == "foo"
+	if password == "bar"
+		puts "Welcome, administrator!"
+	else
+		puts "Incorrect password."
+	end
+else
+	puts "Incorrect username."
+end
+```
+
+- What is the difference between **A** and **B**?
+- How is **B** different than the previous examples we have seen? 
+
 #### Your Turn
 How would you modify the code below to improve the code style and readability?
 ```ruby
