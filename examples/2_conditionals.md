@@ -1,8 +1,8 @@
-Relational Operators
+# Conditionals
 
-Logical Operators
+As we saw in [Jump Start Lesson 9](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/09-programming-expressions/notes/conditionals.md), _conditionals_ are a tool that will allow you to control the flow of a program through branching.
 
-
+This concept relies on us understanding what a _boolean expression_ is and how these types of expressions are evaluated. Let's see some examples!
 
 #### Example #1
 ```ruby
