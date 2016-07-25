@@ -18,7 +18,7 @@ Write code to solve these problems. Do as many of these problems as you can in t
 
 8. Prompt for a one of the following: SHORT, TALL, GRANDE, VENTI. Print out the number of ounces that drink includes (8, 12, 16, 20 respectively).
 
-9. Prompt for rate of pay and hours worked.  Calculate gross pay.  Provide 'time and a half' for hours worked beyond 40.  i.e. If you get paid $10/hr and work 45 hours in a week, you would gross 40x10 + 5x15 = $745  
+9. Prompt for rate of pay and hours worked.  Calculate gross pay.  Provide 'time and a half' for hours worked beyond 40.  i.e. If you get paid $10/hr and work 45 hours in a week, you would gross 40x10 + 5x15 = $475  
 
 10. **Harder—Completing this problem will require a slight rewrite to #9 so that it’s code can be reused instead of rewritten for #10.**
  Prompt for rate of pay and hours worked.  Calculate gross pay if the hours are 40 or less.  Provide ‘time and a half’ for hours worked beyond 40.  Do not process any employee if their hours worked is greater than 60, instead display the message “Please see manager.”
