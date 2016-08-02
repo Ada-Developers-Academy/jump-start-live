@@ -1,6 +1,6 @@
 # Arrays
 
-As we saw in [Jump Start Lesson 10](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/11-basic-data-structs/notes/arrays.md) _arrays_, are the most common way to create collections in Ruby.
+As we saw in [Jump Start Lesson 11](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/11-basic-data-structs/notes/arrays.md) _arrays_, are the most common way to create collections in Ruby.
 
 The main things that we need to be able to do with arrays are:
 - Create an array with or without any type of data  
