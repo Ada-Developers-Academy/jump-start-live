@@ -7,6 +7,6 @@ Choose a partner with whom you will split these exercises. You will work on one 
   a. What are two different ways you can access the second-last name in your array?  
   b. If the names are in order from youngest to oldest, how would you access the name of the second-youngest person?
 
-2. Create an array which stores the numbers 1 - 15.
-  a. What are two different ways of accessing the middle number?
-  b. If the numbers are stored in order, how would you access the second value in the array?
+2. Create an array which stores the numbers 1 - 15.  
+  a. What are two different ways of accessing the middle number?  
+  b. If the numbers are stored in order, how would you access the second value in the array?  
