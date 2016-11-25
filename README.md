@@ -1,4 +1,19 @@
 # Jumpstart Live (JSL)
+_In person jumpstart program for [Ada Developers Academy](http://adadevelopersacademy.org/)_
+
+| Day | Lesson | 
+| :--- | :--- |
+| Day 1 | [Pretty Code](lessons/pretty-code.md) |
+| Day 2 | [Conditionals](lessons/conditionals.md) |
+| Day 3 | [Loops](lessons/loops.md) |
+| Day 4 | [More Loops](lessons/more-loops.md) |
+| Day 5 | [Arrays](lessons/arrays.md) |
+| Day 6 | [Hashes](lessons/hashes.md) |
+
+Switching from a PC to a Mac:
+https://gist.github.com/drvonnjerryxlii/9898254abef2d184c659
+
+# Jumpstart Live (JSL)
 
 We launched Ada Jumpstart in January 2016 to better support the truly beginner coders that we have admitted into Ada Developers Academy. We know that all our students are joining Ada to learn to program and become software developers, but everyone comes to us from different backgrounds and different prior experience with coding. We know that different people need different support systems to be successful and this support system is directed at our Adies who are newest to the coding world.
 
