@@ -52,7 +52,9 @@ _Jumpstart Live (JSL)_
 
   _Output_
   ```
-  Viola Davis is an actress who is 50 years old. Her birthday is on August 11th. She is a(n) actress.
+  Viola Davis is an actress who is 50 years old.
+  Her birthday is on August 11th.
+  She is a(n) actress.
   ```
 
   ####Optional Challenge
@@ -60,5 +62,7 @@ _Jumpstart Live (JSL)_
 
   _Output_
   ```
-  Viola Davis is an actress who is 50 years old. Her birthday is 34 days from today, on August 11th. She is a(n) actress.
+  Viola Davis is an actress who is 50 years old.
+  Her birthday is 34 days from today, on August 11th.
+  She is a(n) actress.
   ```
