@@ -9,6 +9,7 @@ _Jumpstart Live (JSL)_
 * Understand and be able to use Ruby style practices
 
 ## Warm up
+* Walk your partner though your MadLibs code focusing on using programming vocabulary (e.g, variables, assignment, strings, input, output, string interpolation,  string concatenation)
 
 
 ## Lessons
@@ -16,7 +17,7 @@ _Jumpstart Live (JSL)_
 * [Ruby style](style.md)
 
 ## Exercises
-1. Discuss [Madlibs example](code/bad-style-madlibs.rb) focusing on using programming vocabulary (e.g, variables, assignment, strings, input, output, string interpolation,  string concatenation)
+1. Discuss [bad style Madlibs example](code/bad-style-madlibs.rb) 
 
 2. Revisit your MadLibs code, and update your code to improve its style
 
