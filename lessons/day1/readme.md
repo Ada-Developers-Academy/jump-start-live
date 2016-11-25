@@ -73,3 +73,6 @@ _Jumpstart Live (JSL)_
   Her birthday is 34 days from today, on August 11th.
   She is a(n) actress.
   ```
+
+## Resources
+* [Good style madlibs](/code/good_style_madlibs.rb)
