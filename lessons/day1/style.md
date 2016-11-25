@@ -129,3 +129,6 @@ The style in your code is just as important as the code itself. Programmers use 
 		puts "Incorrect username."
 	end
 	```
+
+### Resources
+* Crowd-sourced [ruby style guide](https://github.com/bbatsov/ruby-style-guide)
