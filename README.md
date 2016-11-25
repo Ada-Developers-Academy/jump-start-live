@@ -17,7 +17,7 @@ JSL takes place in person at Ada 3 weeks prior to the start of the program. JSL 
 ## Schedule
 | Day | Topics | 
 | :--- | :--- |
-| [Day 1](day1/readme.md) | programming work flow, ruby style |
+| [Day 1](lessons/day1/readme.md) | programming work flow, ruby style |
 | Day 2 | [Conditionals](lessons/conditionals.md) |
 | Day 3 | [Loops](lessons/loops.md) |
 | Day 4 | [More Loops](lessons/more-loops.md) |
