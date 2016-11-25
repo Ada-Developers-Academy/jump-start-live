@@ -15,7 +15,8 @@ _Jumpstart Live (JSL)_
 1. How would you modify the code below to improve the code style and readability?
 
   ```ruby
-  foods = ["shrimp", "cauliflower", "salmon", "garlic", "oysters", "salami", "tomatoes", "okra", "zucchini", "avocado"]
+  foods = ["shrimp", "cauliflower", "salmon", "garlic", "oysters",
+  "salami", "tomatoes", "okra", "zucchini", "avocado"]
   print "\nHow many foods would you like to see? I suggest 10, but it's up to you. "
   items = gets.chomp.to_i
   if items > 10
