@@ -5,15 +5,20 @@ _Jumpstart Live (JSL)_
 The style in your code is just as important as the code itself. Programmers use code standards along with company _style guides_ to ensure that all programmers are using the same style. Code with good style is easy to read, understand, and modify.
 
 ### Concepts
+* File naming
+	* Use `snake_case` for naming files and directories
 * Whitespace
 	* Code should be separated into thoughts, similar to how you might use paragraphs when writing an essay; every thought should be separated with a blank line
 	* There should be a single space on either side of all operators (e.g, `x = x * 2` instead of `x=x*2`)
+	* There should be a single space after all commas and colons
+	* Use spaces around `{` and `}`
 * Indentation
 	* All code between a `do` and an `end` (i.e., inside of a block) should be indented
 	* All code inside a `if` or `elsif` should be indented
 	* Indentation should be achieved by pressing the tab key, not the space bar
 * Variable names
 	* Variable name should clearly describe what they hold, with the exception of loop variables
+	* Use `snake_case` for variable names (e.g, user_full_name instead of userfullname)
 * Comments
 	* Use comments to describe your code
 	* Comments should describe _what the code does_ and not _how the code does it (i.e., do not include implementation details in your comments)
