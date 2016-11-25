@@ -75,4 +75,4 @@ _Jumpstart Live (JSL)_
   ```
 
 ## Resources
-* [Good style madlibs](/code/good_style_madlibs.rb)
+* [Good style madlibs](code/good_style_madlibs.rb)
