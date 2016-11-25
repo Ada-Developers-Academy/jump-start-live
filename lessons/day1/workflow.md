@@ -22,3 +22,4 @@ When programming you should always have a terminal window open
 | `ctrl+e` | go to end of line |
 | `irb` | start interactive ruby session |
 | `exit` | exit an `irb` session |
+| `ctrl+c` | interrupt or stop a command |
