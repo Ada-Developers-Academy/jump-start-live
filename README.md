@@ -15,9 +15,9 @@ JSL takes place in person at Ada 3 weeks prior to the start of the program. JSL 
 	* Debrief (15 mins)
 
 ## Schedule
-| Day | Lesson | 
+| Day | Topics | 
 | :--- | :--- |
-| Day 1 | [Pretty Code](lessons/pretty-code.md) |
+| [Day 1](day1.md) | ruby style, terminal, using irb, workflow |
 | Day 2 | [Conditionals](lessons/conditionals.md) |
 | Day 3 | [Loops](lessons/loops.md) |
 | Day 4 | [More Loops](lessons/more-loops.md) |
