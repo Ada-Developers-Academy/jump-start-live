@@ -1,24 +1,49 @@
 # Loops
-## Day 3
 
-### Warm up
-* Discuss election time code
-* Discuss code with vocabulary: blocks, loops, iterator, variable assignment, conditional statement
+As we saw in [Jump Start Lesson 10](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/10-iterators) _iterators_, also known as _loops_, are used to prevent code duplication and allow us to repeat a code action a certain number of times.
 
-### Discussion
-* Recap conditionals
-* Review looping constructs
-* Counter controlled vs. sentinel controlled loop exercise
+We will be using some of the vocabulary we went over in the [loop notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-iterators/notes/loops.md), specifically the _counter-controlled_ loops and the _sentinel-controlled_ loops.
 
-### Exercises
-#### Guessing game
+### Practice Identifying loops
+Let's look at the [loops worksheet](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-iterators/assignments/loops-worksheet.md) to work to identify the different types!
 
-Write a program that allows a user to play a guessing number game. You should predetermine the secret number (between 0 – 1000). Allow the user to make a guess until they guess the answer. After each incorrect guess you should print a clue “higher” or “lower”.
+### More Loop Examples
+#### Example #1
+##### A
+```ruby
+2.times do
+  puts "dance"
+end
+```
 
-#### Loves me not
+##### B
+```ruby
+2.times do |i|
+  puts "dance"
+end
+```
 
-Write a program that allows a user to enter the number of petals on a flower. Then one by one, print “plucking petal #1: they love me!”. Alternate “They love me” and “They love me not” as well as increase the petal number for each petal.
+- What is the difference between example `A` and example `B`?
+- What is the vocabulary word which describes additional piece in example `B`?
+- What will the values of `i` be for each iteration in example `B`? Will the user see the value for `i`?
 
-### Debrief:
-* Different types of loops used
-* Different ways to utilize different loops for the same goal
+#### Example #2
+```ruby
+puts "Hello! We are going to total some numbers!"
+puts "Enter a negative number to quit."
+
+total = 0
+input = gets.chomp.to_i
+while input > 0
+  total += input
+  input = gets.chomp.to_i
+end
+
+puts "Result: #{total}"
+```
+
+- Let's run through the example step by step for the following inputs. Determine how the total variable changes, and what happens with the user's input.
+  - 0, -1, 2
+  - 33, 6, 2, 9, 0, -1
+  - 4.2, 1.1, 9.9, -1.0
+- Why would the while loop use `input > 0` rather than `input < 0`?
