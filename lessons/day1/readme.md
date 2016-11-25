@@ -7,11 +7,11 @@ _Jumpstart Live (JSL)_
 ## Warm up
 * Discuss Madlibs code focusing on using programming vocabulary (e.g, variables, assignment, strings, input, output, string interpolation,  string concatenation)
 
-## Lesson
+## Lessons
 * [Workflow](workflow.md)
 * [Ruby style](style.md)
 
-### Exercise
+## Exercises
 1. How would you modify the code below to improve the code style and readability?
 
   ```ruby
