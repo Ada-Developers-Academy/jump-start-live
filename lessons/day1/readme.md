@@ -2,7 +2,7 @@ _Jumpstart Live (JSL)_
 # Day 1
 
 ## Prep work
-* Review your [Madlibs](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/09-programming-grammar/assignments/madlibs.md) solution and be prepared to talk with others about your approach
+* Review your [Madlibs](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/09-programming-grammar/assignments/madlibs.md) solution and be prepared to talk with others about your code
 
 ## Goals
 * Have a big picture idea of your own workflow and how to improve it
@@ -73,6 +73,9 @@ _Jumpstart Live (JSL)_
   Her birthday is 34 days from today, on August 11th.
   She is a(n) actress.
   ```
+
+## Homework
+* Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/assignments/candy-machine.md) solution and be prepared to talk with others about your code
 
 ## Resources
 * [Good style madlibs](code/good_style_madlibs.rb)
