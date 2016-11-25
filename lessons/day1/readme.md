@@ -42,7 +42,7 @@ _Jumpstart Live (JSL)_
   * Use up to five different attributes about the person to populate the bio
   * Output should consist of a paragraph of output that has the user's input substituted in.
 
-  ### Use Case
+  __Use Case__
   ```
   Name: Viola Davis
   Birthday: August 11th, 1980
@@ -53,9 +53,9 @@ _Jumpstart Live (JSL)_
   Viola Davis is an actress who is 50 years old. Her birthday is on August 11th. She is a(n) actress.
   ```
 
-  ### Optional Challenge
+  __Optional Challenge__
   * Use the attributes provided to do some calculations to make your bio a bit more interesting.
-  
+
   ```
   Viola Davis is an actress who is 50 years old. Her birthday is 34 days from today, on August 11th. She is a(n) actress.
   ```
