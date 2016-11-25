@@ -14,11 +14,11 @@ When programming you should always have a terminal window open.
 | Command | Description |
 | :--- | :--- |
 | `cmd+K` | clear your screen |
-| `cd` | to choose a directory |
-| `..cd` | to go back a directory |
-| `ls` | to list the items in the directory |
-| `up arrow` | to view the previous command |
+| `cd` | choose a directory |
+| `..cd` | go back a directory |
+| `ls` | list the items in the directory |
+| `up arrow` | view the previous command |
 | `ctrl+a` | go to beginning of line |
 | `ctrl+e` | go to end of line |
 | `irb` | start interactive ruby session |
-| `exit` | to exit an `irb` session |
+| `exit` | exit an `irb` session |
