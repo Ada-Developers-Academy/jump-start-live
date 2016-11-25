@@ -3,7 +3,7 @@ _Jumpstart Live (JSL)_
 ## Workflow
 
 ### Terminal
-When programming you should always have a terminal window open.
+When programming you should always have a terminal window open
 
 #### Opening Terminal
 * `cmd+spacebar` to open spotlight, then type Terminal
