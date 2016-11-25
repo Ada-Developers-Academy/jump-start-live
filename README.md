@@ -1,5 +1,5 @@
 # Jumpstart Live (JSL)
-_In person jumpstart program for [Ada Developers Academy](http://adadevelopersacademy.org/)_
+_In person program for [Ada Developers Academy](http://adadevelopersacademy.org/) students who have no previous experience with programming_
 
 ## Overview
 Launched in January 2016, to support newly admitted Ada Developers Academy students who have no prior experience with programming. This JSL curriculum is a companion to the [Jumpstart curriculum](https://github.com/Ada-Developers-Academy/jump-start).
