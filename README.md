@@ -30,3 +30,11 @@ JSL takes place in person at Ada 3 weeks prior to the start of the program. JSL 
 | :--- | :--- |
 | [Switching from PC to Mac](https://gist.github.com/drvonnjerryxlii/9898254abef2d184c659)| A guide to help Ada students who are transitioning from PC to Mac |
 | [Jumpstart Curriculum](https://github.com/Ada-Developers-Academy/jump-start) | Individual curriculum to be completed by all incoming Ada students |
+
+## FAQs
+
+1. What is the difference between Jumpstart and Jumpstart Live (JSL)?
+
+Jumpstart is a curriculum that all accepted Ada students are expected to complete on their own prior to the start of the in-person classroom experience.
+
+Jumpstart Live(JSL) is a 3-week in person curriculum to help prepare incoming Ada students who have no prior experience with programming.
