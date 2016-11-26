@@ -15,7 +15,7 @@ if test
   statement(s)
 if test
   statement(s)
-if test)
+if test
   statement(s)
 ```
 
