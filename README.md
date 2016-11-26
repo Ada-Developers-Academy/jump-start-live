@@ -9,8 +9,7 @@ JSL takes place in person at Ada 3 weeks prior to the start of the program. JSL 
 ## Class Structure
 * 2 hours, twice a week for 3 weeks
 * General class plan
-	* Welcome and goals (5 mins)
-	* Warm up activity (20 mins)
+	* Welcome, goals, warm-up (25 mins)
 	* Lecture (25 mins)
 	* 6:50pm Break (10 mins)
 	* Exercises (50 mins)
