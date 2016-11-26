@@ -11,7 +11,6 @@ _Jumpstart Live (JSL)_
 ## Warm up
 * Walk your partner though your MadLibs code focusing on using programming vocabulary (e.g, variables, assignment, strings, input, output, string interpolation,  string concatenation)
 
-
 ## Lessons
 * [Workflow](workflow.md)
 * [Ruby style](style.md)
@@ -74,8 +73,16 @@ _Jumpstart Live (JSL)_
   She is a(n) actress.
   ```
 
+## Debrief
+* What new things did you learn today?
+* What topics are you still struggling with?
+* What did you especially enjoy about today's class?
+* What can be improved for future classes?
+
 ## Homework
 * Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/assignments/candy-machine.md) solution and be prepared to talk with others about your code
+* Review the [Conditional notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/conditionals.md) from Jumpstart
+* Review the [Operators notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/operators.md) from Jumpstart
 
 ## Resources
 * [Good style madlibs](code/good_style_madlibs.rb)
