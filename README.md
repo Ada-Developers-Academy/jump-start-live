@@ -25,9 +25,7 @@ JSL takes place in person at Ada 3 weeks prior to the start of the program. JSL 
 | [Day 5](lessons/day5) | arrays |
 | [Day 6](lessons/day6) | hashes |
 
-
 ## Resources
-
 | Resource | Information |
 | :--- | :--- |
 | [Switching from PC to Mac](https://gist.github.com/drvonnjerryxlii/9898254abef2d184c659)| A guide to help Ada students who are transitioning from PC to Mac |
