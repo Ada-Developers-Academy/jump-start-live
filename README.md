@@ -20,10 +20,10 @@ JSL takes place in person at Ada 3 weeks prior to the start of the program. JSL 
 | :--- | :--- |
 | [Day 1](lessons/day1) | programming work flow, ruby style |
 | [Day 2](lessons/day2) | boolean expressions, conditionals |
-| Day 3 | [Loops](lessons/loops.md) |
-| Day 4 | [More Loops](lessons/more-loops.md) |
-| Day 5 | [Arrays](lessons/arrays.md) |
-| Day 6 | [Hashes](lessons/hashes.md) |
+| [Day 3](lessons/day3) | loops |
+| [Day 4](lessons/day4) | combining loops and conditionals |
+| [Day 5](lessons/day5) | arrays |
+| [Day 6](lessons/day6) | hashes |
 
 
 ## Resources
