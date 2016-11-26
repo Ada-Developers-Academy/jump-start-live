@@ -1,88 +1,132 @@
-# Conditionals
+_Jumpstart Live (JSL)_
+# Day 2
+## Conditionals
 
-As we saw in [Jump Start Lesson 9](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/09-programming-expressions/notes/conditionals.md), _conditionals_ are a tool that will allow you to control the flow of a program through branching.
+Conditionals are a programming construct that will allow you to control the flow of a program through branching (they allow your program to make decisions)
 
-This concept relies on us understanding what a _boolean expression_ is and how these types of expressions are evaluated. Let's see some examples!
+#### Structure
+* `else` can only be used when paired with an if
 
-#### Example #1
 ```ruby
-test_score = gets.chomp.to_i
+# independent tests; not exclusive
+# 0, 1, or many of the statement(s) may execute
+# every test in every if block is checked
+if test
+  statement(s)
 
-if test_score > 90
-  print "You got an A!"
-end
+if test
+  statement(s)
+
+if test)
+  statement(s)
 ```
 
-- What is an example of a value for `test_score` where the _boolean expression_ will return `true`?
-- What is an example of a value for `test_score` where the _boolean expression_ will return `false`?
-
-#### Example #2
-##### A
 ```ruby
-test_score = gets.chomp.to_i
-
-if test_score != 90
-  print "You got an A!"
-else
-  print "You did not get an A!"
-end
+# 0, or 1 of the if blocks may execute
+# at most only 1 of the if blocks execute
+# it could be the case that 0 if blocks execute because their is no else
+if test
+  statement(s)
+elsif test 
+  statement(s)
+elsif test
+  statement(s)
 ```
 
-##### B
 ```ruby
-test_score = gets.chomp.to_i
-
-if test_score > 90
-  print "You got an A!"
-else
-  print "You did not get an A!"
-end
+# mutually exclusive
+# exactly 1 of the if blocks will execute
+if test
+  statement(s)
+elsif test
+  statement(s)
+else {
+  statement(s)
 ```
 
-- Will the resulting code executed be the same in example A and B?
+### Practice Problems
+1. Single if statement
+  
+  #### Questions
+  * What is the boolean expression in the code below?
+  * Provide a value of `test_score` that will cause the code to print "You got an A!"
+  * Provide a value of `test_score` that will cause the code to not print anything
 
+  ```ruby
+  test_score = gets.chomp.to_i
 
-#### Example #3
-##### A
-```ruby
-test_score = gets.chomp.to_i
+  if test_score > 90
+    print "You got an A!"
+  end
+  ```
 
-if test_score < 90
-  print "You did not get an A!"
-else
-  print "You got an A!"
-end
-```
+2. if/else statement
 
-##### B
-```ruby
-test_score = gets.chomp.to_i
+  #### Questions
+  * What is different about the examples below?
+  * Will they work the same, even though their code is different?
 
-if test_score > 90
-  print "You got an A!"
-else
-  print "You did not get an A!"
-end
-```
+  ```ruby
+  test_score = gets.chomp.to_i
 
-- Will the resulting code executed be the same in example A and B?
+  if test_score != 90
+    print "You got an A!"
+  else
+    print "You did not get an A!"
+  end
+  ```
 
-#### Example #4
-```ruby
-carrier = gets.chomp
+  ```ruby
+  test_score = gets.chomp.to_i
 
-if carrier == "UPS"
-  puts "United Parcel Service"
-elsif carrier == "USPS"
-  puts "United States Postal Servce"
-elsif carrier == "FedEx"
-  puts "Federal Express"
-else
-  puts "Mail!"
-end
-```
+  if test_score > 90
+    print "You got an A!"
+  else
+    print "You did not get an A!"
+  end
+  ```
 
-What will the output of this code be if the input is:
-- "FedEx"?
-- "usps"?
-- "mailing"?
+3. if/else statement
+
+  #### Questions
+  * What is different about the examples below?
+  * Will they work the same, even though their code is different?
+
+  ```ruby
+  test_score = gets.chomp.to_i
+
+  if test_score < 90
+    print "You did not get an A!"
+  else
+    print "You got an A!"
+  end
+  ```
+
+  ```ruby
+  test_score = gets.chomp.to_i
+
+  if test_score > 90
+    print "You got an A!"
+  else
+    print "You did not get an A!"
+  end
+  ```
+
+4. if/elsif/else statement
+
+  #### Questions
+  * What will be output if the user enters "FedEx"? How about "usps"? What about "mailing"?
+
+  ```ruby
+  carrier = gets.chomp
+
+  if carrier == "UPS"
+    puts "United Parcel Service"
+  elsif carrier == "USPS"
+    puts "United States Postal Servce"
+  elsif carrier == "FedEx"
+    puts "Federal Express"
+  else
+    puts "Mail!"
+  end
+  ```
