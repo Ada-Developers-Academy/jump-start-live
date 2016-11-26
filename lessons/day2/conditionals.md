@@ -13,10 +13,8 @@ Conditionals are a programming construct that will allow you to control the flow
 # every test in every if block is checked
 if test
   statement(s)
-
 if test
   statement(s)
-
 if test)
   statement(s)
 ```
