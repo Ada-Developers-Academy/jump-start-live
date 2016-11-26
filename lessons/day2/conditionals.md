@@ -13,10 +13,13 @@ Conditionals are a programming construct that will allow you to control the flow
 # every test in every if block is checked
 if test
   statement(s)
+end
 if test
   statement(s)
+end
 if test
   statement(s)
+end
 ```
 
 ```ruby
@@ -29,6 +32,7 @@ elsif test
   statement(s)
 elsif test
   statement(s)
+end
 ```
 
 ```ruby
@@ -38,8 +42,9 @@ if test
   statement(s)
 elsif test
   statement(s)
-else {
+else
   statement(s)
+end
 ```
 
 ### Practice Problems
