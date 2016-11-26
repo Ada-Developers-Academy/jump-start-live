@@ -14,7 +14,7 @@ JSL takes place in person at Ada 3 weeks prior to the start of the program. JSL 
 	* Pair exercise (45 mins)
 	* Debrief (15 mins)
 
-## Schedule
+## [Lessons](lessons)
 | Day | Topics | 
 | :--- | :--- |
 | [Day 1](lessons/day1) | programming work flow, ruby style |
