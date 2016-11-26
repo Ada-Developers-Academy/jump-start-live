@@ -18,7 +18,7 @@ _Jumpstart Live (JSL)_
 * We will project two different solutions to candy machine and discuss
 
 ## Lessons
-* [Boolean Expressions](boolean-expressions.md)
+* [Boolean Expressions](boolean_expressions.md)
 * [Conditionals](conditionals.md)
 
 ## Exercises
