@@ -31,7 +31,7 @@ _Jumpstart Live (JSL)_
 | `>=` | greater than or equal to | `5.0 >= 5.0` | `true` |
  
 ### Logical operators
-* Logical operators allow you to combine multiple boolean expressions
+* Logical operators allow you to combine or modify boolean expressions
 
 | __Operator__ | __Description__ | __Example__ | __Result__ |
 | :--- | :--- | :--- | :--- |
