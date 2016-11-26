@@ -3,7 +3,7 @@ _Jumpstart Live (JSL)_
 | Day | Topics | 
 | :--- | :--- |
 | [Day 1](day1) | programming work flow, ruby style |
-| [Day 2](day2) | order of operations, boolean expressions, relational and logical operators, conditionals |
+| [Day 2](day2) | boolean expressions, conditionals |
 | [Day 3](day3) | loops |
 | [Day 4](day4) | loops |
 | [Day 5](day5) | arrays |
