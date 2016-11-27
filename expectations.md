@@ -1,5 +1,5 @@
 _Jumpstart Live (JSL)_
-# Expectations
+# Student Expectations
 
 ## Participating Students
 We expect students participating in Jumpstart live to be beginning programmers. We ask our more experienced Ada students to leave this space to our beginners, so they can feel confident in the material that you already know before the first day of Ada classes.
