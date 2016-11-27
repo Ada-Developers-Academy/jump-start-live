@@ -3,7 +3,6 @@ _Jumpstart Live (JSL)_
 
 loops day 2
 ------
-while vs until
 short circuit evaluation
 loops with logical operators
 
