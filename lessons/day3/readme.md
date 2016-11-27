@@ -47,37 +47,37 @@ _Jumpstart Live (JSL)_
 
 4. You don't trust your users. Modify the program below to require the user to enter the same value twice in order to add that value to the total.
 
-#### Code
+	#### Code
 
-```ruby
-puts "Hello! We are going to total some numbers!"
-puts "Enter a negative number to quit."
+	```ruby
+	puts "Hello! We are going to total some numbers!"
+	puts "Enter a negative number to quit."
 
-total = 0
-input = gets.chomp.to_i
-while input > -1
-  total += input
-  input = gets.chomp.to_i
-end
+	total = 0
+	input = gets.chomp.to_i
+	while input > -1
+	  total += input
+	  input = gets.chomp.to_i
+	end
 
-puts "Result: #{total}"
-```
+	puts "Result: #{total}"
+	```
 
-#### Example run
+	#### Example run
 
-```
-Hello! We are going to total some numbers!
-Enter a negative number to quit.
+	```
+	Hello! We are going to total some numbers!
+	Enter a negative number to quit.
 
-3
-3
-2
-2
--1
--1
+	3
+	3
+	2
+	2
+	-1
+	-1
 
-Result: 5
-```
+	Result: 5
+	```
 
 ## Debrief:
 * What different types of loops did we learn about today?
