@@ -14,8 +14,7 @@ The style in your code is just as important as the code itself. Programmers use 
 	* Use spaces around `{` and `}`
 * Indentation
 	* All code between a `do` and an `end` (i.e., inside of a block) should be indented
-	* All code inside a `if` or `elsif` should be indented
-	* Indentation should be achieved by pressing the tab key, not the space bar
+	* All code inside a `if`, `elsif`, or `else` should be indented
 * Variable names
 	* Variable name should clearly describe what they hold, with the exception of loop variables
 	* Use `snake_case` for variable names (e.g, user_full_name instead of userfullname)
