@@ -44,6 +44,7 @@ _Jumpstart Live (JSL)_
 
 ## Homework
 * Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/assignments/candy-machine.md) solution and be prepared to talk with others about your code
+* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from Jumpstart
 
 ## Resources
 * [Conditional notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/conditionals.md) from Jumpstart

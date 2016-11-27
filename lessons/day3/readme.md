@@ -22,3 +22,31 @@ Write a program that allows a user to enter the number of petals on a flower. Th
 ### Debrief:
 * Different types of loops used
 * Different ways to utilize different loops for the same goal
+
+Day 3: Loops
+Warm up:
+Discuss election time code
+Discuss code with vocabulary: blocks, loops, iterator, variable assignment, conditional statement
+
+
+Discussion:
+Recap conditionals
+Review looping constructs
+Counter controlled vs. sentinel controlled loop exercise
+
+
+Exercise:
+Guessing game
+Loves me not
+Pairs of folks will complete one exercise and then share with the person who did the other exercise
+
+
+Debrief:
+Different types of loops used
+Different ways to utilize different loops for the same goal
+
+
+Action Items:
+Crystal provides guessing game writeup (sentinel)
+Counter controlled loop exercise
+Crystal has examples for the actions someone can perform to describe counter vs sentinel controlled loops

@@ -42,3 +42,32 @@ Choose a partner with whom you will split these exercises. You will work on one 
 
 ### Debrief
 * Reviewing the exercises and pain points
+
+Day 5: Arrays
+Warm up:
+Discuss student account generator code part 1
+Discuss code with vocabulary: arrays, index, value, blocks, loops, iterator, variable assignment
+
+
+Discussion:
+Recap loops from last week
+Review storing and retrieving data from an array
+Review iterating over an array
+
+
+Exercise:
+Word problems for storing and retrieving data in an array
+Powers of 2
+Members of your family in age order
+Maybe do these on paper?
+Write the code for the word problems for array iteration
+
+
+Debrief:
+Reviewing the exercises and pain points
+
+
+Action Items:
+Come up with the word problems
+Crystal has word problems for array iteration
+
