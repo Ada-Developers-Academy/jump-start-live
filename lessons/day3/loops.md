@@ -65,7 +65,7 @@ end
 ```ruby
 # each syntax
 # do ... end is the block
-# variable is called the iteration variable
+# variable is the iteration variable
 collection.each do |variable|
    code
 end
@@ -140,59 +140,59 @@ end
 ### Loop Tables
 1. range/each
 
-```ruby
-(1..3).each do |i|
-	puts i * i
-end
-```
+	```ruby
+	(1..3).each do |i|
+		puts i * i
+	end
+	```
 
-| i | output |
-| :--- | :--- |
-| 1 | 1 |
-| 2 | 4 |
-| 3 | 9 |
+	| i | output |
+	| :--- | :--- |
+	| 1 | 1 |
+	| 2 | 4 |
+	| 3 | 9 |
 
 2. range/each with sum
 
-```ruby
-total = 0
+	```ruby
+	total = 0
 
-(1..3).each do |i|
-	total = total + i
-end
+	(1..3).each do |i|
+		total = total + i
+	end
 
-puts total
-```
+	puts total
+	```
 
-| i | total | output |
-| :--- | :--- | :--- |
-| - | 0 | - |
-| 1 | 1 | - |
-| 2 | 3 | - |
-| 3 | 6 | - |
-| 3 | 6 | 6 |
+	| i | total | output |
+	| :--- | :--- | :--- |
+	| - | 0 | - |
+	| 1 | 1 | - |
+	| 2 | 3 | - |
+	| 3 | 6 | - |
+	| 3 | 6 | 6 |
 
 3. Create a loop table for the code below, assuming the inputs noted below
 
-```ruby
-puts "Hello! We are going to total some numbers!"
-puts "Enter a negative number to quit."
+	```ruby
+	puts "Hello! We are going to total some numbers!"
+	puts "Enter a negative number to quit."
 
-total = 0
-input = gets.chomp.to_i
-while input > -1
-  total += input
-  input = gets.chomp.to_i
-end
+	total = 0
+	input = gets.chomp.to_i
+	while input > -1
+	  total += input
+	  input = gets.chomp.to_i
+	end
 
-puts "Result: #{total}"
-```
+	puts "Result: #{total}"
+	```
 
-```
-inputs1; 0, -1, 2
-inputs2: 33, 6, 2, 9, 0, -1
-inputs3: 4.2, 1.1, 9.9, -1.0
-```
+	```
+	inputs1; 0, -1, 2
+	inputs2: 33, 6, 2, 9, 0, -1
+	inputs3: 4.2, 1.1, 9.9, -1.0
+	```
 
 ### Loop Comparison
 1. times iteration variable
