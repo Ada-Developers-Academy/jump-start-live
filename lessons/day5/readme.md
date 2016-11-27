@@ -1,5 +1,5 @@
-# Arrays
-## Day 5
+_Jumpstart Live (JSL)_
+# Day 5
 
 ### Warm up
 * Discuss student account generator code part 1

@@ -1,4 +1,6 @@
-# Hashes
+_Jumpstart Live (JSL)_
+# Day 6
+## Hashes
 
 As we saw in [Jump Start Lesson 10](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/11-basic-data-structs/notes/hashes.md) hashes, are the second-most common way to store data in Ruby. We utilize unordered keys rather than ordered indexes to store data. The hash is sort of like a dictionary, where we can look up a value by a given key.
 

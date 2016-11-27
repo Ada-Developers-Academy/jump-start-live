@@ -1,4 +1,6 @@
-# Arrays
+_Jumpstart Live (JSL)_
+# Day 5
+## Arrays
 
 As we saw in [Jump Start Lesson 11](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/11-basic-data-structs/notes/arrays.md) _arrays_, are the most common way to create collections in Ruby.
 

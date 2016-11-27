@@ -16,11 +16,11 @@ The style in your code is just as important as the code itself. Programmers use 
 	* All code between a `do` and an `end` (i.e., inside of a block) should be indented
 	* All code inside a `if`, `elsif`, or `else` should be indented
 * Variable names
-	* Variable name should clearly describe what they hold, with the exception of loop variables
+	* Variable name should clearly describe what they hold, with the exception of iteration variables
 	* Use `snake_case` for variable names (e.g, user_full_name instead of userfullname)
 * Comments
 	* Use comments to describe your code
-	* Comments should describe _what the code does_ and not _how the code does it (i.e., do not include implementation details in your comments)
+	* Comments should describe _what the code does_ and not _how the code does it_ (i.e., do not include implementation details in your comments)
 
 ### Examples
 1. _Consider indentation, variable names, and comments__

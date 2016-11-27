@@ -1,4 +1,6 @@
-# Using Arrays
+_Jumpstart Live (JSL)_
+# Day 5
+## Array Exercises
 
 ## Instructions:
 Complete as many of the following exercises as you can within the time allotted.
