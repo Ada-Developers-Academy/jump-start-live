@@ -196,8 +196,8 @@ end
 
 ### Loop Comparison
 1. times iteration variable
-* What is the difference between these loops?
-* Which is a better style solution?
+	* What is the difference between these loops?
+	* Which is a better style solution?
 
 	```ruby
 	2.times do
