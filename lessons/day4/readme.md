@@ -32,3 +32,7 @@ _Jumpstart Live (JSL)_
 * What topics are you still struggling with?
 * What did you especially enjoy about today's class?
 * What can be improved for future classes?
+
+### Homework
+
+### Resources
