@@ -12,3 +12,4 @@ ruby iterators
 ruby types (fixnum!)
 section on string interpolation
 what is nil
+fencepost problems

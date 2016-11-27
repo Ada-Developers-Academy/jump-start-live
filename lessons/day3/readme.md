@@ -16,7 +16,7 @@ _Jumpstart Live (JSL)_
 * [Loops](loops.md)
 
 ## Exercises
-1. Write a program that allows a user to play a guessing number game. Your program should generate a random number between 0 – 1000. Allow the user to make a guess until they guess the answer. After each guess you should print "higher" or "lower". When they guess it correctly print a winning message along with their total number of guesses.
+1. Write a program that allows a user to play a guessing number game. Your program should generate a random number between 0 – 1000 (including 0, but not including 1000). Allow the user to make a guess until they guess the answer. After each guess you should print "higher" or "lower". When they guess it correctly print a winning message along with their total number of guesses.
 
 	```
 	Guess my number: 10
@@ -90,3 +90,4 @@ _Jumpstart Live (JSL)_
 * Finish all exercises from today's class
 
 ## Resources
+* [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from Jumpstart
