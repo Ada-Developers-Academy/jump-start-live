@@ -79,7 +79,7 @@ _Jumpstart Live (JSL)_
 	Result: 5
 	```
 
-## Debrief:
+## Debrief
 * What different types of loops did we learn about today?
 * What topics are you still struggling with?
 * What did you especially enjoy about today's class?
