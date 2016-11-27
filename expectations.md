@@ -12,6 +12,7 @@ We expect all participating students to arrive on time to class except for in ca
 * We also expect students to come to class with relevant ideas, and questions related to the class topics
 
 ## Participation
+We expect participating students to be active participants in the learning process. The questions below are designed to help guide you.
 * Do you make at least one excellent contribution (e.g., insight or question) to each class without monopolizing discussion?
 * Do you give active nonverbal and verbal feedback?
 * Do you refer to other students by name and react to their contributions?
