@@ -30,6 +30,28 @@ _Jumpstart Live (JSL)_
 | `<=` | less than or equal to | `126 <= 100` | `false` |
 | `>=` | greater than or equal to | `5.0 >= 5.0` | `true` |
  
+### Boolean values
+* The two possible values of a boolean data type are `true` and `false`
+* A non-boolean value that evaluates to true, is called "truthy"
+	* Everything in ruby is "truthy" except for `nil` 
+* A non-boolean value that evaluates to false, is called "falsey", also sometimes "falsy"
+	* `nil` is the only "falsey" value in ruby
+
+#### Examples
+```ruby
+if 2
+	puts "2 is truthy"
+end
+
+if 'hello'
+	puts "\"hello\" is truthy"
+end
+
+if !nil
+	puts "nil is falsey"
+end
+```
+
 ### Logical operators
 * Logical operators allow you to combine or modify boolean expressions
 
