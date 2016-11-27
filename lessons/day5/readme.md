@@ -1,6 +1,18 @@
 _Jumpstart Live (JSL)_
 # Day 5
 
+arrays
+----
+ljust?
+shovel method? or push
+data structure
+ordered list
+motivation for arrays
+Arrays.new .. or []
+shovel array onto array by accident
+indexes
+iterating over an array
+
 ### Warm up
 * Discuss student account generator code part 1
 * Discuss code with vocabulary: arrays, index, value, blocks, loops, iterator, variable assignment

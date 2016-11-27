@@ -1,6 +1,19 @@
 _Jumpstart Live (JSL)_
 # Day 6
 
+
+hashes
+----
+.keys
+.values
+both return array
+not guaranteed to be ordered
+comparison of arrays to hashes
+symbol types
+difference between strings and symbols
+hash rockets, vs symbols
+what can be keys
+
 ### Warm up
 * Discuss student account generator code part 2
 

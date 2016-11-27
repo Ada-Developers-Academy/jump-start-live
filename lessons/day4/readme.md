@@ -1,6 +1,12 @@
 _Jumpstart Live (JSL)_
 # Day 4
 
+loops day 2
+------
+while vs until
+short circuit evaluation
+loops with logical operators
+
 ## Prep Work
 * Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from Jumpstart
 * Finish all exercises from [Day 3's class](../day3)
