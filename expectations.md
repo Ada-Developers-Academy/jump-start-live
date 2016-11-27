@@ -22,7 +22,7 @@ In any group there will be those who speak more and those who speak less; this m
 
 * If you often find yourself dominating class discussions, or answering all of the instructors questions, try limiting yourself to 3 really good responses, to give others a chance to participate 
 * Be mindful that others have important things to say too, but they may need a bit more time to speak
-* Silence is okay, and sometimes needed for other students to gain confidence to speak 
+* Silence is okay, and sometimes needed for other students to feel comfortable speaking
 
 ## References
 * Some of the text in the _Participation Balance_ section was borrowed from Benjamin Mako Hill's [Teaching: Assessment materials](https://mako.cc/teaching/assessment.html)
