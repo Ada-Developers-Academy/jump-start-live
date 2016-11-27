@@ -12,8 +12,6 @@ We expect all participating students to arrive on time to class except for in ca
 * We also expect students to come to class with relevant ideas, and questions related to the class topics
 
 ## Participation
-* During each class, consider this important question: "Am I consistently making a positive contribution and impression on ?
-
 * Do you make at least one excellent contribution (e.g., insight or question) to each class without monopolizing discussion?
 * Do you give active nonverbal and verbal feedback?
 * Do you refer to other students by name and react to their contributions?
