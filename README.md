@@ -4,7 +4,7 @@ _In person program for [Ada Developers Academy](http://adadevelopersacademy.org/
 ## Overview
 Launched in January 2016, to support newly admitted Ada Developers Academy students who have no prior experience with programming. This JSL curriculum is a companion to the [Jumpstart curriculum](https://github.com/Ada-Developers-Academy/jump-start).
 
-JSL takes place in person at Ada 3 weeks prior to the start of the program. JSL reviews the most important content from the [Jumpstart curriculum](https://github.com/Ada-Developers-Academy/jump-start) and will not cover any new material.
+JSL takes place in person at Ada 4 weeks prior to the start of the full-program. JSL reviews the most important content from the [Jumpstart curriculum](https://github.com/Ada-Developers-Academy/jump-start) and will not cover any new material.
 
 ## Class Structure
 * 2 hours, twice a week for 3 weeks
@@ -28,6 +28,7 @@ JSL takes place in person at Ada 3 weeks prior to the start of the program. JSL 
 ## Resources
 | Resource | Information |
 | :--- | :--- |
+| [Student Expectations](expectations.md) | Expectations for all students participating in Jumpstart Live |
 | [Switching from PC to Mac](https://gist.github.com/drvonnjerryxlii/9898254abef2d184c659)| A guide to help Ada students who are transitioning from PC to Mac |
 | [Jumpstart Curriculum](https://github.com/Ada-Developers-Academy/jump-start) | Individual curriculum to be completed by all incoming Ada students |
 
