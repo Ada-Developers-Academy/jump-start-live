@@ -3,35 +3,15 @@ other stuff
 false || 2 || 48
 question mark in irb
 add case statements to previous lesson
-assignment!
 gets.chomp.to_i
 define inclusive/exclusive
 .irbrc config
 scope
 global vs local variables
 ruby iterators
-
-
-loops day 1
-----
-!!! add in
-numbers are true
-
-
-loop
-- iteration variable
-
-range loop
-- 3 dots, only exclusive on last number
-
-infinite loop
-
-times loops start at 0
-
-fencepost problems
-
-iteration variables: name i, or meaningful (i,j,k)
-
+ruby types (fixnum!)
+section on string interpolation
+what is nil
 
 loops day 2
 ------
@@ -53,3 +33,12 @@ iterating over an array
 
 hashes
 ----
+.keys
+.values
+both return array
+not guaranteed to be ordered
+comparison of arrays to hashes
+symbol types
+difference between strings and symbols
+hash rockets, vs symbols
+what can be keys
