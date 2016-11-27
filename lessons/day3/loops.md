@@ -1,5 +1,21 @@
 # Loops
 
+loops day 1
+----
+loop
+- iteration variable
+
+range loop
+- 3 dots, only exclusive on last number
+
+infinite loop
+
+times loops start at 0
+
+fencepost problems
+
+iteration variables: name i, or meaningful (i,j,k)
+
 As we saw in [Jump Start Lesson 10](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/10-iterators) _iterators_, also known as _loops_, are used to prevent code duplication and allow us to repeat a code action a certain number of times.
 
 We will be using some of the vocabulary we went over in the [loop notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-iterators/notes/loops.md), specifically the _counter-controlled_ loops and the _sentinel-controlled_ loops.
@@ -34,7 +50,7 @@ puts "Enter a negative number to quit."
 
 total = 0
 input = gets.chomp.to_i
-while input > 0
+while input > -1
   total += input
   input = gets.chomp.to_i
 end

@@ -1,52 +1,92 @@
-# Loops
-## Day 3
+_Jumpstart Live (JSL)_
+# Day 3
 
-### Warm up
-* Discuss election time code
-* Discuss code with vocabulary: blocks, loops, iterator, variable assignment, conditional statement
+## Prep Work
+* Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/assignments/candy-machine.md) solution and be prepared to talk with others about your code
+* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from Jumpstart
 
-### Discussion
-* Recap conditionals
-* Review looping constructs
-* Counter controlled vs. sentinel controlled loop exercise
+## Goals
+* Understand and be able to use iterators and loops
 
-### Exercises
-#### Guessing game
+## Warm up
+* Share what you learned from our last session about conditionals
+* Walk your partner though your Election time code focusing on using programming vocabulary (e.g, blocks, loops, iterator, variable assignment, conditional statement)
 
-Write a program that allows a user to play a guessing number game. You should predetermine the secret number (between 0 – 1000). Allow the user to make a guess until they guess the answer. After each incorrect guess you should print a clue “higher” or “lower”.
+## Lessons
+* [Loops](loops.md)
 
-#### Loves me not
+## Exercises
+1. Write a program that allows a user to play a guessing number game. Your program should generate a random number between 0 – 1000. Allow the user to make a guess until they guess the answer. After each guess you should print "higher" or "lower". When they guess it correctly print a winning message along with their total number of guesses.
 
-Write a program that allows a user to enter the number of petals on a flower. Then one by one, print “plucking petal #1: they love me!”. Alternate “They love me” and “They love me not” as well as increase the petal number for each petal.
+	```
+	Guess my number: 10
+	HIGHER
+	Guess my number: 200
+	LOWER
+	Guess my number: 150
+	HIGHER
+	Guess my number: 160
+	HIGHER
+	Guess my number: 161
+	YOU GOT IT IN 5 GUESSES!
+	```
 
-### Debrief:
-* Different types of loops used
-* Different ways to utilize different loops for the same goal
+2. Write a program that plays duck duck goose. Allow the user to enter the player's number they want to call goose on, and then say "duck" for each player before the "goose", then say "goose" for the chosen player.
 
-Day 3: Loops
-Warm up:
-Discuss election time code
-Discuss code with vocabulary: blocks, loops, iterator, variable assignment, conditional statement
+	```
+	Which player do you want to Goose? > 5
 
+	Player 1: Duck
+	Player 2: Duck
+	Player 3: Duck
+	Player 4: Duck
+	Player 5: Goose
+	```
 
-Discussion:
-Recap conditionals
-Review looping constructs
-Counter controlled vs. sentinel controlled loop exercise
+3. Write a program that allows a user to enter the number of petals on a flower. Then one by one, print “plucking petal #1: they love me!”. Alternate “They love me” and “They love me not” as well as increase the petal number for each petal.
 
+4. You don't trust your users. Modify the program below to require the user to enter the same value twice in order to add that value to the total.
 
-Exercise:
-Guessing game
-Loves me not
-Pairs of folks will complete one exercise and then share with the person who did the other exercise
+#### Code
 
+```ruby
+puts "Hello! We are going to total some numbers!"
+puts "Enter a negative number to quit."
 
-Debrief:
-Different types of loops used
-Different ways to utilize different loops for the same goal
+total = 0
+input = gets.chomp.to_i
+while input > -1
+  total += input
+  input = gets.chomp.to_i
+end
 
+puts "Result: #{total}"
+```
 
-Action Items:
-Crystal provides guessing game writeup (sentinel)
-Counter controlled loop exercise
-Crystal has examples for the actions someone can perform to describe counter vs sentinel controlled loops
+#### Example run
+
+```
+Hello! We are going to total some numbers!
+Enter a negative number to quit.
+
+3
+3
+2
+2
+-1
+-1
+
+Result: 5
+```
+
+## Debrief:
+* What different types of loops did we learn about today?
+* What topics are you still struggling with?
+* What did you especially enjoy about today's class?
+* What can be improved for future classes?
+
+## Homework
+* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from Jumpstart
+* Finish all exercises from today's class
+
+## Resources
