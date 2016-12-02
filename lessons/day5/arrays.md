@@ -2,6 +2,20 @@ _Jumpstart Live (JSL)_
 # Day 5
 ## Arrays
 
+arrays
+----
+ljust?
+shovel method? or push
+data structure
+ordered list
+motivation for arrays
+Arrays.new .. or []
+shovel array onto array by accident
+indexes
+iterating over an array
+* Review storing and retrieving data from an array
+* Review iterating over an array
+
 As we saw in [Jump Start Lesson 11](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/11-basic-data-structs/notes/arrays.md) _arrays_, are the most common way to create collections in Ruby.
 
 The main things that we need to be able to do with arrays are:
@@ -76,3 +90,13 @@ Reassign the value at the same index where Ada Lovelace is
 ```ruby
 people[0] = "Megan Smith"
 ```
+
+1. Create an array which will store the names of each member of your family.  
+  a. What are two different ways you can access the second-last name in your array?  
+  b. If the names are in order from youngest to oldest, how would you access the name of the second-youngest person?
+  * Members of your family in age order
+
+2. Create an array which stores the numbers 1 - 15.  
+  a. What are two different ways of accessing the middle number?  
+  b. If the numbers are stored in order, how would you access the second value in the array? 
+
