@@ -17,6 +17,8 @@ _Jumpstart Live (JSL)_
 1. Ask the user to enter the names, ages, and favorite colors of their closest friends (you may assume that the user's close friends all have unique names). Store the entered user information into a hash. Output the total number of close friends under 18, followed by their names. Output the number of unique favorite colors, and then list them.
 
 	### Sample Log
+
+	```
 	Welcome to Hash Fun.
 	I will be asking you for the names, ages, and favorite colors of your closest friends.
 	How many close friends do you have? 2
@@ -29,6 +31,7 @@ _Jumpstart Live (JSL)_
 
 	You have 1 close friend under 18 [Amanze].
 	Your friends have 2 unique favorite colors [Gray, Blue].
+	```
 
 ## Debrief
 * How do you determine whether it is best to use an array or a hash?
