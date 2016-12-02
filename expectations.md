@@ -2,7 +2,7 @@ _Jumpstart Live (JSL)_
 # Student Expectations
 
 ## Participating Students
-We expect students participating in Jumpstart live to be beginning programmers. We ask our more experienced Ada students to leave this space to our beginners, so they can feel confident in the material that you already know before the first day of Ada classes.
+We expect students participating in Jumpstart live to not yet be comfortable using loops and arrays. We ask our more experienced Ada students to leave this space for those still learning how to use loops and arrays effectively, so they can feel confident in the material that you already know before the first day of Ada classes.
 
 ## Punctuality
 We expect all participating students to arrive on time to class except for in cases of emergency. If you do arrive late, please respect the other students learning and take a seat in the back putting forth great effort to reduce distracting other students when you arrive.
