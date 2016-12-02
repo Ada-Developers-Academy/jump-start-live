@@ -2,105 +2,115 @@ _Jumpstart Live (JSL)_
 # Day 5
 ## Arrays
 
-arrays
-----
-ljust?
-shovel method? or push
 data structure
-ordered list
 motivation for arrays
-Arrays.new .. or []
 shovel array onto array by accident
 indexes
 iterating over an array
-* Review storing and retrieving data from an array
-* Review iterating over an array
+storing and retrieving data from an array
 
-As we saw in [Jump Start Lesson 11](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/11-basic-data-structs/notes/arrays.md) _arrays_, are the most common way to create collections in Ruby.
+Arrays are ordered collections of data that can be accessed with a 0-based index
 
-The main things that we need to be able to do with arrays are:
-- Create an array with or without any type of data  
-- Be able to assign or re-assign any value in an array
-- Be able to access any item in the array
-- Be able to add a new value to the end of an array
+### Create
 
-
-### Let's see some examples
-#### Example #1
-Create an array which will store the square of each value between 2 and 5, inclusive.
-
-##### Part 1
-Create the empty array
+#### Using []
 ```ruby
-my_array = []
+# creates an empty array named list
+list = []
+
+# creates an array named list, storing 1, 2, 3
+list = [1, 2, 3]
 ```
 
-##### Part 2
-Determine each square value between 2 and 5, inclusive
+#### Array.new
+* Another way to create an array
+* Can pass parameters to initialize to certain values
+
 ```ruby
-(2..5).each do |i|
-  puts i * i
-end
+# creates an empty array named list
+list = Array.new
+
+# creates an array named list and stores 3 nils
+list = Array.new(3)
+
+# creates an array with 5, "Ada"'s named ada
+ada = Array.new(5, "Ada")
+
+# passes a block as a parameter
+# creating an array of multiples of 2, named mult2
+mult2 = Array.new(5) { |i| i * 2 }
 ```
 
-##### Part 3
-Put it all together!
-```ruby
-my_array = []
-(2..5).each do |i|
-  my_array << i * i
+### Change and Access
+Array elements can be accessed with their indexes
 
-  # ALTERNATE APPROACH
-  # my_array.push(i * i)
-end
+```ruby
+list =  [0, 1, 2]
+list[0] = 7
+list[1] = -1
+list[2] = 33
+# list is now [7, -1, 33]
+list[-1] # 33
+list[-2] # -1
+list[-3] # 7
+list[-4] # error!
+list[9]  # nil
 ```
 
-#### Example #2
-Given an array that contains three people, Ada Lovelace, Anita Borg  and Margaret Hamilton do the following:
-- Add one new person of your choice
-- Output Anita Borg using the array
-- Replace Ada Lovelace with Megan Smith
+### Add to end
+Elements can be added to the end of an array using two different notations
 
-##### Part 1
-Given an array
+#### push
+Push, can accept 1 or more arguments
+
 ```ruby
-people = ["Ada Lovelace", "Anita Borg", "Margaret Hamilton"]
+list = ["apple", "orange", "kiwi"]
+list.push("banana")
+# list is now ["apple", "orange", "kiwi", "banana"]
+list.push("pear", "nectarine")
+# list is now ["apple", "orange", "kiwi", "banana", "pear", "nectarine"]
 ```
 
-##### Part 2
-Add two new people
+#### shovel
+The shovel method (`<<`) can only accept 1 argument
+
 ```ruby
+list = [true, false]
+list << false
+# list is now [true, false, false]
+list << false, true # error!
+```
+
+### Examples
+
+1. Create an array which will store the square of each value between 2 and 5, inclusive.
+
+  ```ruby
+  list = []
+  (2..5).each do |i|
+    list.push(i * i)
+  end
+  ```
+
+  ```ruby
+  list = Array.new(4) { |i| (i + 2) * (i + 2) }
+  ```
+
+2. Given an array that contains three people, Ada Lovelace, Anita Borg, and Margaret Hamilton do the following:
+
+  * Add one new person of your choice
+  * Output Annie Easley using the array
+  * Replace Ada Lovelace with Megan Smith
+
+```ruby
+people = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
 people << "Grace Hopper"
-
-# ALTERNATE APPROACHES
-# people.push("Grace Hopper")
-
-# LESS IDEAL ALTERNATE APPROACH
-# people[3] = "Grace Hopper"
-```
-
-##### Part 3
-Retrieve Anita Borg using the original **index**
-```ruby
-puts people[1]
-```
-
-##### Part 4
-Reassign the value at the same index where Ada Lovelace is
-```ruby
+puts people[1] # outputs Annie Easley
 people[0] = "Megan Smith"
+# list is now ["Megan Smith", "Annie Easley", "Margaret Hamilton"]
 ```
 
-1. Create an array which will store the names of each member of your family.  
-  a. What are two different ways you can access the second-last name in your array?  
-  b. If the names are in order from youngest to oldest, how would you access the name of the second-youngest person?
-  * Members of your family in age order
+3. On paper, create an array which will store the names of people that inspire you. Then write down two different ways you can access the second-to-last name in your array?  
+4. On paper, create an array which stores the numbers 1 – 15. Then write down two different ways of accessing the middle number?  
 
-2. Create an array which stores the numbers 1 - 15.  
-  a. What are two different ways of accessing the middle number?  
-  b. If the numbers are stored in order, how would you access the second value in the array? 
-
-  Word problems for storing and retrieving data in an array
-Powers of 2
-
-
+5. On paper, write code that will create an array named powers_of_2, and stores the fist 10 powers of 2
