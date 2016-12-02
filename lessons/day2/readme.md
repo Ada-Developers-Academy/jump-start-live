@@ -23,18 +23,18 @@ _Jumpstart Live (JSL)_
 * [Conditionals](conditionals.md)
 
 ## Exercises
-1. In one Ruby file, write code to solve the problems below. Your code should print out each problem statement, followed by the output from the conditional statement(s).
+_In one Ruby file, write code to solve the problems below. Your code should print out each problem statement, followed by the output from the conditional statement(s)._
 
-	1. Prompt for a number. If the number is greater than 70, print PASSING; otherwise, print NOT PASSING.    
-	1. Prompt for a string.  If the string is equal to "green", print GO, otherwise, print STOP.
-	1. Prompt for a number.  If the number is even, print EVEN, otherwise, print ODD.
-	1. Prompt for a number. If the number is evenly divisible by 5, print MULTIPLE OF 5, otherwise, print NOT A MULTIPLE OF 5.    
-	1. Prompt for a number. If the number is less than 10, print ONE DIGIT. If the number is 100 or greater, print THREE DIGITS, otherwise print TWO DIGITS.
-	1. Prompt for a jersey number. If that number is 12, 71, or 80, print “That number is retired from the Seattle Seahawks!”, otherwise do nothing.
-	1. Prompt for a state. If the state is Washington, Oregon, or Idaho, print “This state is in the PNW”, otherwise print “You should move to the PNW; it’s great here!”
-	1. Prompt for a one of the following: SHORT, TALL, GRANDE, VENTI. Print out the number of ounces that drink includes (8, 12, 16, 20 respectively). 
-	1. Prompt for rate of pay and hours worked. Calculate gross pay. Provide ‘time and a half’ for hours worked beyond 40  (e.g., if you get paid $10/hr and work 45 hours in a week, you would gross $745 (40x10 + 5x15).
-	1. Rewrite the solution to the previous problem adding this modification: do not process any employee if their hours worked is greater than 60, instead display the message “Please see manager.” 
+1. Prompt for a number. If the number is greater than 70, print PASSING; otherwise, print NOT PASSING.    
+1. Prompt for a string.  If the string is equal to "green", print GO, otherwise, print STOP.
+1. Prompt for a number.  If the number is even, print EVEN, otherwise, print ODD.
+1. Prompt for a number. If the number is evenly divisible by 5, print MULTIPLE OF 5, otherwise, print NOT A MULTIPLE OF 5.    
+1. Prompt for a number. If the number is less than 10, print ONE DIGIT. If the number is 100 or greater, print THREE DIGITS, otherwise print TWO DIGITS.
+1. Prompt for a jersey number. If that number is 12, 71, or 80, print “That number is retired from the Seattle Seahawks!”, otherwise do nothing.
+1. Prompt for a state. If the state is Washington, Oregon, or Idaho, print “This state is in the PNW”, otherwise print “You should move to the PNW; it’s great here!”
+1. Prompt for a one of the following: SHORT, TALL, GRANDE, VENTI. Print out the number of ounces that drink includes (8, 12, 16, 20 respectively). 
+1. Prompt for rate of pay and hours worked. Calculate gross pay. Provide ‘time and a half’ for hours worked beyond 40  (e.g., if you get paid $10/hr and work 45 hours in a week, you would gross $745 (40x10 + 5x15).
+1. Rewrite the solution to the previous problem adding this modification: do not process any employee if their hours worked is greater than 60, instead display the message “Please see manager.” 
 
 ## Debrief
 * What new things did you learn today?
