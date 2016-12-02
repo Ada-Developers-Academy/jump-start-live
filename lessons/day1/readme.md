@@ -16,7 +16,7 @@ _Jumpstart Live (JSL)_
 * [Ruby style](style.md)
 
 ## Exercises
-1. Discuss [bad style Madlibs example](code/bad-style-madlibs.rb) 
+1. Discuss [bad style Madlibs example](code/bad_style_madlibs.rb) 
 
 2. Revisit your MadLibs code, and update your code to improve its style
 
