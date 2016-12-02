@@ -2,6 +2,22 @@ _Jumpstart Live (JSL)_
 # Day 6
 ## Hashes
 
+hashes
+----
+.keys
+.values
+both return array
+not guaranteed to be ordered
+comparison of arrays to hashes
+symbol types
+difference between strings and symbols
+hash rockets, vs symbols
+what can be keys
+
+* Recap arrays from previous lesson
+* Review storing and retrieving data from a hash
+* Review iterating over a hash
+
 As we saw in [Jump Start Lesson 10](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/11-basic-data-structs/notes/hashes.md) hashes, are the second-most common way to store data in Ruby. We utilize unordered keys rather than ordered indexes to store data. The hash is sort of like a dictionary, where we can look up a value by a given key.
 
 The main things that we need to be able to do with hashes are:
@@ -93,3 +109,11 @@ Do this now for only one person in the age range without an age _variable_
 ```ruby
 people_by_age[50] = ["Viola Davis"]
 ```
+
+1. Create a hash which will allow us to look up the state of certain cities (e.g., for input "Seattle", output should be "WA") 
+  a. Include at least 4 cities in your hash  
+  b. How might you access _only_ the **keys** of your hash?  
+
+2. Create a hash which will allow us to look up a person's name using their last name. Ex: For input "Lovelace", output should be "Ada Lovelace".  
+  a. Include at least 4 names in your hash  
+  b. How might you access _only_ the **values** of your hash?
