@@ -96,19 +96,15 @@ list << false, true # error!
   list = Array.new(4) { |i| (i + 2) * (i + 2) }
   ```
 
-2. Given an array that contains three people, Ada Lovelace, Anita Borg, and Margaret Hamilton do the following:
+2. Given an array that contains three people, Ada Lovelace, Anita Borg, and Margaret Hamilton: Add one new person of your choice, Output Annie Easley using the array, Replace Ada Lovelace with Megan Smith
 
-  * Add one new person of your choice
-  * Output Annie Easley using the array
-  * Replace Ada Lovelace with Megan Smith
-
-```ruby
-people = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
-people << "Grace Hopper"
-puts people[1] # outputs Annie Easley
-people[0] = "Megan Smith"
-# list is now ["Megan Smith", "Annie Easley", "Margaret Hamilton"]
-```
+  ```ruby
+  people = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
+  people << "Grace Hopper"
+  puts people[1] # outputs Annie Easley
+  people[0] = "Megan Smith"
+  # list is now ["Megan Smith", "Annie Easley", "Margaret Hamilton"]
+  ```
 
 3. On paper, create an array which will store the names of people that inspire you. Then write down two different ways you can access the second-to-last name in your array?  
 4. On paper, create an array which stores the numbers 1 – 15. Then write down two different ways of accessing the middle number?  
