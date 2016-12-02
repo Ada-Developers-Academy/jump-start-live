@@ -100,3 +100,7 @@ people[0] = "Megan Smith"
   a. What are two different ways of accessing the middle number?  
   b. If the numbers are stored in order, how would you access the second value in the array? 
 
+  Word problems for storing and retrieving data in an array
+Powers of 2
+
+
