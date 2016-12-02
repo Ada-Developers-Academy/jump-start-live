@@ -10,8 +10,8 @@ _Jumpstart Live (JSL)_
 * Walk your partner though your Student Account Generator Part 1 code focusing on using programming vocabulary (e.g, hashes, key, value, blocks, loops, iterator, variable assignment)
 
 ## Lessons
-* [Hashes](hashes.md)
 * [Array and Hashes Comparison](arrays_vs_hashes.md)
+* [Hashes](hashes.md)
 
 ## Exercise
 1. Ask the user to enter the names, ages, and favorite colors of their closest friends (you may assume that the user's close friends all have unique names). Store the entered user information into a hash. Output the total number of close friends under 18, followed by their names. Output the number of unique favorite colors, and then list them.

@@ -2,6 +2,8 @@ _Jumpstart Live (JSL)_
 # Day 6
 ## Arrays vs Hashes
 
+combining arrays and hashes
+
 Both Arrays and Hashes are collections that store and retrieve data.
 
 Arrays are ordered lists. The order of the data is maintained and important. This means you can retrieve data using a 0-based index.

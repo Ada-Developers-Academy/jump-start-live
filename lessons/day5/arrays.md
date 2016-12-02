@@ -11,6 +11,7 @@ storing and retrieving data from an array
 
 Arrays are ordered collections of data that can be accessed with a 0-based index
 
+
 ### Create
 
 #### Using []
