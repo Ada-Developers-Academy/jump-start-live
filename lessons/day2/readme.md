@@ -23,7 +23,7 @@ _Jumpstart Live (JSL)_
 * [Conditionals](conditionals.md)
 
 ## Exercises
-1. In one Ruby file, write code to solve the problems below. Your code should print out each problem statement first, followed by the conditional statement(s).
+1. In one Ruby file, write code to solve the problems below. Your code should print out each problem statement, followed by the output from the conditional statement(s).
 
 	1. Prompt for a number. If the number is greater than 70, print PASSING; otherwise, print NOT PASSING.    
 	1. Prompt for a string.  If the string is equal to "green", print GO, otherwise, print STOP.

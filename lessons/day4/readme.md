@@ -34,7 +34,7 @@ _Jumpstart Live (JSL)_
 * What can be improved for future classes?
 
 ### Homework
-* Review your [Student Account Generator](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/12-basic-data-structs/assignments/account-generator.md) solution and be prepared to talk with others about your code
+* Review your [Student Account Generator Part 1](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/12-basic-data-structs/assignments/account-generator.md) solution and be prepared to talk with others about your code
 * Review the [Array notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/12-basic-data-structs/notes/arrays.md) from Jumpstart
 
 ### Resources
