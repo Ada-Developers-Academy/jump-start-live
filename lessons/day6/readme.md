@@ -10,6 +10,7 @@ _Jumpstart Live (JSL)_
 * Walk your partner though your Student Account Generator Part 1 code focusing on using programming vocabulary (e.g, hashes, key, value, blocks, loops, iterator, variable assignment)
 
 ## Lessons
+* [Symbols](symbols.md)
 * [Array and Hashes Comparison](arrays_vs_hashes.md)
 * [Hashes](hashes.md)
 
