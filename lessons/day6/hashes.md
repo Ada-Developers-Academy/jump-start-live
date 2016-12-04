@@ -88,7 +88,7 @@ _We will complete these examples in pairs on paper_
 
 	Then write code to print out all the items and their quantities using nicely formatted output.
 
-	```ruby
+	```
 	# Example output
 	3: Oranges
 	12: Tortillas

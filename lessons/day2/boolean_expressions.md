@@ -128,5 +128,5 @@ x == false || 2 || 48
 false || 2 || 48
 2 || 48
 # and since 2 is truthy, the statement is printed
-# not that short circuit evaluation results in the 48 not being considered
+# note that short circuit evaluation results in the 48 not being considered
 ```

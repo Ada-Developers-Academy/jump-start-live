@@ -41,7 +41,7 @@ Common solutions usually have the loop run one less times than needed and then h
 print "Please enter a number greater than 0 and less than 100: "
 num = gets.chomp.to_i
 
-while (num < 1 || num > 99)
+while num < 1 || num > 99
 	puts "Please follow the directions!"
 	print "Please enter a number greater than 0 and less than 100: "
 	num = gets.chomp.to_i
@@ -54,7 +54,7 @@ puts "You entered #{num}"
 print "Please enter a number greater than 0 and less than 100: "
 num = gets.chomp.to_i
 
-until (num > 0 && num < 100)
+until num > 0 && num < 100
 	puts "Please follow the directions!"
 	print "Please enter a number greater than 0 and less than 100: "
 	num = gets.chomp.to_i
