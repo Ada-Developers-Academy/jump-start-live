@@ -16,7 +16,6 @@ _Jumpstart Live (JSL)_
 * [Ruby style](style.md)
 * [Ruby types](ruby_types.md)
 * [String interpolation](string_interpolation.md)
-* [nil](nil.md)
 
 ## Exercises
 1. Discuss [bad style Madlibs example](code/bad_style_madlibs.rb) 
