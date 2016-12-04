@@ -72,3 +72,61 @@ end
 | :--- | :--- |
 | `true` | `false` |
 | `false` | `true` |
+
+#### Short Circuit Evaluation
+Short Circuit Evaluation describes a semantic rule related to logical operators in boolean expressions. It states that the second argument is only evaluated if the first argument is not enough to determine the overall value of the expression.
+
+Specifically, when the first argument of an `&&` statement evaluates to false, the second argument is not considered since the entire statement will evaluate to false. Conversely, if the first argument of an `||` statement evaluates to true, the second argument is not considered since the entire statement will evaluate to true.
+
+##### Examples
+
+```ruby
+x = true
+y = false
+
+# no short circuit
+# y is evaluated
+if x && y
+	puts "1"
+end
+
+# short circuit
+# x is not evaluated
+if y && x
+	puts "2"
+end
+
+# short circuit
+# y is not evaluated
+if x || y
+	puts "3"
+end
+
+# no short circuit
+# x is evaluated
+if y || x
+	puts "4"
+end
+```
+
+#### Syntax
+Its important to understand that you combine relational operators with logical operators.
+
+You cannot for example ...
+
+```ruby
+x = 1
+if x == false || 2 || 48
+	puts "x is false, 2, or 48"
+end
+```
+
+In ruby this code would print 2, and not false as you would expect.
+
+```
+x == false || 2 || 48
+false || 2 || 48
+2 || 48
+# and since 2 is truthy, the statement is printed
+# not that short circuit evaluation results in the 48 not being considered
+```
