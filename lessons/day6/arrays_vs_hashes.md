@@ -31,12 +31,18 @@ If you want to store single pieces of information use an array. If your data is 
 2. You want to store the names and ages of all the students in Ada, class of C7.
 
 	```ruby
+	# assuming no repeated names
+	# student name is the key
+	# student age is the value
 	c7 = {Riley: 29, Sam: 42, Alex: 29}
 	```
 
 3. You want to store the names, ages, and favorite colors of all the students in Ada, class of C7.
 
 	```ruby
+	# assuming no repeated names
+	# student name is the key
+	# value is a hash containing key, value pairs
 	c7 = {
 		Riley: {age: 29, color: "blue"}, 
 		Sam: {age: 42, color: "yellow"}, 
@@ -47,7 +53,7 @@ If you want to store single pieces of information use an array. If your data is 
 	You may also consider storing hashes with individual people's information inside of an array
 
 	```ruby
-	# c7 is an array of 3 hahses
+	# c7 is an array of 3 hashes
 	# each hash has information on a single person
 	# they keys for each hash are name, age, and color
 	c7 = [
