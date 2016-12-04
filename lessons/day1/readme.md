@@ -5,15 +5,18 @@ _Jumpstart Live (JSL)_
 * Review your [Madlibs](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/09-programming-grammar/assignments/madlibs.md) solution and be prepared to talk with others about your code
 
 ## Goals
-* Have a big picture idea of your own workflow and how to improve it
+* Have a big picture idea of your own work flow and how to improve it
 * Understand and be able to use Ruby style practices
 
 ## Warm up
-* Walk your partner though your MadLibs code focusing on using programming vocabulary (e.g, variables, assignment, strings, input, output, string interpolation,  string concatenation)
+* Walk your partner though your MadLibs code focusing on using programming vocabulary (e.g, variables, assignment, strings, input, output, string interpolation, string concatenation)
 
 ## Lessons
 * [Workflow](workflow.md)
 * [Ruby style](style.md)
+* [Ruby types](ruby_types.md)
+* [String interpolation](string_interpolation.md)
+* [nil](nil.md)
 
 ## Exercises
 1. Discuss [bad style Madlibs example](code/bad_style_madlibs.rb) 
