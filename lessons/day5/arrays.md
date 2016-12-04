@@ -1,7 +1,7 @@
 _Jumpstart Live (JSL)_
 # Day 5
-## Arrays
 
+## Arrays
 Arrays are ordered collections of data that can be accessed with a 0-based index. Arrays are also part of a family of data structures, data structures organize and store information.
 
 ### Why Arrays?
@@ -116,17 +116,16 @@ nums << [7]
 ### Iterating over an array
 Iterating over an array, is a process to look at each element of an array and perform some sort of action
 
-#### each
+You can use either a `do ... end` block or a block with curly braces for the each method. By convention `do ... end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have high precedence when compared to `do ... end` blocks
 
+#### each
 ```ruby
 nums = [1, 3, 5]
 nums.each do |num|
   puts num
 end
 
-nums.each { |num|
-  puts num
-}
+nums.each { |num| puts num }
 ```
 
 #### each with index
@@ -136,9 +135,7 @@ nums.each_with_index do |num,index|
   puts "#{index}: #{num}"
 end
 
-nums.each_with_index { |num,index|
-  puts "#{index}: #{num}"
-}
+nums.each_with_index { |num,index| puts "#{index}: #{num}" }
 ```
 
 ### Examples
