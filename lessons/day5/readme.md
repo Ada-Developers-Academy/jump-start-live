@@ -30,7 +30,6 @@ _In one Ruby file, write code to solve the problems below. Your code should prin
 1. Have the user enter in a sentence. Then, using an array, store the frequency of each letter of the alphabet from the sentence. Print out the frequency of each letter. Do not count uppercase and lowercase letters differently.
 1. Create an array of size 8. Fill the array randomly with 0’s and 1’s.  Print out the array so that it appears as a binary number. Calculate and print out the decimal value of that binary number.
 
-
 ## Debrief
 * Why are arrays useful in programming?
 * What topics are you still struggling with?
