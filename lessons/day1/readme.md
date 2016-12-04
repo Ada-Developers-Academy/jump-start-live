@@ -15,6 +15,7 @@ _Jumpstart Live (JSL)_
 * [Workflow](workflow.md)
 * [Ruby style](style.md)
 * [Ruby types](ruby_types.md)
+* [User input](user_input.md)
 * [String interpolation](string_interpolation.md)
 
 ## Exercises
