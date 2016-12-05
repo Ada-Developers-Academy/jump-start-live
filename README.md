@@ -1,15 +1,41 @@
 # Jumpstart Live (JSL)
+_In person program for [Ada Developers Academy](http://adadevelopersacademy.org/) students who are not yet comfortable and confident using loops and arrays_
 
-We launched Ada Jumpstart in January 2016 to better support the truly beginner coders that we have admitted into Ada Developers Academy. We know that all our students are joining Ada to learn to program and become software developers, but everyone comes to us from different backgrounds and different prior experience with coding. We know that different people need different support systems to be successful and this support system is directed at our Adies who are newest to the coding world.
+## Overview
+Launched in January 2016, to support newly admitted Ada Developers Academy students who are not yet comfortable and confident using loops and arrays. This JSL curriculum is a companion to the [Jumpstart curriculum](https://github.com/Ada-Developers-Academy/jump-start).
 
-You can see out public, online, open source curriculum: [Jumpstart](https://github.com/Ada-Developers-Academy/jump-start). We have structured this curriculum to help anyone launch a career into coding. We do expect that all incoming students complete all the assignments in Jumpstart.
+JSL takes place in person at Ada 4 weeks prior to the start of the full-program. JSL reviews the most important content from the [Jumpstart curriculum](https://github.com/Ada-Developers-Academy/jump-start) and will not cover any new material.
 
-The material in this repo, "Jumpstart Live", is a companion to the online Jumpstart material. This onsite structured time will occur for the 3 weeks prior to Ada. During this time we will host 2-hour “project time” sessions 2 times a week for new coders to come get help/reinforcement on the curriculum concepts. No new material will be covered during the project time, but we want to give newer coders the ability to get extra support in completing the assignments and practicing the concepts.
+## Class Structure
+* 2 hours, twice a week for 3 weeks
+* General class plan
+	* Welcome, goals, warm-up (25 mins)
+	* Lesson (25 mins)
+	* 6:50pm Break (10 mins)
+	* Exercises (50 mins)
+	* Debrief (10 mins)
 
-We ask that more experienced coders leave this space for our newest to code students. We will provide some guidelines below for self-selecting into Jumpstart Live, but also reserve the right to concentrate our support during this project time on the students that need it the most. If you would like to attend Jumpstart Live but think that evenings in Seattle the 3 weeks before class would not work for you (transplant, work, etc), please let us know so we can something out.
+## [Lessons](lessons)
+| Day | Topics | 
+| :--- | :--- |
+| [Day 1](lessons/day1) | programming work flow, ruby style, ruby types, user input, string interpolation |
+| [Day 2](lessons/day2) | assignment statements, boolean expressions, conditionals |
+| [Day 3](lessons/day3) | loops |
+| [Day 4](lessons/day4) | combining loops and conditionals |
+| [Day 5](lessons/day5) | nil, arrays |
+| [Day 6](lessons/day6) | symbols, hashes |
 
-## General Format
-- Warm up activity (20 mins)
-- Discussion/Lecture (20 mins)
-- Pair exercise (45 mins)
-- Debrief (15 mins)
+## Resources
+| Resource | Information |
+| :--- | :--- |
+| [Student Expectations](expectations.md) | Expectations for all students participating in Jumpstart Live |
+| [Switching from PC to Mac](https://gist.github.com/drvonnjerryxlii/9898254abef2d184c659)| A guide to help Ada students who are transitioning from PC to Mac |
+| [Jumpstart Curriculum](https://github.com/Ada-Developers-Academy/jump-start) | Individual curriculum to be completed by all incoming Ada students |
+
+## FAQs
+
+1. What is the difference between Jumpstart and Jumpstart Live (JSL)?
+
+	Jumpstart is a curriculum that all accepted Ada students are expected to complete on their own prior to the start of the in-person classroom experience.
+
+	Jumpstart Live(JSL) is a 3-week in person class prior to the start of Ada to help prepare incoming Ada students who are not yet comfortable using loops and arrays.
