@@ -16,7 +16,7 @@ _Jumpstart Live (JSL)_
 * [Ruby style](style.md)
 * [Ruby types](ruby_types.md)
 * [Keyboard input](keyboard_input.md)
-* [String interpolation](string_interpolation.md)
+* [Strings](strings.md)
 
 ## Exercises
 1. Discuss [bad style Madlibs example](code/bad_style_madlibs.rb) 
