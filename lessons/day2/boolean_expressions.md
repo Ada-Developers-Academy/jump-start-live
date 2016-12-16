@@ -123,7 +123,7 @@ end
 
 In ruby this code would print 2, and not false as you would expect.
 
-```
+```ruby
 x == false || 2 || 48
 false || 2 || 48
 2 || 48
