@@ -6,7 +6,7 @@ Understanding how to read and use assignment statements is a critical skill in p
 
 ### Reading Assignment Statements
 * Assignment statements are read from right-to-left, not from left-to-right
-* Use phrases like "assigns", or "stores the value", instead of "equals", or "equal to"
+* Use phrases like _assigns_, or _stores the value_, instead of _equals_, or _equal to_
 
 ```ruby
 # the value of 5 is assigned to the variable named x
