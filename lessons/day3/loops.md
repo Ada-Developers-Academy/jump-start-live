@@ -7,9 +7,9 @@ _Jumpstart Live (JSL)_
   <dt>Infinite loop</dt>
   <dd>A loop that runs until you kill the program</dd>
   <dt>Counter-controlled loop</dt>
-  <dd>When the number of loops can be determined prior to loop execution (e.g, <pre>times</pre>, <pre>each</pre>)</dd>
+  <dd>When the number of loops can be determined prior to loop execution (e.g, times, each)</dd>
   <dt>Sentinel-controlled loop</dt>
-  <dd>When the number of loops cannot be determined prior to loop execution (e.g, <pre>while</pre>, <pre>until</pre>)</dd>
+  <dd>When the number of loops cannot be determined prior to loop execution (e.g, while, until)</dd>
 </dl>
 
 ### Sentinel-controlled Loops
