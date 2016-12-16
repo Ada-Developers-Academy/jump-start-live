@@ -105,7 +105,7 @@ end
 ##### times
 * `times` is an iterator over a certain range of values
 * `times` must be associated with a block, but the iteration variable is optional
-* `times` starts counting at 0, and goes up to 1- the value placed before `.times`
+* `times` starts counting at 0, and goes up to `1 -` the value placed before `.times`
 
 ```ruby
 # times syntax no iteration variable
