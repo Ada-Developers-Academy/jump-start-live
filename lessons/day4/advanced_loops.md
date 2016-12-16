@@ -13,23 +13,23 @@ _Jumpstart Live (JSL)_
 ```ruby
 # handles the first post outside the loop
 # prints a comma separated list of numbers from 1 up to max
-	print "Max: "
-	max = gets.chomp.to_i
-	print 1
-	(2..max).each do |num|
-		print ", #{num}" 
-	end
+print "Max: "
+max = gets.chomp.to_i
+print 1
+(2..max).each do |num|
+	print ", #{num}" 
+end
 ```
 
 ```ruby
 # handles the last post outside the loop
 # prints a comma separated list of numbers from 1 up to max
-	print "Max: "
-	max = gets.chomp.to_i
-	(1..max - 1).each do |num|
-		print "#{num}, " 
-	end
-	print max
+print "Max: "
+max = gets.chomp.to_i
+(1..max - 1).each do |num|
+	print "#{num}, " 
+end
+print max
 ```
 
 ### Loops with logical operators
