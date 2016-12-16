@@ -75,7 +75,7 @@ end
 # code example
 # prints out all the values of arr, each on its own line
 arr = [1,2,3,4,5]
-arr.each do |i|
+arr.each do |element|
    puts i
 end
 ```
