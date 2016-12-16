@@ -23,7 +23,7 @@ x = 1
 # note: this does not mean that x and y will always
 # store the same value
 y = x
-``
+```
 
 ### Exercises
 1. What is the value of x, after the following code is executed?
