@@ -33,6 +33,7 @@ people = {104 => "Korica", 54 => "Jamie", 4 => "Kelly"}
 # will store the key,value pair into the hash
 # if the key already exists, it will change the current value to the new value
 hash[key] = value
+```
 
 #### Example
 ```ruby
