@@ -37,7 +37,7 @@ end
 
 ```ruby
 # code syntax
-until conditional [do]
+until conditional do
    code
 end
 ```
