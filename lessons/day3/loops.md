@@ -131,7 +131,7 @@ end
 
 ```ruby
 # code example
-# prints out 1,2,3 each on its own line
+# prints out 0, 1, 2 each on its own line
 3.times do |i|
 	puts i
 end
