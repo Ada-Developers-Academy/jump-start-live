@@ -121,7 +121,7 @@ if x == false || 2 || 48
 end
 ```
 
-In ruby this code would print 2, and not false as you would expect.
+This code prints `x is false, 2 or 48`, unexpectedly. 
 
 ```
 x == false || 2 || 48
