@@ -83,7 +83,7 @@ end
   
   #### Questions
   * What is the boolean expression in the code below?
-  * Provide a value of `test_score` that will cause the code to print "You got an A!"
+  * Provide a value of `test_score` that will cause the code to print `You got an A!`
   * Provide a value of `test_score` that will cause the code to not print anything
 
   ```ruby
@@ -149,7 +149,7 @@ end
 4. if/elsif/else statement
 
   #### Questions
-  * What will be output if the user enters "FedEx"? How about "usps"? What about "mailing"?
+  * What will be output if the user enters `FedEx`? How about `usps`? What about `mailing`?
 
   ```ruby
   carrier = gets.chomp
