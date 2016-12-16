@@ -153,7 +153,7 @@ nums.each_with_index { |num,index| puts "#{index}: #{num}" }
   list = Array.new(4) { |i| (i + 2) * (i + 2) }
   ```
 
-2. Given an array that contains three people, Ada Lovelace, Anita Borg, and Margaret Hamilton: Add one new person of your choice, Output Annie Easley using the array, Replace Ada Lovelace with Megan Smith
+2. Given an array that contains three people, Ada Lovelace, Anita Borg, and Margaret Hamilton (1) Add one new person of your choice, (2) Output Annie Easley using the array, (3) Replace Ada Lovelace with Megan Smith
 
   ```ruby
   people = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
