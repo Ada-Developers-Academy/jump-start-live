@@ -25,3 +25,4 @@ puts x.class #Fixnum
 
 word = "hello"
 puts word.class #String
+```
