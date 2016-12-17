@@ -13,6 +13,7 @@ _Jumpstart Live (JSL)_
 * Walk your partner though your Election time code focusing on using programming vocabulary (e.g, blocks, loops, iterator, variable assignment, conditional statement)
 
 ## Lessons
+* [Scope](scope.md)
 * [Loops](loops.md)
 
 ## Exercises
