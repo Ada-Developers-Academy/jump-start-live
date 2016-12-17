@@ -1,5 +1,5 @@
 _Jumpstart Live (JSL)_
-# Day 3
+# Day 4
 ## Advanced Loops
 
 ### Fencepost Problems
