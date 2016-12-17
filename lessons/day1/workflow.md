@@ -23,6 +23,14 @@ When programming you should always have a terminal window open
 | `up arrow` | view the previous command |
 | `ctrl+a` | go to beginning of line |
 | `ctrl+e` | go to end of line |
+| `alt+`&#8594; | move to the right, one word |
+| `alt+`&#8592; | move to the left, one word |
+| `ctrl+c` | interrupt or stop a command |
+
+#### irb commands
+
+| Command | Description |
+| :--- | :--- |
 | `irb` | start interactive ruby session |
 | `exit` | exit an `irb` session |
 | `ctrl+c` | interrupt or stop a command |
