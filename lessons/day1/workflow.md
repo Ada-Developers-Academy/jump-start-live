@@ -21,11 +21,11 @@ When programming you should always have a terminal window open
 | `rm <filename>` | removes the file named filename |
 | `rm -r <dirname>` | removes the directory (and everything in it) named dirname |
 | `up arrow` | view the previous command |
-| `ctrl+a` | go to beginning of line |
-| `ctrl+e` | go to end of line |
-| `alt+`&#8594; | move to the right, one word |
-| `alt+`&#8592; | move to the left, one word |
-| `ctrl+c` | interrupt or stop a command |
+| `ctrl` + `a` | go to beginning of line |
+| `ctrl` + `e` | go to end of line |
+| `alt` + &#8594; | move to the right, one word |
+| `alt` + &#8592; | move to the left, one word |
+| `ctrl` + `c` | interrupt or stop a command |
 
 #### irb commands
 
@@ -33,4 +33,4 @@ When programming you should always have a terminal window open
 | :--- | :--- |
 | `irb` | start interactive ruby session |
 | `exit` | exit an `irb` session |
-| `ctrl+c` | interrupt or stop a command |
+| `ctrl` + `c` | interrupt or stop a command |
