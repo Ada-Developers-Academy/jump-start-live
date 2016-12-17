@@ -34,6 +34,28 @@ String interpolation allows Ruby code to appear within a string. The code is eva
  puts '#{str} world' # prints #{str} world
  ```
 
+### String Concatenation
+* When combining strings, you can use the `+` operator, or the `<<` operator
+* When using the `+` operator, Ruby creates a new string in memory, when using `<<` Ruby modifies the original string (this is super important when working with lots of data! `+` is super slow).
+
+#### Examples
+
+```ruby
+output = ""
+(1..5).each do |i|
+	output += i.to_s # output = output + i.to_s
+end
+puts output
+```
+
+```ruby
+output = ""
+(1..5).each do |i|
+	output << i.to_s
+end
+puts output
+```
+
 ### % Notation
 The % notation is a method for creating arrays of strings.
 * Use %w to create a non-interpolated array of strings

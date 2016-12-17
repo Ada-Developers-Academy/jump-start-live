@@ -3,9 +3,11 @@ _Jumpstart Live (JSL)_
 ## Hashes
 
 ### Overview
-Hashes are a collection of paired information. Also described as a collection of key-value pairs, or as a "look up table". Hashes use any object for their index.
-
-Each pair has both a key and a value. The keys in the hash are unique (i.e., not repeated), but values may be repeated. Hashes store information in the order in which the keys were inserted, you however should never depend on this order.
+* Hashes are a collection of paired information. Also described as a collection of key-value pairs, or as a "look up table".
+* Hashes use any object for their index.
+* Each pair has both a key and a value.
+* The keys in the hash are unique (i.e., not repeated), but values may be repeated.
+* Hashes store information in the order in which the keys were inserted, you however should never depend on this order.
 
 ### Creating a hash
 
@@ -31,6 +33,7 @@ people = {104 => "Korica", 54 => "Jamie", 4 => "Kelly"}
 # will store the key,value pair into the hash
 # if the key already exists, it will change the current value to the new value
 hash[key] = value
+```
 
 #### Example
 ```ruby

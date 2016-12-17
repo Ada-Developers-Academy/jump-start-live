@@ -7,9 +7,9 @@ _Jumpstart Live (JSL)_
   <dt>Infinite loop</dt>
   <dd>A loop that runs until you kill the program</dd>
   <dt>Counter-controlled loop</dt>
-  <dd>When the number of loops can be determined prior to loop execution (e.g, `times`, `each`)</dd>
+  <dd>When the number of loops can be determined prior to loop execution (e.g, times, each)</dd>
   <dt>Sentinel-controlled loop</dt>
-  <dd>When the number of loops cannot be determined prior to loop execution (e.g, `while`, `until`)</dd>
+  <dd>When the number of loops cannot be determined prior to loop execution (e.g, while, until)</dd>
 </dl>
 
 ### Sentinel-controlled Loops
@@ -37,7 +37,7 @@ end
 
 ```ruby
 # code syntax
-until conditional [do]
+until conditional do
    code
 end
 ```
@@ -75,8 +75,8 @@ end
 # code example
 # prints out all the values of arr, each on its own line
 arr = [1,2,3,4,5]
-arr.each do |i|
-   puts i
+arr.each do |element|
+   puts element
 end
 ```
 
@@ -105,7 +105,7 @@ end
 ##### times
 * `times` is an iterator over a certain range of values
 * `times` must be associated with a block, but the iteration variable is optional
-* `times` starts counting at 0, and goes up to 1- the value placed before `.times`
+* `times` starts counting at `0`, and goes up to `1 -` the value placed before `.times`
 
 ```ruby
 # times syntax no iteration variable
@@ -131,7 +131,7 @@ end
 
 ```ruby
 # code example
-# prints out 1,2,3 each on its own line
+# prints out 0, 1, 2 each on its own line
 3.times do |i|
 	puts i
 end
@@ -189,9 +189,9 @@ end
 	```
 
 	```
-	inputs1; 0, -1, 2
-	inputs2: 33, 6, 2, 9, 0, -1
-	inputs3: 4.2, 1.1, 9.9, -1.0
+	1. inputs; 0, -1, 2
+	2. inputs: 33, 6, 2, 9, 0, -1
+	3. inputs: 4.2, 1.1, 9.9, -1.0
 	```
 
 ### Loop Comparison

@@ -4,7 +4,7 @@ _Jumpstart Live (JSL)_
 
 Conditionals are a programming construct that will allow you to control the flow of a program through branching (they allow your program to make decisions)
 
-#### Structure
+### if/elsif/else Statements
 * `else` can only be used when paired with an if
 
 ```ruby
@@ -47,12 +47,43 @@ else
 end
 ```
 
+### Case Statements
+* A good option when you are wanting to test a number of cases on a single variable
+
+```ruby
+grade = gets.chomp
+case grade
+when grade "A"
+  puts "Good job"
+when "B"
+  puts "Okay job"
+when "C"
+  puts "You did a job"
+when "D"
+  puts "You might have to do the job again"
+when "E"
+  puts "You have to do the job again"
+end
+```
+
+```ruby
+grade = gets.chomp
+case grade
+when grade "A", "B", "C"
+  puts "You passed"
+when grade "D"
+  puts "You barely passed"
+when "E"
+  puts "You did not pass"
+end
+```
+
 ### Practice Problems
 1. Single if statement
   
   #### Questions
   * What is the boolean expression in the code below?
-  * Provide a value of `test_score` that will cause the code to print "You got an A!"
+  * Provide a value of `test_score` that will cause the code to print `You got an A!`
   * Provide a value of `test_score` that will cause the code to not print anything
 
   ```ruby
@@ -118,7 +149,7 @@ end
 4. if/elsif/else statement
 
   #### Questions
-  * What will be output if the user enters "FedEx"? How about "usps"? What about "mailing"?
+  * What will be output if the user enters `FedEx`? How about `usps`? What about `mailing`?
 
   ```ruby
   carrier = gets.chomp

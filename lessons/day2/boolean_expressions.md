@@ -73,6 +73,11 @@ end
 | `true` | `false` |
 | `false` | `true` |
 
+#### DeMorgan's Laws
+Named after Augustus De Morgan, a 19th-century British mathematician, they are a set of rules that describe what happens when you perform a negation on a '&&' statement, or an '||' statement.
+* `!(p && q)` can also be described as `!p || !q`
+* `!(p || q)` can also be described as `!p && !q`
+
 #### Short Circuit Evaluation
 Short Circuit Evaluation describes a semantic rule related to logical operators in boolean expressions. It states that the second argument is only evaluated if the first argument is not enough to determine the overall value of the expression.
 
@@ -121,7 +126,7 @@ if x == false || 2 || 48
 end
 ```
 
-In ruby this code would print 2, and not false as you would expect.
+This code prints `x is false, 2 or 48`, unexpectedly. 
 
 ```
 x == false || 2 || 48
