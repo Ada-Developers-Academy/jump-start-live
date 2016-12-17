@@ -3,7 +3,7 @@ _Jumpstart Live (JSL)_
 ## Workflow
 
 ### MacOSX splitting your screen
-There are number of ways to split your screen, and move your windows around, a few are listed below
+There are number of ways to split your screen, and move your windows around, a few options are listed below
 * Native to MacOSX, use Desktops and Split Views
 * Install [Spectacle](https://www.spectacleapp.com/) (Free)
 * Install [Moom](https://manytricks.com/moom/) ($10)
