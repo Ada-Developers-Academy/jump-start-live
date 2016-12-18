@@ -10,7 +10,7 @@ There are number of ways to split your screen, and move your windows around, a f
 * Install [Divvy](http://mizage.com/divvy/) ($13.99)
 
 ### Terminal
-When programming you should always have a terminal window open
+When programming you should always have a Terminal window open
 
 #### Opening Terminal
 * `cmd+spacebar` to open spotlight, then type Terminal
