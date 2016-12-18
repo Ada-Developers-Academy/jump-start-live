@@ -7,6 +7,7 @@ There are number of ways to split your screen, and move your windows around, a f
 * Native to MacOSX, use Desktops and Split Views
 * Install [Spectacle](https://www.spectacleapp.com/) (Free)
 * Install [Moom](https://manytricks.com/moom/) ($10)
+* Install [Divvy](http://mizage.com/divvy/) ($13.99)
 
 ### Terminal
 When programming you should always have a terminal window open
