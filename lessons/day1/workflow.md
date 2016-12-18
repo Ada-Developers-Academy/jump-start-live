@@ -31,7 +31,7 @@ When programming you should always have a Terminal window open
 | `mkdir` | make a new directory |
 | `rm <filename>` | removes the file named filename |
 | `rm -r <dirname>` | removes the directory (and everything in it) named dirname |
-| `up arrow` | view the previous command |
+| &#8593; | view the previous command |
 | `ctrl` + `a` | go to beginning of line |
 | `ctrl` + `e` | go to end of line |
 | `alt` + &#8594; | move to the right, one word |
