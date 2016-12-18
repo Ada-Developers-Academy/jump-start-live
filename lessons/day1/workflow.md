@@ -24,6 +24,7 @@ When programming you should always have a terminal window open
 | `..cd` | go back a directory |
 | `cd ~` | go to your home directory |
 | `ls` | list the items in the directory |
+| `ls -a` | list the items in the directory, including hidden files |
 | `mkdir` | make a new directory |
 | `rm <filename>` | removes the file named filename |
 | `rm -r <dirname>` | removes the directory (and everything in it) named dirname |
@@ -48,7 +49,15 @@ When programming you should always have a terminal window open
 ### Bash Profile
 * `.bash_profile` is a hidden file in your user directoy that can edit to customize the terminal prompt and text colors (among a number of other things)
 * Type `atom ~/.bash_profile` to open it (if it doesn't alreayd exist, this command will create it)
-* Add `export PS1=" "` (no spaces on either side of the equal sign) and put anything in the quotes that you would like (some options below)
+
+#### PS1
+* `PS1` is the enviornment variable for the bash prompt
+* `PS1` stands for _Prompt String 1_, there is also `PS2`, `PS3`, and `PS4`
+* The default string stored in `PS1` is `\s-\v\$`
+* To change `PS1`, add `export PS1=" "` to your `.bash_profile` (no spaces on either side of the equal sign)
+* Add anything in the quotes that you would like (some options below)
+  * `\s` – name of shell (e.g., bash)
+  * `\v` – version of bash
   * `\d` – current date
   * `\t` – current time
   * `\u` – user name
