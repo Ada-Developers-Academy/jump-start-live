@@ -46,11 +46,10 @@ When programming you should always have a terminal window open
 * `.bash_profile` is a hidden file in your user directoy that can edit to customize the terminal prompt and text colors (among a number of other things)
 * Type `atom ~/.bash_profile` to open it (if it doesn't alreayd exist, this command will create it)
 * Add `export PS1=" "` (no spaces on either side of the equal sign) and put anything in the quotes that you would like (some options below)
-  * `\d` – Current date
-  * `\t` – Current time
-  * `\u` – User name
-  * `\W` – Current working directory (ie: Desktop/)
-  * `\w` – Current working directory with full path (ie: /Users/Admin/Desktop/)
+  * `\d` – current date
+  * `\t` – current time
+  * `\u` – user name
+  * `\W` – current working directory
   * You can even add emoji, in atom, click Edit > Emjoi & Symbols
 * When you are done editing, save in atom and then type `source ~/.bash_profile` to apply your changes
 
