@@ -20,6 +20,8 @@ When programming you should always have a terminal window open
 | Command | Description |
 | :--- | :--- |
 | `cmd+K` | clear your screen |
+| `touch <filename>` | creates a new file named filename |
+| `pwd` | displays the full path of your current directory |
 | `cd` | choose a directory |
 | `..cd` | go back a directory |
 | `cd ~` | go to your home directory |
