@@ -47,7 +47,7 @@ When programming you should always have a terminal window open
 * To launch Atom from terminal, type `atom` followed by the file name or directory name
 
 ### Bash Profile
-* `.bash_profile` is a hidden file in your user directoy that can edit to customize the terminal prompt and text colors (among a number of other things)
+* `.bash_profile` is a hidden file in your user directoy that can edit to customize the terminal prompt (among a number of other things)
 * Type `atom ~/.bash_profile` to open it (if it doesn't alreayd exist, this command will create it)
 
 #### PS1
