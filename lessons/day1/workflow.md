@@ -13,7 +13,7 @@ When programming you should always have a terminal window open
 
 #### Opening Terminal
 * `cmd+spacebar` to open spotlight, then type Terminal
-* Drag Terminal to your Dock (if its not already there)
+* Drag Terminal to your Dock (if it's not already there)
 
 #### Terminal commands
 
