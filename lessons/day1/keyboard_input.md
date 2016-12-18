@@ -18,6 +18,6 @@ Sometimes you want to be able to interact with what the user entered as a number
 3.times do
 	print "Enter a number: "
 	num = gets.chomp.to_i
-	puts "You entered #{num}, #{num} to the power of 2 is #{num**2}"
+	puts "You entered #{num}, #{num} to the power of 2 is #{num ** 2}"
 end
 ```
