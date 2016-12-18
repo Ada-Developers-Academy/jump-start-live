@@ -25,7 +25,7 @@ When programming you should always have a Terminal window open
 | `pwd` | displays the full path of your current directory |
 | `cd` | choose a directory |
 | `..cd` | go back a directory |
-| `cd ~` | go to your home directory |
+| `cd ~` | choose home directory |
 | `ls` | list the items in the directory |
 | `ls -a` | list the items in the directory, including hidden files |
 | `mkdir` | make a new directory |
