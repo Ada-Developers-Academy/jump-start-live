@@ -46,6 +46,9 @@ When programming you should always have a Terminal window open
 | `exit` | exit an `irb` session |
 | `ctrl` + `c` | interrupt or stop a command |
 
+#### Running Ruby files in Terminal
+* Type `ruby` followed by the name of the Ruby file (e.g., `ruby hello_world.rb`)
+
 ### Atom
 * To launch Atom from terminal, type `atom` followed by the file name or directory name
 
