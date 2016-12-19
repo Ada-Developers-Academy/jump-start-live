@@ -50,7 +50,8 @@ When programming you should always have a Terminal window open
 * Type `ruby` followed by the name of the Ruby file (e.g., `ruby hello_world.rb`)
 
 ### Atom
-* To launch Atom from terminal, type `atom` followed by the file name or directory name
+* In Atom, click the Atom menu and then _Install Shell Commands_
+* Now, to launch Atom from terminal, type `atom` followed by the file name or directory name
 
 ### Bash Profile
 * `.bash_profile` is a hidden file in your user directoy that you can edit to customize the terminal prompt (among a number of other things)
