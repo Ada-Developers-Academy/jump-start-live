@@ -22,8 +22,8 @@ When programming you should always have a Terminal window open
 | :--- | :--- |
 | `cmd` + `K` | clear your screen |
 | `touch <filename>` | creates a new file named filename |
-| `pwd` | displays the full path of your current directory |
-| `cd` | choose a directory |
+| `pwd` | <b>p</b>rints the <b>w</b>orking <b>d</b>irectory (displays the full path of the current directory) |
+| `cd` | <b>c</b>hoose a <b>d</b>irectory |
 | `..cd` | go back a directory |
 | `cd ~` | choose home directory |
 | `ls` | list the items in the directory |
