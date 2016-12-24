@@ -24,6 +24,6 @@ Convert the string the user entered into a `float`, which is a decimal value. If
 3.times do
 	print "Enter a number: "
 	num = gets.chomp.to_i
-	puts "You entered #{num}, #{num} to the power of 2 is #{num**2}"
+	puts "You entered #{num}, #{num} to the power of 2 is #{num ** 2}"
 end
 ```
