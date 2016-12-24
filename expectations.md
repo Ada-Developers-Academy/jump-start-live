@@ -1,5 +1,5 @@
 _Jumpstart Live (JSL)_
-# Student Expectations
+# In-person Student Expectations
 
 ## Participating Students
 We expect students participating in Jumpstart live to not yet be comfortable using loops and arrays. We ask our more experienced Ada students to leave this space for those still learning how to use loops and arrays effectively, so they can feel confident in the material that you already know before the first day of Ada classes.

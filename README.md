@@ -28,7 +28,8 @@ JSL takes place in person at Ada 4 weeks prior to the start of the full-program.
 ## Resources
 | Resource | Information |
 | :--- | :--- |
-| [Student Expectations](expectations.md) | Expectations for all students participating in Jumpstart Live |
+| [In-person Student Expectations](expectations.md) | Expectations for all students participating in Jumpstart Live |
+| [Remote Student Expectations](remote-expectations.md) | Expectations for all students participating in Jumpstart Live |
 | [Switching from PC to Mac](https://gist.github.com/drvonnjerryxlii/9898254abef2d184c659)| A guide to help Ada students who are transitioning from PC to Mac |
 | [Jumpstart Curriculum](https://github.com/Ada-Developers-Academy/jump-start) | Individual curriculum to be completed by all incoming Ada students |
 
