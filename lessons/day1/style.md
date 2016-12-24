@@ -23,7 +23,7 @@ The style in your code is just as important as the code itself. Programmers use 
 	* Comments should describe _what the code does_ and not _how the code does it_ (i.e., do not include implementation details in your comments)
 
 ### Examples
-1. _Consider indentation, variable names, and comments__
+1. _Consider indentation, variable names, and comments_
 	```ruby
 	# poor style
 	# prints the numbers 1 to 10 using a loop
