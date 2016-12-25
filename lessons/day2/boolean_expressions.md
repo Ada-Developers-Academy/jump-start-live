@@ -138,3 +138,6 @@ false || 2 || 48
 # and since 2 is truthy, the statement is printed
 # note that short circuit evaluation results in the 48 not being considered
 ```
+
+### Resources
+* [Boolean Expressions Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=db632849-5d1c-4483-aa7e-cb95ec754490)
