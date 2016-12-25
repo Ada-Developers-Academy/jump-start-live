@@ -3,7 +3,7 @@ _Jumpstart Live (JSL)_
 
 ## Prep Work
 * Review your [Student Account Generator Part 2](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/12-basic-data-structs/assignments/account-generator-cont.md) solution and be prepared to talk with others about your code
-* Review the [Hashes notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/12-basic-data-structs/notes/hashes.md) from Jumpstart
+* Review the [Hash notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/12-basic-data-structs/notes/hashes.md) from Jumpstart
 
 ## Warm up
 * Share what you learned from our last session on arrays
@@ -11,7 +11,7 @@ _Jumpstart Live (JSL)_
 
 ## Lessons
 * [Symbols](symbols.md)
-* [Array and Hashes Comparison](arrays_vs_hashes.md)
+* [Arrays vs Hashes Comparison](arrays_vs_hashes.md)
 * [Hashes](hashes.md)
 
 ## Exercise
