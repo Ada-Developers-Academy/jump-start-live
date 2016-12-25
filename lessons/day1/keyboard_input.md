@@ -27,3 +27,6 @@ Convert the string the user entered into a `float`, which is a decimal value. If
 	puts "You entered #{num}, #{num} to the power of 2 is #{num ** 2}"
 end
 ```
+
+### References
+* [Keyboard Input Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9c2c9fdc-19e6-4e37-b5dc-6a57054a83ec)

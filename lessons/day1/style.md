@@ -9,7 +9,7 @@ The style in your code is just as important as the code itself. Programmers use 
 	* Use `snake_case` for naming files and directories
 * Whitespace
 	* Code should be separated into thoughts, similar to how you might use paragraphs when writing an essay; every thought should be separated with a blank line
-	* There should be a single space on either side of all operators (e.g, `x = x * 2` instead of `x=x*2`)
+	* There should be a single space on either side of most operators (e.g, `x = x * 2` instead of `x=x*2`)
 	* There should be a single space after all commas and colons
 	* Use spaces around `{` and `}`
 * Indentation
@@ -35,8 +35,8 @@ The style in your code is just as important as the code itself. Programmers use 
 	```ruby
 	# good style
 	# prints the numbers 1 to 10
-	(1..10).each do |i|
-	  puts i
+	(1..10).each do |num|
+	  puts num
 	end
 	```
 
@@ -60,6 +60,7 @@ The style in your code is just as important as the code itself. Programmers use 
 	animal = gets.chomp
 
 	# output a message based on the animal type
+	puts "Enter an animal: "
 	if animal == "Fish"
 	  puts "Wonderful in the Water!"
 	elsif animal == "Camel"
@@ -88,8 +89,8 @@ The style in your code is just as important as the code itself. Programmers use 
 	# good style
 	# sums the values from 1 to 10
 	total = 0
-	(1..10).each do |i|
-	  total += i
+	(1..10).each do |num|
+	  total += num
 	end
 
 	# prints a message based on the sum
@@ -134,4 +135,5 @@ The style in your code is just as important as the code itself. Programmers use 
 	```
 
 ### Resources
+* [Ruby Style Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4ffdafe8-406a-4462-8f8c-7647c1487bf0)
 * Crowd-sourced [ruby style guide](https://github.com/bbatsov/ruby-style-guide)
