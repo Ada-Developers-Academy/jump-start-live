@@ -28,17 +28,20 @@ y = x
 ### Exercises
 1. What is the value of x, after the following code is executed?
 
-```ruby
-x = 2
-x = x + 3
-x = x * 2
-```
+	```ruby
+	x = 2
+	x = x + 3
+	x = x * 2
+	```
 
 2. What are the values of x, and y, after the following code is executed?
 
-```ruby
-x = 3
-y = x
-x = x + 7
-y = -1
-```
+	```ruby
+	x = 3
+	y = x
+	x = x + 7
+	y = -1
+	```
+
+# Resources
+* [Assignment Statements Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=916e0b53-286d-43f6-8730-795d1408a055)
