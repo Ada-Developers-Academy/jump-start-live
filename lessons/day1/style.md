@@ -104,6 +104,8 @@ The style in your code is just as important as the code itself. Programmers use 
 
 	```ruby
 	# poor style
+	username = gets.chomp
+	password = gets.chomp
 	if username =="foo"
 	if password== "bar"
 	puts "Welcome, administrator!"
@@ -118,6 +120,8 @@ The style in your code is just as important as the code itself. Programmers use 
 	```ruby
 	# good style
 	# prints a welcome message if correct username and password, otherwise prints error message
+	username = gets.chomp
+	password = gets.chomp
 	if username == "foo"
 		if password == "bar"
 			puts "Welcome, administrator!"
