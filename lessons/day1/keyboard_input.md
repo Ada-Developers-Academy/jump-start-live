@@ -3,10 +3,10 @@ _Jumpstart Live (JSL)_
 ## Keyboard Input
 Keyboard input is a way to accept input from the user, when running the program in Terminal.
 
-### gets
+### `gets`
 `gets` accepts a single line of data from the keyboard. A line is something that ends in `\n`. `gets` is short for _get string_ which means whatever the user enters (even if it is a number) will be stored as a string
 
-### chomp
+### `chomp`
 When the user enters the data and then presses enter (or return) a `\n` (also called a newline character) is added to the end of the line. In some cases you don't want this character at the end, `chomp` removes that newline character
 
 ### Converting user input
@@ -16,7 +16,7 @@ Returns the result of interpreting leading characters in str as an integer base 
 
 Returns the result of interpreting leading characters in str as a floating point number. Extraneous characters past the end of a valid number are ignored. If there is not a valid number at the start of str, 0.0 is returned. This method never raises an exception.
 
-#### to_i
+#### `to_i`
 Converts a string into a `fixnum`, which is an integer value. If there is not a valid `fixnum` at the beginning of the string, then `0` is given instead. Any extra characters at the end that are not part of the `fixnum` are ignored.
 
 ```ruby
@@ -26,7 +26,7 @@ puts "a2".to_i	# prints 0
 puts "a".to_i	# prints 0
 ```
 
-#### to_f
+#### `to_f`
 Converts a string into a `float`, which is a decimal value. If there is not a valid `float` at the beginning of the string, then `0.0` is given instead. Any extra characters at the end that are not part of the `float` are ignored.
 
 ```ruby
