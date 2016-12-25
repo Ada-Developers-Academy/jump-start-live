@@ -79,7 +79,7 @@ end
 ```
 
 ### Practice Problems
-1. Single if statement
+1. Single `if` statement
   
   #### Questions
   * What is the boolean expression in the code below?
@@ -94,7 +94,7 @@ end
   end
   ```
 
-2. if/else statement
+2. `if`/`else` statement
 
   #### Questions
   * What is different about the examples below?
@@ -120,7 +120,7 @@ end
   end
   ```
 
-3. if/else statement
+3. `if`/`else` statement
 
   #### Questions
   * What is different about the examples below?
@@ -146,7 +146,7 @@ end
   end
   ```
 
-4. if/elsif/else statement
+4. `if`/`elsif`/`else` statement
 
   #### Questions
   * What will be output if the user enters `FedEx`? How about `usps`? What about `mailing`?
