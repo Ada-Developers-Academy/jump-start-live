@@ -53,7 +53,7 @@ end
 ```ruby
 grade = gets.chomp
 case grade
-when grade "A"
+when "A"
   puts "Good job"
 when "B"
   puts "Okay job"
@@ -69,9 +69,9 @@ end
 ```ruby
 grade = gets.chomp
 case grade
-when grade "A", "B", "C"
+when "A", "B", "C"
   puts "You passed"
-when grade "D"
+when "D"
   puts "You barely passed"
 when "E"
   puts "You did not pass"
