@@ -27,7 +27,7 @@ The style in your code is just as important as the code itself. Programmers use 
 	```ruby
 	# poor style
 	# prints the numbers 1 to 10 using a loop
-	(1..10).times do |i|
+	(1..10).each do |i|
 	puts i
 	end
 	```
@@ -35,7 +35,7 @@ The style in your code is just as important as the code itself. Programmers use 
 	```ruby
 	# good style
 	# prints the numbers 1 to 10
-	(1..10).times do |i|
+	(1..10).each do |i|
 	  puts i
 	end
 	```
@@ -74,7 +74,7 @@ The style in your code is just as important as the code itself. Programmers use 
 	```ruby
 	# bad style
 	total=0
-	(1..10).times do |i|
+	(1..10).each do |i|
 	total+=i
 	end
 	if total >10
@@ -88,7 +88,7 @@ The style in your code is just as important as the code itself. Programmers use 
 	# good style
 	# sums the values from 1 to 10
 	total = 0
-	(1..10).times do |i|
+	(1..10).each do |i|
 	  total += i
 	end
 
