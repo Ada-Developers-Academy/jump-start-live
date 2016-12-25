@@ -11,7 +11,7 @@ Understanding how to read and use assignment statements is a critical skill in p
 ```ruby
 # the value of 5 is assigned to the variable named x
 x = 5
-# the current value of x(5) is added to 1
+# the current value of x(5) is added with 1
 # that sum is then assigned to the variable named x
 x = x + 1
 ```
