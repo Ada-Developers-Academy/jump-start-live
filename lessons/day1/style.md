@@ -72,7 +72,7 @@ The style in your code is just as important as the code itself. Programmers use 
 3. _Consider white space, indentation, variable names, and comments_
 	
 	```ruby
-	# bad style
+	# poor style
 	total=0
 	(1..10).each do |i|
 	total+=i
@@ -103,7 +103,7 @@ The style in your code is just as important as the code itself. Programmers use 
 4. _Consider white space, indentation, variable names, and comments_
 
 	```ruby
-	# bad style
+	# poor style
 	if username =="foo"
 	if password== "bar"
 	puts "Welcome, administrator!"
