@@ -4,7 +4,7 @@ _Jumpstart Live (JSL)_
 
 Conditionals are a programming construct that will allow you to control the flow of a program through branching (they allow your program to make decisions)
 
-### if/elsif/else Statements
+### `if`/`elsif`/`else` Statements
 * `else` can only be used when paired with an if
 
 ```ruby
