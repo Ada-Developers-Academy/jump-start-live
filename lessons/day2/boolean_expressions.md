@@ -2,6 +2,9 @@ _Jumpstart Live (JSL)_
 # Day 2
 ## Boolean Expressions
 
+### Overview
+A boolean expression is an expression that evaluates to either `true` or `false`. They are commonly used in `if/elsif` statements and `while` loops.
+
 ### Precedence
 * Also commonly called order-of-operations
 
