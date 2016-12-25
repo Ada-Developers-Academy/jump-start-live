@@ -69,3 +69,6 @@ oranges = 2
 %W[#{apples} #{oranges}] #["3", "2"]
 %w[#{apples} #{oranges}] #["#{apples}", "#{oranges}"]
 ```
+
+### References
+* [Strings Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f78798dc-c888-4615-befd-966edf9e165b)
