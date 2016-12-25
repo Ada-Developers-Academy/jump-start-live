@@ -43,5 +43,5 @@ y = x
 	y = -1
 	```
 
-# Resources
+### Resources
 * [Assignment Statements Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=916e0b53-286d-43f6-8730-795d1408a055)
