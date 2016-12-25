@@ -32,7 +32,7 @@ while rand_num != guess do
 end
 ```
 
-#### Until loop
+#### `until` loop
 * Executes code over and over again, until the condition is true
 
 ```ruby
@@ -57,7 +57,7 @@ end
 * All iterators require blocks, and execute those blocks as many times as there are iterations
 * Iterators return all the elements of a collection, one after the other
 
-##### each
+##### `each`
 * `each` is an iterator that returns each value of the collection, one by one, to the block
 * `each` must be associated with a block
 * the iteration variable is optional with `each`, but usually used
@@ -80,7 +80,7 @@ arr.each do |element|
 end
 ```
 
-###### Range Loops
+###### `range` Loops
 * A range is a set of values with a beginning and an end
 * Ranges always include the beginning value
 * When two dots are used, the end value is included
@@ -102,7 +102,7 @@ end
 end
 ```
 
-##### times
+##### `times`
 * `times` is an iterator over a certain range of values
 * `times` must be associated with a block, but the iteration variable is optional
 * `times` starts counting at `0`, and goes up to `1 -` the value placed before `.times`
@@ -132,39 +132,39 @@ end
 ```ruby
 # code example
 # prints out 0, 1, 2 each on its own line
-3.times do |i|
-	puts i
+3.times do |num|
+	puts num
 end
 ```
 
 ### Loop Tables
-1. range/each
+1. `range`/`each`
 
 	```ruby
-	(1..3).each do |i|
-		puts i * i
+	(1..3).each do |num|
+		puts num * num
 	end
 	```
 
-	| i | output |
+	| num | output |
 	| :--- | :--- |
 	| 1 | 1 |
 	| 2 | 4 |
 	| 3 | 9 |
 
-2. range/each with sum
+2. `range`/`each` with sum
 
 	```ruby
 	total = 0
 
-	(1..3).each do |i|
-		total = total + i
+	(1..3).each do |num|
+		total = total + num
 	end
 
 	puts total
 	```
 
-	| i | total | output |
+	| num | total | output |
 	| :--- | :--- | :--- |
 	| - | 0 | - |
 	| 1 | 1 | - |
@@ -195,7 +195,7 @@ end
 	```
 
 ### Loop Comparison
-1. times iteration variable
+1. `times` iteration variable
 	* What is the difference between these loops?
 	* Which is a better style solution?
 
