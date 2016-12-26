@@ -82,11 +82,11 @@ _Jumpstart Live (JSL)_
 * What did you especially enjoy about today's class?
 * What can be improved for future classes?
 
+## Resources
+* [Day 1 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=66c9e5fc-8a11-4db2-b0fe-ebc516d45071)
+* [Good style madlibs](code/good_style_madlibs.rb)
+
 ## Homework
 * Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/assignments/candy-machine.md) solution and be prepared to talk with others about your code
 * Review the [Conditional notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/conditionals.md) from Jumpstart
 * Review the [Operators notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/operators.md) from Jumpstart
-
-## Resources
-* [Day 1 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=66c9e5fc-8a11-4db2-b0fe-ebc516d45071)
-* [Good style madlibs](code/good_style_madlibs.rb)

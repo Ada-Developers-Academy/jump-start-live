@@ -40,8 +40,8 @@ _Jumpstart Live (JSL)_
 * What did you especially enjoy about Jumpstart Live?
 * What can be improved for future offerings of Jumpstart Live?
 
-## Homework
-* Relax, and enjoy your week before the start of Ada
-
 ## Resources
 * [Day 6 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=1cdf49b7-a75f-434c-a140-8fbd3d344512)
+
+## Homework
+* Relax, and enjoy your week before the start of Ada
