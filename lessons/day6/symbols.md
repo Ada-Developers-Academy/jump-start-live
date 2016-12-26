@@ -3,8 +3,10 @@ _Jumpstart Live (JSL)_
 ## Symbols
 
 ### Overview
-* Symbols in Ruby are objects with specific names. There can only ever be one symbol with the same name in a program's execution
-* If you are naming something, you should use a symbol. If the contents of the individual characters are important than you should use a string
+* Symbols in Ruby are objects with specific names
+* There can only ever be one symbol with the same name in a program's execution
+* If you are naming something, you should use a symbol
+* If the contents of the individual characters are important than you should use a string
 
 ### Syntax
 ```ruby
@@ -29,5 +31,6 @@ puts "#{colors[:red] people love red"
 ```
 
 ### Resources
-* [Symbols Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5) (15:34)
+* [Ada Symbols Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5) (15:34)
+* [Symbols Video by Peter Cooper](https://youtu.be/mBXGBbEbXZY)
 * [Ruby Documentation on Symbols](http://ruby-doc.org/core-2.4.0/Symbol.html)

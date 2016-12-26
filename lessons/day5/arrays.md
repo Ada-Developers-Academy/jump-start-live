@@ -191,5 +191,5 @@ nums.each_with_index { |num, index| puts "#{index}: #{num}" }
 5. On paper, write code that will create an array named powers_of_2, and stores the fist 10 powers of 2
 
 ### Resources
-* [Arrays Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5) (15:34)
+* [Ada Arrays Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5) (15:34)
 * [Ruby Documentation on Arrays](http://ruby-doc.org/core-2.4.0/Array.html)

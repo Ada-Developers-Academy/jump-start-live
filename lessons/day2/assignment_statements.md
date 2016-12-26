@@ -54,4 +54,4 @@ To make your code shorter, you can used compound assignment statements. These on
 | `x *= 8` | `x = x * 8` |
 
 ### Resources
-* [Assignment Statements Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=916e0b53-286d-43f6-8730-795d1408a055) (10:36)
+* [Ada Assignment Statements Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=916e0b53-286d-43f6-8730-795d1408a055) (10:36)

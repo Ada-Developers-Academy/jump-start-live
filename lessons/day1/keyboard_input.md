@@ -48,4 +48,4 @@ end
 ```
 
 ### References
-* [Keyboard Input Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9c2c9fdc-19e6-4e37-b5dc-6a57054a83ec) (5:51)
+* [Ada Keyboard Input Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9c2c9fdc-19e6-4e37-b5dc-6a57054a83ec) (5:51)

@@ -28,4 +28,4 @@ puts word.class #String
 ```
 
 ### Resources
-* [Ruby Types Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a3aad23-0e7d-4dca-b6bb-f1ed3bed8692) (5:52)
+* [Ada Ruby Types Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a3aad23-0e7d-4dca-b6bb-f1ed3bed8692) (5:52)
