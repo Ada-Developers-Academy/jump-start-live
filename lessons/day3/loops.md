@@ -210,3 +210,6 @@ end
 	  puts "dance"
 	end
 	```
+
+### Resources
+* [Loops Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=de97b3c0-a134-4fb5-a671-300f290f38cc)
