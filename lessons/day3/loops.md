@@ -16,9 +16,9 @@ _Jumpstart Live (JSL)_
 #### While loop
 * Executes code over and over again, while a condition is true
 
-```ruby
+```
 # code syntax
-while conditional do
+while <boolean expression> do
    code
 end
 ```
@@ -35,9 +35,9 @@ end
 #### `until` loop
 * Executes code over and over again, until the condition is true
 
-```ruby
+```
 # code syntax
-until conditional do
+until <boolean expression> do
    code
 end
 ```
