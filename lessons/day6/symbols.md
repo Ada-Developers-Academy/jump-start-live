@@ -31,6 +31,6 @@ puts "#{colors[:red] people love red"
 ```
 
 ### Resources
-* [Ada Symbols Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5) (15:34)
-* [Symbols Video by Peter Cooper](https://youtu.be/mBXGBbEbXZY)
+* [Ada Symbols Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c01b4ab7-7a1e-4f92-9e27-c7d561146016) (4:19)
+* [Symbols Video by Peter Cooper](https://youtu.be/mBXGBbEbXZY)(24:46)
 * [Ruby Documentation on Symbols](http://ruby-doc.org/core-2.4.0/Symbol.html)
