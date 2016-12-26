@@ -65,18 +65,22 @@ mult2 = Array.new(5) { |i| i * 2 }
 ```
 
 ### Printing an Array
-* If you print an array, it will list each element on its own line
-* But, if you use string interpolation to print an array, it will display it as a comma separated list, which is usually easier to read
+* If you use `puts` to display an array, it will list each element on its own line
+* Instead use `print` or `puts` with string interpolation and the array will display as a comma separated list, which is usually easier to read
 
 ```ruby
 arr = Array.new(3, 0)
-# This is will print ..
+# This will display ..
 # 0
 # 0
 # 0
 puts arr
 
-# This instead will print ...
+# This will display ...
+# [0, 0, 0]
+print arr
+
+# This will display ...
 # [0, 0, 0]
 puts "#{arr}"
 ```
