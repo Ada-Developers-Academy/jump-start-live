@@ -25,7 +25,7 @@ x = 1
 y = x
 ```
 
-### Exercises
+#### Practice Reading and Evaluating
 1. What is the value of x, after the following code is executed?
 
 	```ruby
@@ -39,9 +39,19 @@ y = x
 	```ruby
 	x = 3
 	y = x
-	x = x + 7
-	y = -1
+	x = x - 7
+	y = y - 1
 	```
+
+### Compound Assignment Statements
+To make your code shorter, you can used compound assignment statements. These only work if the variable on the left-side of the statement has a value other than `nil`
+
+| Compound Statement | Long-form statement |
+| :--- | :--- |
+| `x += 3` | `x = x + 3` |
+| `x -= 4` | `x = x - 4` |
+| `x /= 2` | `x = x / 2` |
+| `x *= 8` | `x = x * 8` |
 
 ### Resources
 * [Assignment Statements Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=916e0b53-286d-43f6-8730-795d1408a055)
