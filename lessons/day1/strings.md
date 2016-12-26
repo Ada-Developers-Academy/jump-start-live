@@ -71,4 +71,4 @@ oranges = 2
 ```
 
 ### Resources
-* [Strings Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f78798dc-c888-4615-befd-966edf9e165b)
+* [Strings Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f78798dc-c888-4615-befd-966edf9e165b)(12:30)

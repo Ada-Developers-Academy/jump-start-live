@@ -32,4 +32,4 @@ end
 ```
 
 ### Resources
-* [nil Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14459006-e389-45e7-b996-98f2fb15f4d4)
+* [nil Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14459006-e389-45e7-b996-98f2fb15f4d4)(5:25)

@@ -140,4 +140,4 @@ false || 2 || 48
 ```
 
 ### Resources
-* [Boolean Expressions Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=db632849-5d1c-4483-aa7e-cb95ec754490)
+* [Boolean Expressions Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=db632849-5d1c-4483-aa7e-cb95ec754490)(20:06)
