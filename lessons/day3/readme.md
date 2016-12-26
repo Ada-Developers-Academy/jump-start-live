@@ -91,4 +91,5 @@ _Jumpstart Live (JSL)_
 * Finish all exercises from today's class
 
 ## Resources
+* [Day 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339)
 * [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from Jumpstart

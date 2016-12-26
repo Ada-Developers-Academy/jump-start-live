@@ -5,14 +5,14 @@ _Jumpstart Live (JSL)_
 * Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from Jumpstart
 * Finish all exercises from [Day 3's class](../day3)
 
-### Warm up
+## Warm up
 * Walk your partner through one of the loop exercises you completed last class
 
-### Lessons
+## Lessons
 * [Loops](../day3/loops.md)
 * [Advanced Loops](advanced_loops.md)
 
-### Exercise
+## Exercise
 1. Password Verification
 
   Many companies have password requirements (must include a letter, a number and a symbol for example and require a password of a specific length). We're going to write a program that will read in a proposed password and only accept it, if it meets all rules.  
@@ -27,14 +27,15 @@ _Jumpstart Live (JSL)_
   * Make them include a capital and a lowercase letter
   * Let them know what they did wrong.
 
-### Debrief
+## Debrief
 * What new things did you learn today?
 * What topics are you still struggling with?
 * What did you especially enjoy about today's class?
 * What can be improved for future classes?
 
-### Homework
+## Homework
 * Review your [Student Account Generator Part 1](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/12-basic-data-structs/assignments/account-generator.md) solution and be prepared to talk with others about your code
 * Review the [Array notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/12-basic-data-structs/notes/arrays.md) from Jumpstart
 
-### Resources
+## Resources
+* [Day 4 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=59509728-df2d-4580-9077-55ad28795a7f)
