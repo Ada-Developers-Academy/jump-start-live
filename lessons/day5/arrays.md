@@ -105,7 +105,7 @@ list[9]  # nil
 Elements can be added to the end of an array using two different notations
 
 #### push
-Push, can accept 1 or more arguments
+Push, can accept 1 or more elements
 
 ```ruby
 list = ["apple", "orange", "kiwi"]
@@ -116,7 +116,7 @@ list.push("pear", "nectarine")
 ```
 
 #### shovel
-The shovel method (`<<`) can only accept 1 argument
+The shovel method (`<<`) can only accept 1 element
 
 ```ruby
 list = [true, false]
@@ -125,7 +125,7 @@ list << false
 list << false, true # error!
 ```
 
-It is possible to have an array of arrays, but be careful when using shovel, don't shovel an array onto an array (unless that is your intention)
+It is possible to have an array of arrays, but be careful when using shovel; don't shovel an array onto an array (unless that is your intention)
 
 ```ruby
 nums = [4, 5, 6]
@@ -135,9 +135,9 @@ nums << [7]
 ```
 
 ### Iterating over an array
-Iterating over an array, is a process to look at each element of an array and perform some sort of action
+Iterating over an array, is a process to look at each element of an array and perform some action.
 
-You can use either a `do ... end` block or a block with curly braces for the each method. By convention `do ... end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have high precedence when compared to `do ... end` blocks
+You can use either a `do ... end` block or a block with curly braces for the each method. By convention `do ... end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have high precedence when compared to `do ... end` blocks.
 
 #### each
 ```ruby
@@ -189,3 +189,6 @@ nums.each_with_index { |num, index| puts "#{index}: #{num}" }
 4. On paper, create an array which stores the numbers 1 – 15. Then write down two different ways of accessing the middle number?  
 
 5. On paper, write code that will create an array named powers_of_2, and stores the fist 10 powers of 2
+
+### Resources
+* [Arrays Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5)(15:34)
