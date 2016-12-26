@@ -4,10 +4,16 @@ _Jumpstart Live (JSL)_
 
 ### Overview
 * Everything in Ruby is an object (even `nil` is an object)
-* `nil` is the default value of many variables before they hold a value
+* `nil` is the default value of many variables when they are first created and before you store something else in them
 * To check if something is `nil` you can use the `nil?` method
 
 ### Examples
+
+```ruby
+# everything is not automatically nil
+# you do need to first declare it
+puts x	# undefined local variable
+```
 
 ```ruby
 nums = [1]
