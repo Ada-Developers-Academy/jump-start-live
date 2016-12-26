@@ -73,4 +73,4 @@ When programming you should always have a Terminal window open
 * When you are done editing, save in atom and then type `source ~/.bash_profile` in Terminal to apply the changes
 
 ### Resources
-* [Workflow Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8e877674-e138-4cb4-a0c8-e215d2f41e1c)(12:00)
+* [Workflow Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8e877674-e138-4cb4-a0c8-e215d2f41e1c) (12:00)

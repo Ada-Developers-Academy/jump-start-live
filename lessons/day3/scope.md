@@ -59,4 +59,4 @@ You will not need to know about most of these until a few weeks into Ada, but it
 	```
 
 ### Resources
-* [Scope Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2fbdc1bb-b921-4317-83a2-b4ba2f0ee095)(6:24)
+* [Scope Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2fbdc1bb-b921-4317-83a2-b4ba2f0ee095) (6:24)
