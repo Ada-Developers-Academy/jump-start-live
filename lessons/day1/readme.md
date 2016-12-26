@@ -88,5 +88,5 @@ _Jumpstart Live (JSL)_
 * Review the [Operators notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/operators.md) from Jumpstart
 
 ## Resources
-* [Day 1 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID="66c9e5fc-8a11-4db2-b0fe-ebc516d45071")
+* [Day 1 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=66c9e5fc-8a11-4db2-b0fe-ebc516d45071)
 * [Good style madlibs](code/good_style_madlibs.rb)
