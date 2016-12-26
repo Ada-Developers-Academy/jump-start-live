@@ -27,3 +27,7 @@ colors = {red: 32, blue: 13, yellow: 2, purple: 104}
 # when accessing, you do need the :
 puts "#{colors[:red] people love red"
 ```
+
+### Resources
+* [Symbols Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5) (15:34)
+* [Ruby Documentation on Symbols](http://ruby-doc.org/core-2.4.0/Symbol.html)
