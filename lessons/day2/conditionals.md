@@ -5,7 +5,7 @@ _Jumpstart Live (JSL)_
 Conditionals are a programming construct that will allow you to control the flow of a program through branching (they allow your program to make decisions)
 
 ### `if`/`elsif`/`else` Statements
-* `else` can only be used when paired with an if
+* `elsif` and `else` statements can only be used when paired with an if
 
 ```ruby
 # independent tests; not exclusive
@@ -117,9 +117,9 @@ end
   test_score = gets.chomp.to_i
 
   if test_score != 90
-    print "You got an A!"
+    puts "You got an A!"
   else
-    print "You did not get an A!"
+    puts "You did not get an A!"
   end
   ```
 
@@ -127,9 +127,9 @@ end
   test_score = gets.chomp.to_i
 
   if test_score > 90
-    print "You got an A!"
+    puts "You got an A!"
   else
-    print "You did not get an A!"
+    puts "You did not get an A!"
   end
   ```
 
@@ -143,9 +143,9 @@ end
   test_score = gets.chomp.to_i
 
   if test_score < 90
-    print "You did not get an A!"
+    puts "You did not get an A!"
   else
-    print "You got an A!"
+    puts "You got an A!"
   end
   ```
 
@@ -153,9 +153,9 @@ end
   test_score = gets.chomp.to_i
 
   if test_score > 90
-    print "You got an A!"
+    puts "You got an A!"
   else
-    print "You did not get an A!"
+    puts "You did not get an A!"
   end
   ```
 
@@ -177,3 +177,6 @@ end
     puts "Mail!"
   end
   ```
+
+### Resources
+* [Conditionals Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=22e94763-7a38-4237-a39b-96154f090cbf)
