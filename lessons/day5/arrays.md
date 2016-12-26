@@ -94,11 +94,11 @@ list[0] = 7
 list[1] = -1
 list[2] = 33
 # list is now [7, -1, 33]
-list[-1] # 33
-list[-2] # -1
-list[-3] # 7
-list[-4] # nil
-list[9]  # nil
+puts list[-1] # 33
+puts list[-2] # -1
+puts list[-3] # 7
+puts list[-4] # nil
+puts list[9]  # nil
 ```
 
 ### Add to end
@@ -152,7 +152,7 @@ nums.each { |num| puts num }
 #### each with index
 ```ruby
 nums = [2, 4, 6]
-nums.each_with_index do |num,index|
+nums.each_with_index do |num, index|
   puts "#{index}: #{num}"
 end
 
