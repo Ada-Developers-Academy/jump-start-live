@@ -10,13 +10,13 @@ Hashes are a collection of paired information. Also described as a collection of
 
 Each pair has both a key and a value. The keys in the hash are unique (i.e., not repeated), but values may be repeated. Hashes store information in the order in which the keys were inserted, you however should never depend on this order.
 
-### Differences
+### Similarities
 * Both Arrays and Hashes are collections that store and retrieve data
+* If you try and access an element of an array or a hash that does not exist, the value `nil` will be sent back
+
+### Differences
 * Arrays store values, but have fixed indexes (integers, starting at 0)
 * Hashes allow you to still store data but to define the index as any object
-
-### Similarities
-* If you try and access an element of an array or a hash that does not exist, the value `nil` will be sent back
 
 ### Tips
 If you want to store single pieces of information use an array. If your data is better described as a pair, then use a Hash.
