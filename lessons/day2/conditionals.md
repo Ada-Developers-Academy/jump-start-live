@@ -47,6 +47,19 @@ else
 end
 ```
 
+### Postfix Conditional
+A way to shorten your code, when you only have one test to perform.
+
+```ruby
+name = gets.chomp
+puts "You're rad!" if name == "Issa" 
+```
+
+```ruby
+drink = gets.chomp
+puts "Drink more water!" unless drink == "water"
+```
+
 ### Case Statements
 * A good option when you are wanting to test a number of cases on a single variable
 
