@@ -33,3 +33,4 @@ end
 
 ### Resources
 * [nil Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14459006-e389-45e7-b996-98f2fb15f4d4) (5:25)
+* [Ruby Documentation on nil](http://ruby-doc.org/core-2.4.0/NilClass.html)
