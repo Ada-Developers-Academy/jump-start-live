@@ -3,10 +3,19 @@ _Jumpstart Live (JSL)_
 ## Symbols
 
 ### Overview
-* Symbols in Ruby are objects with specific names. There can only ever be one symbol with the same name in a program's execution.
-* If you are naming something, you should use a symbol. If the contents of the individual characters are important than you should use a string.
-* To create a symbol named age, use `:age`
-* You can convert a string to a symbol by using `to_sym`, e.g., `"apple".to_sym` would create `:apple`
+* Symbols in Ruby are objects with specific names. There can only ever be one symbol with the same name in a program's execution
+* If you are naming something, you should use a symbol. If the contents of the individual characters are important than you should use a string
+
+### Syntax
+```ruby
+:age # creates a symbol named age
+```
+
+### Convert string to symbol
+
+```ruby
+"apple".to_sym # creates an :apple symbol
+```
 
 ### Symbols and Hashes
 

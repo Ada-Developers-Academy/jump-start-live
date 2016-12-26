@@ -3,9 +3,9 @@ _Jumpstart Live (JSL)_
 ## nil
 
 ### Overview
-* Everything in Ruby is an object. Even `nil` is an object.
+* Everything in Ruby is an object (even `nil` is an object)
 * `nil` is the default value of many variables before they hold a value
-* To check if something is `nil` you can use the `nil?` method.
+* To check if something is `nil` you can use the `nil?` method
 
 ### Examples
 

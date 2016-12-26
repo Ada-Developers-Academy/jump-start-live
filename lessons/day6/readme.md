@@ -7,7 +7,7 @@ _Jumpstart Live (JSL)_
 
 ## Warm up
 * Share what you learned from our last session on arrays
-* Walk your partner though your Student Account Generator Part 1 code focusing on using programming vocabulary (e.g, hashes, key, value, blocks, loops, iterator, variable assignment)
+* Walk your partner though your Student Account Generator Part 2 code focusing on using programming vocabulary (e.g, hashes, key, value, blocks, loops, iterator, variable assignment)
 
 ## Lessons
 * [Symbols](symbols.md)

@@ -7,7 +7,7 @@ Arrays are ordered collections of data that can be accessed with a 0-based index
 ### Why Arrays?
 Instead of having to create individual variables, arrays are often used to group data together and make it easy to access.
 
-Consider wanting to store the daily temperature averages for the month of December. You could create 31 variables to store those temperatures but that might be hard to manage, not to mention, a lot of line of codes. Then, if you later decide to store the temperatures for the entire year .. then its just out of control.
+Consider wanting to store the daily temperature averages for the month of December. You could create 31 variables to store those temperatures but that might be hard to manage, not to mention, a lot of line of codes. Then, if you later decide to store the temperatures for the entire year, it becomes almost impossible to handle.
 
 A perfect solution to this is to use an array. Now you have one name to reference all the temperatures, and can easily access the temperature from a specific day.
 
@@ -53,10 +53,10 @@ list = [1, 2, 3]
 # creates an empty array named list
 list = Array.new
 
-# creates an array named list and stores 3 nils
+# creates an array of length 3, storing nil in each index
 list = Array.new(3)
 
-# creates an array with 5, "Ada"'s named ada
+# creates an array of length 5, storing "Ada" in each index
 ada = Array.new(5, "Ada")
 
 # passes a block as a parameter
@@ -104,7 +104,7 @@ list << false
 list << false, true # error!
 ```
 
-It is possible to have an array of arrays, be careful when using shovel, not to shovel an array onto an array (unless that is your intention)
+It is possible to have an array of arrays, but be careful when using shovel, don't shovel an array onto an array (unless that is your intention)
 
 ```ruby
 nums = [4, 5, 6]
@@ -135,10 +135,10 @@ nums.each_with_index do |num,index|
   puts "#{index}: #{num}"
 end
 
-nums.each_with_index { |num,index| puts "#{index}: #{num}" }
+nums.each_with_index { |num, index| puts "#{index}: #{num}" }
 ```
 
-### Examples
+### Exercises
 
 1. Create an array which will store the square of each value between 2 and 5, inclusive.
 
