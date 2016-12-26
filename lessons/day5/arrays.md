@@ -192,3 +192,4 @@ nums.each_with_index { |num, index| puts "#{index}: #{num}" }
 
 ### Resources
 * [Arrays Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5) (15:34)
+* [Ruby Documentation on Arrays](https://docs.ruby-lang.org/en/2.3.0/Array.html)

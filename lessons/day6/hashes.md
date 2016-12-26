@@ -98,3 +98,7 @@ _We will complete these examples in pairs on paper_
 	1: Cookie
 	4: Popsicles
 	```
+
+### Resources
+* [Hashes Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5) (15:34)
+* [Ruby Documentation on Hashes](https://docs.ruby-lang.org/en/2.3.0/Hash.html)
