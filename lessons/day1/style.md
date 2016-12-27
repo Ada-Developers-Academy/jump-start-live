@@ -12,7 +12,6 @@ The style in your code is just as important as the code itself. Programmers use 
 	* There should be a single space on either side of most operators (e.g, `x = x * 2` instead of `x=x*2`)
 	* There should be a single space after all commas and colons
 	* Use spaces around `{` and `}`
-* Indentation
 	* All code between a `do` and an `end` (i.e., inside of a block) should be indented
 	* All code inside a `if`, `elsif`, or `else` should be indented
 * Variable names
@@ -76,7 +75,7 @@ The style in your code is just as important as the code itself. Programmers use 
 	# poor style
 	total=0
 	(1..10).each do |i|
-	total+=i
+	total=total+i
 	end
 	if total >10
 	puts "More than ten"
