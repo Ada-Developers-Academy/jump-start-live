@@ -29,11 +29,11 @@ _Jumpstart Live (JSL)_
   foods = ["shrimp", "cauliflower", "salmon", "garlic", "oysters",
   "salami", "tomatoes", "okra", "zucchini", "avocado"]
   print "\nHow many foods would you like to see? I suggest 10, but it's up to you. "
-  items = gets.chomp.to_i
-  if items > 10
+  items=gets.chomp.to_i
+  if items >10
   puts "Best I can do is 10. Let's do 10."
-  items = 10
-  elsif items >= 1 && items <= 10
+  items=10
+  elsif items >=1 && items<= 10
   puts "Ok! Let's do " + items + "."
   else
   puts "We'll just pretend you said 10."
@@ -41,8 +41,8 @@ _Jumpstart Live (JSL)_
   end
   puts "...Your Fancy Random Menu..."
   items.times do |i|
-  rand_food = foods[rand(0...(foods.length))]
-  puts i.to_s + ": " + rand_food
+  y = foods[rand(0...(foods.length))]
+  puts i.to_s+": "+y
   end
   ```
 
