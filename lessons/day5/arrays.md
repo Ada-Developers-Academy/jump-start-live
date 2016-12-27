@@ -164,11 +164,11 @@ nums.each_with_index { |num, index| puts "#{index}: #{num}" }
 | Method | Description |
 | :--- | :--- |
 | `arr.length` | Returns the number of elements currently stored in arr |
-| `arr.empty?` | Returns true if there are no elements in arr, otherwise returns false |
+| `arr.empty?` | Returns `true` if there are no elements in arr, otherwise returns `false` |
 | `arr.first` | Returns the first element from arr |
 | `arr.last` | Returns the last element from arr |
 | `arr.take(n)` | Returns the first n elements from arr |
-| `arr.include?(element)` | Returns true if element is stored in arr, otherwise returns false |
+| `arr.include?(element)` | Returns `true` if element is stored in arr, otherwise returns `false` |
 
 ### Exercises
 
