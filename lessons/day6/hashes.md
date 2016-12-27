@@ -72,6 +72,7 @@ end
 | `h.empty?` | Return true if hash h contains no key-value pairs |
 | `h.length` | Return the number of key-value pairs in hash h |
 | `h.keys` | Return a new array with the keys from hash h |
+| `h.values` | Return a new array with the values from hash h |
 | `h.key(value)` | Return the key of an occurrence of a given value in hash h |
 | `h.key?(key)` | Return true if key is present in hash h |
 | `h.value?(value)` | Return true if value is present in hash h |
