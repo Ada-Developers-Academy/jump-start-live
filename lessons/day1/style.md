@@ -134,5 +134,5 @@ The style in your code is just as important as the code itself. Programmers use 
 	```
 
 ### Resources
-* [Ada Ruby Style Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4ffdafe8-406a-4462-8f8c-7647c1487bf0) (14:40)
+* [Ada Ruby Style Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=65e9d012-f921-4920-9c72-be4304155051) (12:38)
 * Crowd-sourced [ruby style guide](https://github.com/bbatsov/ruby-style-guide)
