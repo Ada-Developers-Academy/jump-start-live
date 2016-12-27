@@ -9,10 +9,9 @@ The style in your code is just as important as the code itself. Programmers use 
 	* Use `snake_case` for naming files and directories
 * Whitespace
 	* Code should be separated into thoughts, similar to how you might use paragraphs when writing an essay; every thought should be separated with a blank line
-	* There should be a single space on either side of all operators (e.g, `x = x * 2` instead of `x=x*2`)
+	* There should be a single space on either side of most operators (e.g, `x = x * 2` instead of `x=x*2`)
 	* There should be a single space after all commas and colons
 	* Use spaces around `{` and `}`
-* Indentation
 	* All code between a `do` and an `end` (i.e., inside of a block) should be indented
 	* All code inside a `if`, `elsif`, or `else` should be indented
 * Variable names
@@ -27,7 +26,7 @@ The style in your code is just as important as the code itself. Programmers use 
 	```ruby
 	# poor style
 	# prints the numbers 1 to 10 using a loop
-	(1..10).times do |i|
+	(1..10).each do |i|
 	puts i
 	end
 	```
@@ -35,8 +34,8 @@ The style in your code is just as important as the code itself. Programmers use 
 	```ruby
 	# good style
 	# prints the numbers 1 to 10
-	(1..10).times do |i|
-	  puts i
+	(1..10).each do |num|
+	  puts num
 	end
 	```
 
@@ -60,6 +59,7 @@ The style in your code is just as important as the code itself. Programmers use 
 	animal = gets.chomp
 
 	# output a message based on the animal type
+	puts "Enter an animal: "
 	if animal == "Fish"
 	  puts "Wonderful in the Water!"
 	elsif animal == "Camel"
@@ -72,10 +72,10 @@ The style in your code is just as important as the code itself. Programmers use 
 3. _Consider white space, indentation, variable names, and comments_
 	
 	```ruby
-	# bad style
+	# poor style
 	total=0
-	(1..10).times do |i|
-	total+=i
+	(1..10).each do |i|
+	total=total+i
 	end
 	if total >10
 	puts "More than ten"
@@ -88,8 +88,8 @@ The style in your code is just as important as the code itself. Programmers use 
 	# good style
 	# sums the values from 1 to 10
 	total = 0
-	(1..10).times do |i|
-	  total += i
+	(1..10).each do |num|
+	  total += num
 	end
 
 	# prints a message based on the sum
@@ -103,7 +103,9 @@ The style in your code is just as important as the code itself. Programmers use 
 4. _Consider white space, indentation, variable names, and comments_
 
 	```ruby
-	# bad style
+	# poor style
+	username = gets.chomp
+	password = gets.chomp
 	if username =="foo"
 	if password== "bar"
 	puts "Welcome, administrator!"
@@ -118,6 +120,8 @@ The style in your code is just as important as the code itself. Programmers use 
 	```ruby
 	# good style
 	# prints a welcome message if correct username and password, otherwise prints error message
+	username = gets.chomp
+	password = gets.chomp
 	if username == "foo"
 		if password == "bar"
 			puts "Welcome, administrator!"
@@ -130,4 +134,5 @@ The style in your code is just as important as the code itself. Programmers use 
 	```
 
 ### Resources
+* [Ada Ruby Style Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7387c766-7e2c-43b6-84f5-3f8b45d0f1f0) (12:37)
 * Crowd-sourced [ruby style guide](https://github.com/bbatsov/ruby-style-guide)

@@ -5,7 +5,7 @@ _Jumpstart Live (JSL)_
 ### Overview
 Strings in Ruby are objects that hold a sequence of characters. You can create a string be surrounding the sequence of characters with double or single quotes, both `"hello"` and `'hello'` are strings.
 
-If you use double quotes, you can also use string interpolation and escape sequences. If you use double quotes you cannot use string interpolation, and you can only use the escape sequence `\\`.
+If you use double quotes, you can also use string interpolation and escape sequences. If you use single quotes you cannot use string interpolation, and you can only use the escape sequence `\\`.
 
 ### Common Escape Sequences
 
@@ -69,3 +69,7 @@ oranges = 2
 %W[#{apples} #{oranges}] #["3", "2"]
 %w[#{apples} #{oranges}] #["#{apples}", "#{oranges}"]
 ```
+
+### Resources
+* [Ada Strings Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f78798dc-c888-4615-befd-966edf9e165b) (12:30)
+* [Ruby Documentation on Strings](http://ruby-doc.org/core-2.4.0/String.html)

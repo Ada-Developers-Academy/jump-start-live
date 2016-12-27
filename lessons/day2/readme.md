@@ -42,10 +42,11 @@ _In one Ruby file, write code to solve the problems below. Your code should prin
 * What did you especially enjoy about today's class?
 * What can be improved for future classes?
 
+## Resources
+* [Day 2 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=43637773-8776-4592-977d-938f3fac6ef2)
+* [Conditional notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/conditionals.md) from Jumpstart
+* [Operators notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/operators.md) from Jumpstart
+
 ## Homework
 * Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/assignments/candy-machine.md) solution and be prepared to talk with others about your code
 * Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from Jumpstart
-
-## Resources
-* [Conditional notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/conditionals.md) from Jumpstart
-* [Operators notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/operators.md) from Jumpstart

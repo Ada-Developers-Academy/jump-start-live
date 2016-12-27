@@ -2,6 +2,9 @@ _Jumpstart Live (JSL)_
 # Day 2
 ## Boolean Expressions
 
+### Overview
+A boolean expression is an expression that evaluates to either `true` or `false`. They are commonly used in `if/elsif` statements and `while` loops.
+
 ### Precedence
 * Also commonly called order-of-operations
 
@@ -74,7 +77,7 @@ end
 | `false` | `true` |
 
 #### DeMorgan's Laws
-Named after Augustus De Morgan, a 19th-century British mathematician, they are a set of rules that describe what happens when you perform a negation on a '&&' statement, or an '||' statement.
+Named after Augustus De Morgan, a 19th-century British mathematician, they are a set of rules that describe what happens when you perform a negation on a `&&` statement, or an `||` statement.
 * `!(p && q)` can also be described as `!p || !q`
 * `!(p || q)` can also be described as `!p && !q`
 
@@ -135,3 +138,6 @@ false || 2 || 48
 # and since 2 is truthy, the statement is printed
 # note that short circuit evaluation results in the 48 not being considered
 ```
+
+### Resources
+* [Ada Boolean Expressions Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=db632849-5d1c-4483-aa7e-cb95ec754490) (20:06)

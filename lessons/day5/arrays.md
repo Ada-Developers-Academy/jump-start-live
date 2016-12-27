@@ -7,7 +7,7 @@ Arrays are ordered collections of data that can be accessed with a 0-based index
 ### Why Arrays?
 Instead of having to create individual variables, arrays are often used to group data together and make it easy to access.
 
-Consider wanting to store the daily temperature averages for the month of December. You could create 31 variables to store those temperatures but that might be hard to manage, not to mention, a lot of line of codes. Then, if you later decide to store the temperatures for the entire year .. then its just out of control.
+Consider wanting to store the daily temperature averages for the month of December. You could create 31 variables to store those temperatures but that might be hard to manage, not to mention, a lot of line of codes. Then, if you later decide to store the temperatures for the entire year, it becomes almost impossible to handle.
 
 A perfect solution to this is to use an array. Now you have one name to reference all the temperatures, and can easily access the temperature from a specific day.
 
@@ -53,15 +53,36 @@ list = [1, 2, 3]
 # creates an empty array named list
 list = Array.new
 
-# creates an array named list and stores 3 nils
+# creates an array of length 3, storing nil in each index
 list = Array.new(3)
 
-# creates an array with 5, "Ada"'s named ada
+# creates an array of length 5, storing "Ada" in each index
 ada = Array.new(5, "Ada")
 
 # passes a block as a parameter
 # creating an array of multiples of 2, named mult2
 mult2 = Array.new(5) { |i| i * 2 }
+```
+
+### Printing an Array
+* If you use `puts` to display an array, it will list each element on its own line
+* Instead use `print` or `puts` with string interpolation and the array will display as a comma separated list, which is usually easier to read
+
+```ruby
+arr = Array.new(3, 0)
+# This will display ..
+# 0
+# 0
+# 0
+puts arr
+
+# This will display ...
+# [0, 0, 0]
+print arr
+
+# This will display ...
+# [0, 0, 0]
+puts "#{arr}"
 ```
 
 ### Change and Access
@@ -73,18 +94,18 @@ list[0] = 7
 list[1] = -1
 list[2] = 33
 # list is now [7, -1, 33]
-list[-1] # 33
-list[-2] # -1
-list[-3] # 7
-list[-4] # nil
-list[9]  # nil
+puts list[-1] # 33
+puts list[-2] # -1
+puts list[-3] # 7
+puts list[-4] # nil
+puts list[9]  # nil
 ```
 
 ### Add to end
 Elements can be added to the end of an array using two different notations
 
 #### push
-Push, can accept 1 or more arguments
+Push, can accept 1 or more elements
 
 ```ruby
 list = ["apple", "orange", "kiwi"]
@@ -95,7 +116,7 @@ list.push("pear", "nectarine")
 ```
 
 #### shovel
-The shovel method (`<<`) can only accept 1 argument
+The shovel method (`<<`) can only accept 1 element
 
 ```ruby
 list = [true, false]
@@ -104,7 +125,7 @@ list << false
 list << false, true # error!
 ```
 
-It is possible to have an array of arrays, be careful when using shovel, not to shovel an array onto an array (unless that is your intention)
+It is possible to have an array of arrays, but be careful when using shovel; don't shovel an array onto an array (unless that is your intention)
 
 ```ruby
 nums = [4, 5, 6]
@@ -114,9 +135,9 @@ nums << [7]
 ```
 
 ### Iterating over an array
-Iterating over an array, is a process to look at each element of an array and perform some sort of action
+Iterating over an array, is a process to look at each element of an array and perform some action.
 
-You can use either a `do ... end` block or a block with curly braces for the each method. By convention `do ... end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have high precedence when compared to `do ... end` blocks
+You can use either a `do ... end` block or a block with curly braces for the each method. By convention `do ... end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have high precedence when compared to `do ... end` blocks.
 
 #### each
 ```ruby
@@ -131,14 +152,14 @@ nums.each { |num| puts num }
 #### each with index
 ```ruby
 nums = [2, 4, 6]
-nums.each_with_index do |num,index|
+nums.each_with_index do |num, index|
   puts "#{index}: #{num}"
 end
 
-nums.each_with_index { |num,index| puts "#{index}: #{num}" }
+nums.each_with_index { |num, index| puts "#{index}: #{num}" }
 ```
 
-### Examples
+### Exercises
 
 1. Create an array which will store the square of each value between 2 and 5, inclusive.
 
@@ -168,3 +189,7 @@ nums.each_with_index { |num,index| puts "#{index}: #{num}" }
 4. On paper, create an array which stores the numbers 1 – 15. Then write down two different ways of accessing the middle number?  
 
 5. On paper, write code that will create an array named powers_of_2, and stores the fist 10 powers of 2
+
+### Resources
+* [Ada Arrays Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5) (15:34)
+* [Ruby Documentation on Arrays](http://ruby-doc.org/core-2.4.0/Array.html)

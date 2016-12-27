@@ -59,3 +59,6 @@ end
 
 puts "You entered #{num}"
 ```
+
+### Resources
+* [Ada Advanced Loops Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=39c011c5-5d58-4f15-973a-7a4ffb2ce5c1) (5:02)

@@ -86,9 +86,10 @@ _Jumpstart Live (JSL)_
 * What did you especially enjoy about today's class?
 * What can be improved for future classes?
 
+## Resources
+* [Day 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339)
+* [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from Jumpstart
+
 ## Homework
 * Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from Jumpstart
 * Finish all exercises from today's class
-
-## Resources
-* [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from Jumpstart

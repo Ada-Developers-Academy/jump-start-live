@@ -4,8 +4,8 @@ _Jumpstart Live (JSL)_
 
 Conditionals are a programming construct that will allow you to control the flow of a program through branching (they allow your program to make decisions)
 
-### if/elsif/else Statements
-* `else` can only be used when paired with an if
+### `if`/`elsif`/`else` Statements
+* `elsif` and `else` statements can only be used when paired with an if
 
 ```ruby
 # independent tests; not exclusive
@@ -47,13 +47,26 @@ else
 end
 ```
 
+### Postfix Conditional
+A way to shorten your code, when you only have one test to perform.
+
+```ruby
+name = gets.chomp
+puts "You're rad!" if name == "Issa" 
+```
+
+```ruby
+drink = gets.chomp
+puts "Drink more water!" unless drink == "water"
+```
+
 ### Case Statements
 * A good option when you are wanting to test a number of cases on a single variable
 
 ```ruby
 grade = gets.chomp
 case grade
-when grade "A"
+when "A"
   puts "Good job"
 when "B"
   puts "Okay job"
@@ -69,9 +82,9 @@ end
 ```ruby
 grade = gets.chomp
 case grade
-when grade "A", "B", "C"
+when "A", "B", "C"
   puts "You passed"
-when grade "D"
+when "D"
   puts "You barely passed"
 when "E"
   puts "You did not pass"
@@ -79,7 +92,7 @@ end
 ```
 
 ### Practice Problems
-1. Single if statement
+1. Single `if` statement
   
   #### Questions
   * What is the boolean expression in the code below?
@@ -94,7 +107,7 @@ end
   end
   ```
 
-2. if/else statement
+2. `if`/`else` statement
 
   #### Questions
   * What is different about the examples below?
@@ -104,9 +117,9 @@ end
   test_score = gets.chomp.to_i
 
   if test_score != 90
-    print "You got an A!"
+    puts "You got an A!"
   else
-    print "You did not get an A!"
+    puts "You did not get an A!"
   end
   ```
 
@@ -114,13 +127,13 @@ end
   test_score = gets.chomp.to_i
 
   if test_score > 90
-    print "You got an A!"
+    puts "You got an A!"
   else
-    print "You did not get an A!"
+    puts "You did not get an A!"
   end
   ```
 
-3. if/else statement
+3. `if`/`else` statement
 
   #### Questions
   * What is different about the examples below?
@@ -130,9 +143,9 @@ end
   test_score = gets.chomp.to_i
 
   if test_score < 90
-    print "You did not get an A!"
+    puts "You did not get an A!"
   else
-    print "You got an A!"
+    puts "You got an A!"
   end
   ```
 
@@ -140,13 +153,13 @@ end
   test_score = gets.chomp.to_i
 
   if test_score > 90
-    print "You got an A!"
+    puts "You got an A!"
   else
-    print "You did not get an A!"
+    puts "You did not get an A!"
   end
   ```
 
-4. if/elsif/else statement
+4. `if`/`elsif`/`else` statement
 
   #### Questions
   * What will be output if the user enters `FedEx`? How about `usps`? What about `mailing`?
@@ -164,3 +177,6 @@ end
     puts "Mail!"
   end
   ```
+
+### Resources
+* [Ada Conditionals Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=22e94763-7a38-4237-a39b-96154f090cbf) (14:21)

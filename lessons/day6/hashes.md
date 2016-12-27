@@ -3,11 +3,12 @@ _Jumpstart Live (JSL)_
 ## Hashes
 
 ### Overview
-* Hashes are a collection of paired information. Also described as a collection of key-value pairs, or as a "look up table".
-* Hashes use any object for their index.
-* Each pair has both a key and a value.
-* The keys in the hash are unique (i.e., not repeated), but values may be repeated.
-* Hashes store information in the order in which the keys were inserted, you however should never depend on this order.
+* Hashes are a collection of paired information
+* Sometimes described as a collection of key-value pairs, or as a "look up table"
+* Hashes use any object for their index
+* Each pair has both a key and a value
+* The keys in the hash are unique (i.e., not repeated), but values may be repeated
+* Hashes store information in the order in which the keys were inserted, you however should never depend on this order
 
 ### Creating a hash
 
@@ -72,6 +73,7 @@ end
 | `h.empty?` | Return true if hash h contains no key-value pairs |
 | `h.length` | Return the number of key-value pairs in hash h |
 | `h.keys` | Return a new array with the keys from hash h |
+| `h.values` | Return a new array with the values from hash h |
 | `h.key(value)` | Return the key of an occurrence of a given value in hash h |
 | `h.key?(key)` | Return true if key is present in hash h |
 | `h.value?(value)` | Return true if value is present in hash h |
@@ -98,3 +100,7 @@ _We will complete these examples in pairs on paper_
 	1: Cookie
 	4: Popsicles
 	```
+
+### Resources
+* [Ada Hashes Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6bcf8425-d83c-43b3-8cdc-8792acca77ef) (7:34)
+* [Ruby Documentation on Hashes](http://ruby-doc.org/core-2.4.0/Hash.html)
