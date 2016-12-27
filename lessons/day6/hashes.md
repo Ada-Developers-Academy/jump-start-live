@@ -100,5 +100,5 @@ _We will complete these examples in pairs on paper_
 	```
 
 ### Resources
-* [Ada Hashes Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5) (15:34)
+* [Ada Hashes Video]() ()
 * [Ruby Documentation on Hashes](http://ruby-doc.org/core-2.4.0/Hash.html)
