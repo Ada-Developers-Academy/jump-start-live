@@ -14,7 +14,7 @@ You are expected to check your groups Slack channel daily and be responsive and 
 As a group you should be having video chats for at least 2 hours each week. It is up to your group to determine if there will be multiple short sessions each week, or one long session each week. Your mentor should be attending and participating in at least one video chat a week.
 
 ## Work Submissions
-When you have completed all the work for a particular day, you should send a gist to the least Jumpstart Instructor (susan evans) on slack. There are 6 total days, so this should be 6 total gists, but feel free to split the work up into more gists if that makes sense for you.
+When you have completed all the work for a particular day, you should send a gist to the lead Jumpstart Instructor (susan evans) on slack. There are 6 total days, so this should be 6 total gists, but feel free to split the work up into more gists if that makes sense for you.
 
 ## Punctuality
 We expect all participating students to arrive on time to their scheduled video chats, and be ready to share their code, ask questions, and help others. 
