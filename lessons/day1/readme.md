@@ -49,7 +49,7 @@ _Jumpstart Live (JSL)_
 4. Bio Program
   * Create a program that accepts input from the user and outputs a bio with that information
   * Use up to five different attributes about the person to populate the bio
-  * Output should consist of a paragraph of output that has the user's input substituted in.
+  * Output should consist of a paragraph of output created from the users input
 
   ####Use Case
   _Input_
