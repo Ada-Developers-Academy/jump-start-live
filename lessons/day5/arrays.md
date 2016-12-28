@@ -7,9 +7,9 @@ Arrays are ordered collections of data that can be accessed with a 0-based index
 ### Why Arrays?
 Instead of having to create individual variables, arrays are often used to group data together and make it easy to access.
 
-Consider wanting to store the daily temperature averages for the month of December. You could create 31 variables to store those temperatures but that might be hard to manage, not to mention, a lot of line of codes. Then, if you later decide to store the temperatures for the entire year, it becomes almost impossible to handle.
+Consider wanting to store the daily temperature averages for the month of December. You could create 31 variables to store those temperatures but that might be hard to manage, not to mention, many lines of code. Then, if you later decide to store the temperatures for the entire year, it becomes almost impossible to handle.
 
-A perfect solution to this is to use an array. Now you have one name to reference all the temperatures, and can easily access the temperature from a specific day.
+A perfect solution to this is to use an array. Now you have one name to reference all of the temperatures, and you can easily access the temperature from a specific day.
 
 ### Array Indexes
 Array indexes start at 0, and increase by 1. You cannot change the indexes of an array. 
@@ -46,7 +46,6 @@ list = [1, 2, 3]
 ```
 
 #### Array.new
-* Another way to create an array
 * Can pass parameters to initialize to certain values
 
 ```ruby
@@ -125,7 +124,7 @@ list << false
 list << false, true # error!
 ```
 
-It is possible to have an array of arrays, but be careful when using shovel; don't shovel an array onto an array (unless that is your intention)
+It is possible to have an array of arrays, but be careful when using shovel (i.e., don't shovel an array onto an array, unless that is your intention)
 
 ```ruby
 nums = [4, 5, 6]
@@ -137,7 +136,7 @@ nums << [7]
 ### Iterating over an array
 Iterating over an array, is a process to look at each element of an array and perform some action.
 
-You can use either a `do ... end` block or a block with curly braces for the each method. By convention `do ... end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have high precedence when compared to `do ... end` blocks.
+You can use either a `do ... end` block or a block with curly braces for the each method. By convention `do ... end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have higher precedence when compared to `do ... end` blocks.
 
 #### each
 ```ruby
