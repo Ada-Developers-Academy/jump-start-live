@@ -54,15 +54,24 @@ students.each do |name, age|
 	puts "Student #{name} is #{age} years old"
 end
 
+# iterating over key,value pairs (better style)
+students.each { |name, age| puts "Student #{name} is #{age} years old" }
+
 # iterating over keys only
 students.each_key do |name|
 	puts "#{name}"
 end
 
+# iterating over keys only (better style)
+students.each_key { |name| puts "#{name}" }
+
 # iterating over values only
 students.each_value do |age|
 	puts "#{age}"
 end
+
+# iterating over values only (better style)
+students.each_value { |age| puts "#{age}" }
 ```
 
 ### Useful hash methods
