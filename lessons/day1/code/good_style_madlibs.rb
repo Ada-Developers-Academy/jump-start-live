@@ -1,7 +1,7 @@
 # Good style example
 # susan evans
 # Last edited 11/25/2016
-# Takes in input from the user and outputs a madlib story
+# Takes input from the user and outputs a madlib story
 
 # welcome message
 print "Welcome to my MadLib program. Please enter in some information below.\n\n"
