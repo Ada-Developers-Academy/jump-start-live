@@ -21,9 +21,7 @@ _Jumpstart Live (JSL)_
 ## Exercises
 1. Discuss [bad style Madlibs example](code/bad_style_madlibs.rb) 
 
-2. Revisit your MadLibs code, and update your code to improve its style
-
-3. How would you modify the code below to improve the code style and readability?
+1. How would you modify the code below to improve the code style and readability?
 
   ```ruby
   foods = ["shrimp", "cauliflower", "salmon", "garlic", "oysters",
@@ -46,7 +44,9 @@ _Jumpstart Live (JSL)_
   end
   ```
 
-4. Bio Program
+1. Revisit your MadLibs code, and update your code to improve its style
+
+1. Bio Program
   * Create a program that accepts input from the user and outputs a bio with that information
   * Use up to five different attributes about the person to populate the bio
   * Output should consist of a paragraph of output created from the users input
