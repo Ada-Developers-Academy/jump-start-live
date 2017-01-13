@@ -47,5 +47,5 @@ _In one Ruby file, write code to solve the problems below. Your code should prin
 * [Operators notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/operators.md) from Jumpstart
 
 ## Homework
-* Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/assignments/candy-machine.md) solution and be prepared to talk with others about your code
+* Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/11-iterators/assignments/election.md) solution and be prepared to talk with others about your code
 * Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from Jumpstart
