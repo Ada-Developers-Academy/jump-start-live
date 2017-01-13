@@ -15,7 +15,6 @@ _Jumpstart Live (JSL)_
 ## Warm up
 * Share what you learned from our last session about coding style
 * Walk your partner though your Candy machine code focusing on using programming vocabulary (e.g, conditional statements, variable assignment, relational operators, logical operators, expressions)
-* We will project two different solutions to candy machine and discuss
 
 ## Lessons
 * [Assignment Statements](assignment_statements.md)
