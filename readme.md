@@ -39,6 +39,6 @@ JSL takes place in person at Ada 4 weeks prior to the start of the full-program.
 
 1. What is the difference between Jumpstart and Jumpstart Live (JSL)?
 
-	Jumpstart is a curriculum that all accepted Ada students are expected to complete on their own prior to the start of the in-person classroom experience.
+	Jumpstart is a curriculum that all accepted Ada students are expected to complete prior to the start of the in-person classroom experience.
 
 	Jumpstart Live(JSL) is a 3-week in person class prior to the start of Ada to help prepare incoming Ada students who are not yet comfortable using loops and arrays.
