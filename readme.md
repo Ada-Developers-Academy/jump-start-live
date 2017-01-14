@@ -11,7 +11,7 @@ JSL takes place in person at Ada 4 weeks prior to the start of the full-program.
 * General class plan
 	* Welcome, goals, warm-up (25 mins)
 	* Lesson (25 mins)
-	* 6:50pm Break (10 mins)
+	* Break (10 mins)
 	* Exercises (50 mins)
 	* Debrief (10 mins)
 
