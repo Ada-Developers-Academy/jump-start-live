@@ -20,11 +20,14 @@ The style in your code is just as important as the code itself. Programmers use 
 * Comments
 	* Use comments to describe your code
 	* Comments should describe _what the code does_ and not _how the code does it_ (i.e., do not include implementation details in your comments)
+	* Use one space between the `#` and the text of the comment
 * Big Numbers
 	* Use underscores to make big numbers easy to read, (e.g., use `num = 3_000_000` instead of `num = 3000000`)
 * Calling Methods
 	* If the method accepts an argument, always use parens, (e.g., use `push("apple")` instead of `push "apple"`), note that `puts` is an exception to this rule `puts "hello"` is good style, whereas `puts("hello")` is bad style
 	* If a method does not accept arguments, do not use parens, (e.g, use `chomp` instead of `chomp()`)
+* Strings
+	* Use string interpolation and string formatting instead of string concatenation
 
 ### Examples
 1. _Consider indentation, variable names, and comments_
