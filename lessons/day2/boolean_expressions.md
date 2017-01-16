@@ -117,7 +117,7 @@ if y || x
 end
 ```
 
-#### Syntax
+#### Common Mistake
 Its important to understand that you combine relational operators with logical operators.
 
 You cannot for example ...
@@ -137,6 +137,13 @@ false || 2 || 48
 2 || 48
 # and since 2 is truthy, the statement is printed
 # note that short circuit evaluation results in the 48 not being considered
+```
+
+```ruby
+x = 1
+if x == false || x == 2 || x == 48
+	puts "x is false, 2, or 48"
+end
 ```
 
 ### Resources

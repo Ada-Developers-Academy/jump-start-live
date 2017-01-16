@@ -9,7 +9,7 @@ Instead of having to create individual variables, arrays are often used to group
 
 Consider wanting to store the daily temperature averages for the month of December. You could create 31 variables to store those temperatures but that might be hard to manage, not to mention, a lot of line of codes. Then, if you later decide to store the temperatures for the entire year, it becomes almost impossible to handle.
 
-A perfect solution to this is to use an array. Now you have one name to reference all the temperatures, and can easily access the temperature from a specific day.
+A perfect solution to this is to use an array. Now you have one name to reference all of the temperatures, and you can easily access the temperature from a specific day.
 
 ### Array Indexes
 Array indexes start at 0, and increase by 1. You cannot change the indexes of an array. 
@@ -46,7 +46,6 @@ list = [1, 2, 3]
 ```
 
 #### Array.new
-* Another way to create an array
 * Can pass parameters to initialize to certain values
 
 ```ruby
@@ -125,7 +124,11 @@ list << false
 list << false, true # error!
 ```
 
+<<<<<<< HEAD
 It is possible to have an array of arrays, but be careful when using shovel; don't shovel an array onto an array (unless that is your intention)
+=======
+It is possible to have an array of arrays, but be careful when using shovel (i.e., don't shovel an array onto an array, unless that is your intention)
+>>>>>>> 2f92aea0acd129f6cfcd06915abfb5a4974c2955
 
 ```ruby
 nums = [4, 5, 6]
@@ -137,7 +140,11 @@ nums << [7]
 ### Iterating over an array
 Iterating over an array, is a process to look at each element of an array and perform some action.
 
+<<<<<<< HEAD
 You can use either a `do ... end` block or a block with curly braces for the each method. By convention `do ... end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have high precedence when compared to `do ... end` blocks.
+=======
+You can use either a `do ... end` block or a block with curly braces for the each method. By convention `do ... end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have higher precedence when compared to `do ... end` blocks.
+>>>>>>> 2f92aea0acd129f6cfcd06915abfb5a4974c2955
 
 #### each
 ```ruby
@@ -159,6 +166,20 @@ end
 nums.each_with_index { |num, index| puts "#{index}: #{num}" }
 ```
 
+<<<<<<< HEAD
+=======
+### Useful array methods
+
+| Method | Description |
+| :--- | :--- |
+| `arr.length` | Returns the number of elements currently stored in arr |
+| `arr.empty?` | Returns `true` if there are no elements in arr, otherwise returns `false` |
+| `arr.first` | Returns the first element from arr |
+| `arr.last` | Returns the last element from arr |
+| `arr.take(n)` | Returns the first n elements from arr |
+| `arr.include?(element)` | Returns `true` if element is stored in arr, otherwise returns `false` |
+
+>>>>>>> 2f92aea0acd129f6cfcd06915abfb5a4974c2955
 ### Exercises
 
 1. Create an array which will store the square of each value between 2 and 5, inclusive.
@@ -192,4 +213,8 @@ nums.each_with_index { |num, index| puts "#{index}: #{num}" }
 
 ### Resources
 * [Ada Arrays Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5) (15:34)
+<<<<<<< HEAD
 * [Ruby Documentation on Arrays](http://ruby-doc.org/core-2.4.0/Array.html)
+=======
+* [Ruby Documentation on Arrays](http://ruby-doc.org/core-2.4.0/Array.html)
+>>>>>>> 2f92aea0acd129f6cfcd06915abfb5a4974c2955
