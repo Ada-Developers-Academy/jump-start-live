@@ -43,4 +43,5 @@ _In one Ruby file, write code to solve the problems below. Your code should prin
 
 ## Homework
 * Review your [Student Account Generator Part 2](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/12-basic-data-structs/assignments/account-generator-cont.md) solution and be prepared to talk with others about your code
+* Review the [Hash notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/12-basic-data-structs/notes/hashes.md) from Jumpstart
 * Watch the [Day 6 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=1cdf49b7-a75f-434c-a140-8fbd3d344512) (~16 minutes)

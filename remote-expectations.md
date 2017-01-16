@@ -33,8 +33,4 @@ In any group there will be those who speak more and those who speak less; this m
 * Silence is okay, and sometimes needed for other students to feel comfortable speaking
 
 ## References
-<<<<<<< HEAD
 * Some of the text in the _Participation_ section was borrowed from Benjamin Mako Hill's [Teaching: Assessment materials](https://mako.cc/teaching/assessment.html)
-=======
-* Some of the text in the _Participation_ section was borrowed from Benjamin Mako Hill's [Teaching: Assessment materials](https://mako.cc/teaching/assessment.html)
->>>>>>> 2f92aea0acd129f6cfcd06915abfb5a4974c2955

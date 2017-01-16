@@ -139,6 +139,8 @@ false || 2 || 48
 # note that short circuit evaluation results in the 48 not being considered
 ```
 
+The correct way to code this is ...
+
 ```ruby
 x = 1
 if x == false || x == 2 || x == 48

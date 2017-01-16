@@ -73,6 +73,7 @@ If you want to store single pieces of information use an array. If your data is 
 			color: "blue"
 		}
 	]
+	```
 
 ### Resources
 * [Ada Arrays vs Hashes Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2f21e9e5-54fb-4e2a-a79d-fe72bedc10d9)
