@@ -60,30 +60,15 @@ end
 end
 ```
 
-### `times`
-* `times` is an iterator over a certain range of values
+### `times` as an iterator
+* when `times` is used with an iteration variable it becomes an iterator over a certain range of values
 * `times` must be associated with a block, but the iteration variable is optional
 * `times` starts counting at `0`, and goes up to `1 -` the value placed before `.times`
-
-```ruby
-# times syntax no iteration variable
-Fixnum.times
-   code
-end
-```
 
 ```ruby
 # times syntax with iteration variable
 Fixnum.times do |variable|
    code
-end
-```
-
-```ruby
-# code example
-# prints out "hello" 5 times
-5.times do
-	puts "hello"
 end
 ```
 
@@ -130,9 +115,9 @@ end
 	| 3 | 6 | - |
 	| 3 | 6 | 6 |
 
-### Iterator Comparison
-1. `times` iteration variable
-	* What is the difference between these iterators?
+### Loop vs. Iterator Comparison
+1. `times` example
+	* What is the difference between these two sections of code?
 	* Which is a better style solution?
 
 	```ruby
