@@ -8,45 +8,45 @@ _Boolean zen is a word used to describe if code using boolean values is written 
 * You should never compare to true or false in an if statement, while loop, or until loop
 
 ### Examples
-```ruby
-# not boolean zen
-if width > 0 && width < 100
-	puts true
-else
-	puts false
-end
+	```ruby
+	# not boolean zen
+	if width > 0 && width < 100
+		puts true
+	else
+		puts false
+	end
 
-# boolean zen
-puts width > 0 && width < 100
-```
+	# boolean zen
+	puts width > 0 && width < 100
+	```
 
-```ruby
-# not boolean zen
-correct = false
-until correct == true
-	# statement(s)
-end
+	```ruby
+	# not boolean zen
+	correct = false
+	until correct == true
+		# statement(s)
+	end
 
-# boolean zen
-correct = false
-until correct
-	# statement(s)
-end
-```
+	# boolean zen
+	correct = false
+	until correct
+		# statement(s)
+	end
+	```
 
-```ruby
-# not boolean zen
-not_correct = true
-while not_correct == true
-	# statement(s)
-end
+	```ruby
+	# not boolean zen
+	not_correct = true
+	while not_correct == true
+		# statement(s)
+	end
 
-# boolean zen
-not_correct = true
-while not_correct
-	# statement(s)
-end
-```
+	# boolean zen
+	not_correct = true
+	while not_correct
+		# statement(s)
+	end
+	```
 
 ### Resources
 * [Ada Boolean Zen Video]() () .. coming soon
