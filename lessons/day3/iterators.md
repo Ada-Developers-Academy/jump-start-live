@@ -8,6 +8,7 @@ _Jumpstart Live (JSL)_
   <dd>An object that traverses (i.e., iterates) over the elements in a collection (e.g., array) and usually does something with those elements</dd>
 </dl>
 
+### Overview
 * Iterators are methods
 * All iterators require blocks, and execute those blocks as many times as there are iterations
 * Iterators return all the elements of a collection, one after the other
