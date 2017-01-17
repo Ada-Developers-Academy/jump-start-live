@@ -15,7 +15,7 @@ _Jumpstart Live (JSL)_
 </dl>
 
 ### Sentinel-controlled Loops
-#### While loop
+#### `while` loop
 * Executes code over and over again, while a condition is true
 
 ```
