@@ -2,7 +2,7 @@ _Jumpstart Live (JSL)_
 # Day 4
 ## Boolean Zen
 
-_Boolean zen is a word used to describe if code using boolean values is written in the most concise way possible. Boolean zen is considered good programming style._
+_Boolean zen is a phrase used to describe if code using boolean values is written in the most concise way possible. Boolean zen is considered good programming style._
 
 ### Tips
 * You should never compare to true or false in an if statement, while loop, or until loop
@@ -49,4 +49,4 @@ end
 ```
 
 ### Resources
-* [Ada Boolean Zen Video]() () .. coming soon
+* [Ada Boolean Zen Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1d4f3740-edc2-469a-ac3c-bf980dd649cf) (2:55)
