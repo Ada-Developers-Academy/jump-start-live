@@ -73,28 +73,28 @@ end
 end
 ```
 
-### Loop Tables
-1. Create a loop table for the code below, assuming the inputs noted below
+### Loop Table
+Create a loop table for the code below, assuming the inputs noted below
 
-	```ruby
-	puts "Hello! We are going to total some numbers!"
-	puts "Enter a negative number to quit."
+```ruby
+puts "Hello! We are going to total some numbers!"
+puts "Enter a negative number to quit."
 
-	total = 0
-	input = gets.chomp.to_i
-	while input > -1
-	  total += input
-	  input = gets.chomp.to_i
-	end
+total = 0
+input = gets.chomp.to_i
+while input > -1
+  total += input
+  input = gets.chomp.to_i
+end
 
-	puts "Result: #{total}"
-	```
+puts "Result: #{total}"
+```
 
-	```
-	1. inputs; 0, -1, 2
-	2. inputs: 33, 6, 2, 9, 0, -1
-	3. inputs: 4.2, 1.1, 9.9, -1.0
-	```
+```
+1. inputs; 0, -1, 2
+2. inputs: 33, 6, 2, 9, 0, -1
+3. inputs: 4.2, 1.1, 9.9, -1.0
+```
 
 ### Resources
 * [Ada Loops Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8e72dc31-0a75-4bd8-9db5-0e8b322cb26d) (9:11)
