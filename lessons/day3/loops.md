@@ -11,7 +11,7 @@ _Jumpstart Live (JSL)_
 	<dt>Sentinel-controlled loop</dt>
 	<dd>When the number of loops cannot be determined prior to loop execution (e.g, while, until)</dd>
 	<dt>Counter-controlled loop</dt>
-	<dd>When the number of loops can be determined prior to loop execution (e.g, `times`)</dd>
+	<dd>When the number of loops can be determined prior to loop execution (e.g, times)</dd>
 </dl>
 
 ### Sentinel-controlled Loops
