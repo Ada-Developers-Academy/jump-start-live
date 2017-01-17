@@ -4,12 +4,14 @@ _Jumpstart Live (JSL)_
 
 ### Definitions
 <dl>
-  <dt>Loop</dt>
-  <dd>Repeating a sequence of statements; telling the program to do something a certain number of times, or until a certain condition is met</dd>
-  <dt>Infinite loop</dt>
-  <dd>A loop that runs until you kill the program</dd>
-  <dt>Sentinel-controlled loop</dt>
-  <dd>When the number of loops cannot be determined prior to loop execution (e.g, while, until)</dd>
+	<dt>Loop</dt>
+	<dd>Repeating a sequence of statements; telling the program to do something a certain number of times, or until a certain condition is met</dd>
+	<dt>Infinite loop</dt>
+	<dd>A loop that runs until you kill the program</dd>
+	<dt>Sentinel-controlled loop</dt>
+	<dd>When the number of loops cannot be determined prior to loop execution (e.g, while, until)</dd>
+	<dt>Counter-controlled loop</dt>
+	<dd>When the number of loops can be determined prior to loop execution (e.g, `times`)</dd>
 </dl>
 
 ### Sentinel-controlled Loops
@@ -48,6 +50,26 @@ rand_num = rand(5)
 guess = gets.chomp.to_i
 until rand_num == guess do
 	guess = gets.chomp.to_i
+end
+```
+
+### Counter-controlled Loops
+#### `times`
+* when `times` is used without an iteration variable it is a loop, when it is used with an iteration variable it becomes an iterator
+* `times` must be associated with a block
+
+```ruby
+# times syntax as a loop with no iteration variable
+Fixnum.times
+   code
+end
+```
+
+```ruby
+# code example
+# prints out "hello" 5 times
+5.times do
+	puts "hello"
 end
 ```
 
