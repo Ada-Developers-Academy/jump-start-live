@@ -15,6 +15,7 @@ _Jumpstart Live (JSL)_
 ## Lessons
 * [Scope](scope.md)
 * [Loops](loops.md)
+* [Iterators](iterators.md)
 
 ## Exercises
 1. Write a program that allows a user to play a guessing number game. Your program should generate a random number between 0 – 1000 (including 0, but not including 1000). Allow the user to make a guess until they guess the answer. After each guess you should print "higher" or "lower". When they guess it correctly print a winning message along with their total number of guesses.
@@ -81,7 +82,7 @@ _Jumpstart Live (JSL)_
 	```
 
 ## Debrief
-* What different types of loops did we learn about today?
+* What different types of loops and iterators did we learn about today?
 * What topics are you still struggling with?
 * What did you especially enjoy about today's class?
 * What can be improved for future classes?
