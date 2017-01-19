@@ -10,6 +10,7 @@ _Jumpstart Live (JSL)_
 
 ## Lessons
 * [Loops](../day3/loops.md)
+* [Iterators](../day3/iterators.md)
 * [Boolean Zen](boolean_zen.md)
 * [Advanced Loops](advanced_loops.md)
 
