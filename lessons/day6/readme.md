@@ -43,6 +43,7 @@ _Jumpstart Live (JSL)_
 
 ## Resources
 * [Day 6 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=1cdf49b7-a75f-434c-a140-8fbd3d344512)
+* [Ruby Documentation on Hashes](http://ruby-doc.org/core-2.4.0/Hash.html)
 
 ## Homework
 * Relax, and enjoy your week before the start of Ada
