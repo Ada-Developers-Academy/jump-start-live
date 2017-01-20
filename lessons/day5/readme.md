@@ -2,6 +2,7 @@ _Jumpstart Live (JSL)_
 # Day 5
 
 ## Prep Work
+* Finish Day 4's [Password Verification Exercise](../day4#exercise)
 * Review your [Student Account Generator Part 1](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/12-basic-data-structs/assignments/account-generator.md) solution and be prepared to talk with others about your code
 * Review the [Array notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/12-basic-data-structs/notes/arrays.md) from Jumpstart
 * Watch the [Day 5 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=646484ef-baaf-4352-9378-2f95849d2a51) (~20 minutes)
