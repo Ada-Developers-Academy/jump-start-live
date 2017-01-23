@@ -194,7 +194,7 @@ nums.each_with_index { |num, index| puts "#{index}: #{num}" }
   # list is now ["Megan Smith", "Annie Easley", "Margaret Hamilton"]
   ```
 
-3. On paper, create an array which will store the names of people that inspire you. Then write down two different ways you can access the second-to-last name in your array?  
+3. On paper, create an array which stores the names of people that inspire you. Then write down two different ways you can access the second-to-last name in your array?  
 
 4. On paper, create an array which stores the numbers 1 – 15. Then write down two different ways of accessing the middle number?  
 
