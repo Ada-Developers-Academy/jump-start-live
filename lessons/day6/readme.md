@@ -16,7 +16,7 @@ _Jumpstart Live (JSL)_
 * [Hashes](hashes.md)
 
 ## Exercise
-1. Ask the user to enter the names, ages, and favorite colors of their closest friends (you may not assume that the user's close friends all have unique names). Output the total number of close friends under 18, followed by their names. Output the number of unique favorite colors, and then list them.
+1. Ask the user to enter the names, ages, and favorite colors of their closest friends (you may not assume that the user's close friends all have unique names). Output the total number of close friends under 18, followed by their names. Output the number of unique favorite colors, and then list them (Hint: Check out the `uniq` mehtod of the Array class in Ruby).
 
 	### Sample Log
 
