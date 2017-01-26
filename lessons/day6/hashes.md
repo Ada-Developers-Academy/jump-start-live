@@ -104,10 +104,10 @@ _We will complete these examples in pairs on paper_
 
 	```
 	# Example output
-	3: Oranges
-	12: Tortillas
-	1: Cookie
-	4: Popsicles
+	3 Oranges
+	12 Tortillas
+	1 Cookie
+	4 Popsicles
 	```
 
 ### Resources
