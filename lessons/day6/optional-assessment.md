@@ -9,9 +9,7 @@ These are intentionally difficult problems designed to not only give students pr
 
 Students are encouraged to work together if they desire, and to reach out to the Jumpstart instructors for guidance and feedback as they work through the problem. We estimate this program to take a pair of students ~10 hours to complete fully.
 
-## Nim
-
-### Specification
+## Specification
 Write a Ruby program that allows two users to play a game of _Nim_ together. If you are not familiar with the game start by reading the [Nim Wikipedia article](https://en.wikipedia.org/wiki/Nim).
 
 At the start of the program you should accept each user's name. And allow them to choose the game difficulty (easy = 2 piles, medium = 3 piles, hard = 7 piles). Your game should then randomly decide who will go first.
@@ -22,7 +20,7 @@ Your game should then prompt them to play another game or quit. If they choose t
 
 Each user must select at least one item to remove from each pile (they cannot remove 0 items). Make sure that users do not cheat, and that their moves are valid.
 
-### Hints
+## Hints
 * There are many ways to solve and code this program
 * Try your best to use arrays and hashes to represent information appropriately
 * The amount in each pile should be randomly selected at the start of each game
@@ -31,11 +29,11 @@ Each user must select at least one item to remove from each pile (they cannot re
   * Try a version with only 1 game and no difficulty
   * Try a version with only 1 game and no scores
 
-### Extensions
+## Extensions
 * Display an [ASCII](https://en.wikipedia.org/wiki/ASCII) representation of each pile before each turn
 * Build a computer player, that a single person can play against
 
-### Example Output
+## Example Output
 
 ```
 Welcome to Nim!
