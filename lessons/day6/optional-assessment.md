@@ -14,7 +14,7 @@ Students are encouraged to work together if they desire, and to reach out to the
 ### Specification
 Write a Ruby program that allows two users to play a game of _Nim_ together. If you are not familiar with the game start by reading the [Nim Wikipedia article](https://en.wikipedia.org/wiki/Nim).
 
-At the start of the program you should accept each user's name. And allow them to choose the game difficulty (easy = 2 piles, medium = 3 piles, hard = 4 piles). Your game should then randomly decide who will go first.
+At the start of the program you should accept each user's name. And allow them to choose the game difficulty (easy = 2 piles, medium = 3 piles, hard = 7 piles). Your game should then randomly decide who will go first.
 
 After the game finishes you should print each player's score for that game (they earn +1 point for being the player that does __not__ remove the last counter) along with a summary of their moves.
 
