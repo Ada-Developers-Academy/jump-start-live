@@ -142,7 +142,7 @@ Susan is the winner of this game!
 Riley's moves: A-4, B-1
 Susan's moves: B-1
 
-Do you want to play again (y/n)? y
+Do you want to play again (y/n)? n
 
 Susan's total score: 2
 Riley's total score: 0
