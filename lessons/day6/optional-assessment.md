@@ -3,7 +3,7 @@ _Jumpstart Live (JSL)_
 # Optional Assessment
 
 ## Overview
-This is a completely optional assessment for anyone that would like to practice combining the concepts learned in JSL. This is an intentionally difficult problem designed to not only give students practice with newly learned concepts but to also give students an opportunity to work on their problem solving skills. Students are encouraged to work together if they desire, and to reach out the to the Jumpstart instructors for guidance and feedback as they work through the problem. We estimate this program to take a pair of students ~10 hours to complete fully.
+This is a completely optional assessment for anyone that would like to practice combining the concepts learned in JSL. This is an intentionally difficult problem designed to not only give students practice with newly learned concepts but to also give students an opportunity to work on their problem solving skills. Students are encouraged to work together if they desire, and to reach out to the Jumpstart instructors for guidance and feedback as they work through the problem. We estimate this program to take a pair of students ~10 hours to complete fully.
 
 ## Specification
 Write a Ruby program that allows two users to play a game of _Hangman_ together. If you are not familiar with the game start by reading the [Hangman Wikipedia article](https://en.wikipedia.org/wiki/Hangman_(game)). Note, you should come up with a better name for your version!
