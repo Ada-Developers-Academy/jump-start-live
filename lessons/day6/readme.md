@@ -47,4 +47,3 @@ _Jumpstart Live (JSL)_
 
 ## Homework
 * Relax, and enjoy your week before the start of Ada
-* Complete the [optional assessment](optional-assessment.md) if desired
