@@ -5,7 +5,7 @@ _Jumpstart Live (JSL)_
 ## Overview
 This is a completely optional assessment for anyone that would like to practice combining the concepts learned in JSL. The point of this optional assessment is to give you practice with concepts you are not yet confident yet, so try and use new concepts as much as possible.
 
-These are intentionally difficult problems designed to not only give students practice with newly learned concepts but to also give students an opportunity to work on their problem solving skills. 
+This is an intentionally difficult problem designed to not only give students practice with newly learned concepts but to also give students an opportunity to work on their problem solving skills. 
 
 Students are encouraged to work together if they desire, and to reach out to the Jumpstart instructors for guidance and feedback as they work through the problem. We estimate this program to take a pair of students ~10 hours to complete fully.
 
