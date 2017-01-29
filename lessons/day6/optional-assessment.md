@@ -30,7 +30,7 @@ Each user must select at least one item to remove from each pile (they cannot re
   * Try a version with only 1 game and no scores
 
 ## Extensions
-* Display an [ASCII](https://en.wikipedia.org/wiki/ASCII) representation of each pile before each turn
+* Display an [ASCII](https://en.wikipedia.org/wiki/ASCII_art) representation of each pile before each turn
 * Build a computer player, that a single person can play against
 
 ## Example Output
