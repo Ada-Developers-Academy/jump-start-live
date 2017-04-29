@@ -1,5 +1,5 @@
 # Jumpstart Live (JSL)
-_In person program for [Ada Developers Academy](http://adadevelopersacademy.org/) students who are not yet comfortable and confident using loops and arrays_
+_In person program for [Ada Developers Academy](http://adadevelopersacademy.org/) students who are not yet comfortable and confident using loops, arrays, and hashes_
 
 ## Overview
 Launched in January 2016, to support newly admitted Ada Developers Academy students who are not yet comfortable and confident using loops and arrays. This JSL curriculum is a companion to the [Jumpstart curriculum](https://github.com/Ada-Developers-Academy/jump-start).
