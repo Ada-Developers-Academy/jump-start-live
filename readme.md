@@ -41,4 +41,4 @@ JSL takes place in person at Ada 4 weeks prior to the start of the full-program.
 
 	Jumpstart is a curriculum that all accepted Ada students are expected to complete prior to the start of the in-person classroom experience.
 
-	Jumpstart Live(JSL) is a 3-week in person class prior to the start of Ada to help prepare incoming Ada students who are not yet comfortable using loops and arrays.
+	Jumpstart Live(JSL) is a 3-week in person class prior to the start of Ada to help prepare incoming Ada students who are not yet comfortable using loops, arrays, and hashes.
