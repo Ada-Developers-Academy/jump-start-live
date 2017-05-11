@@ -1,5 +1,5 @@
 # Jumpstart Live (JSL)
-_In person program for [Ada Developers Academy](http://adadevelopersacademy.org/) students who are not yet comfortable and confident using loops, arrays, and hashes_
+_In person program for [Ada Developers Academy](http://adadevelopersacademy.org/) students who are not yet confident using loops, arrays, and hashes_
 
 ## Overview
 Launched in January 2016, to support newly admitted Ada Developers Academy students who are not yet comfortable and confident using loops, arrays, and hashes. This JSL curriculum is a companion to the [Jumpstart curriculum](https://github.com/Ada-Developers-Academy/jump-start).
@@ -41,4 +41,4 @@ JSL takes place in person at Ada 4 weeks prior to the start of the full-program.
 
 	Jumpstart is a curriculum that all accepted Ada students are expected to complete prior to the start of the in-person classroom experience.
 
-	Jumpstart Live(JSL) is a 3-week in person class prior to the start of Ada to help prepare incoming Ada students who are not yet comfortable using loops, arrays, and hashes.
+	Jumpstart Live(JSL) is a 3-week in person class prior to the start of Ada to help prepare incoming Ada students who are not yet confident using loops, arrays, and hashes.
