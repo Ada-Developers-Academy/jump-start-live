@@ -6,7 +6,7 @@ _Jumpstart Live (JSL)_
 Scope in programming defines when something (usually a variable) is visible to something else. In regards to scope of variables, the scope defines what knows about and can access that variable.
 
 ### Variable types and their scope
-You will not need to know about most of these until a few weeks into Ada, but its important to have a general idea about the different types of variables and their scope. You should understand local variables and their scope by the end of Jumpstart Live.
+You will not need to know about most of these until a few weeks into Ada, but it's important to have a general idea about the different types of variables and their scope. You should understand local variables and their scope by the end of Jumpstart Live.
 
 | Variable type | Syntax | Scope |
 | :--- | :--- | :--- |
