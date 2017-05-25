@@ -12,7 +12,7 @@ _Jumpstart Live (JSL)_
 * Iterators are methods
 * All iterators require blocks, and execute those blocks as many times as there are iterations
 * Iterators return all the elements of a collection, one after the other
-* When using an iterator its impossible to get an infinite loop, as the iterator handles these details for you
+* When using an iterator it's impossible to get an infinite loop, as the iterator handles these details for you
 * The collection can later be changed without having to update the code block using the iterator, it handles those changes for you
 
 ### `each`
