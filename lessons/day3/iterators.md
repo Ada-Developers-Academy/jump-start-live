@@ -48,7 +48,7 @@ end
 # code example
 # prints out 1,2,3,4 each on its own line
 (1..4).each do |i|
-	puts i
+   puts i
 end
 ```
 
@@ -56,7 +56,7 @@ end
 # code example
 # prints out 1,2,3 each on its own line
 (1...4).each do |i|
-	puts i
+   puts i
 end
 ```
 
@@ -76,7 +76,7 @@ end
 # code example
 # prints out 0, 1, 2 each on its own line
 3.times do |num|
-	puts num
+   puts num
 end
 ```
 
@@ -85,7 +85,7 @@ end
 
 	```ruby
 	(1..3).each do |num|
-		puts num * num
+	   puts num * num
 	end
 	```
 
@@ -101,7 +101,7 @@ end
 	total = 0
 
 	(1..3).each do |num|
-		total = total + num
+	   total = total + num
 	end
 
 	puts total
