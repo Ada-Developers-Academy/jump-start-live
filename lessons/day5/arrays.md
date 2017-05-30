@@ -184,14 +184,14 @@ nums.each_with_index { |num, index| puts "#{index}: #{num}" }
   list = Array.new(4) { |i| (i + 2) * (i + 2) }
   ```
 
-2. Given an array that contains three people, Ada Lovelace, Anita Borg, and Margaret Hamilton (1) Add one new person of your choice, (2) Output Annie Easley using the array, (3) Replace Ada Lovelace with Megan Smith
+2. Given an array that contains three people, Ada Lovelace, Annie Easley, and Margaret Hamilton (1) Add one new person of your choice, (2) Output Annie Easley using the array, (3) Replace Ada Lovelace with Megan Smith
 
   ```ruby
   people = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
   people << "Grace Hopper"
   puts people[1] # outputs Annie Easley
   people[0] = "Megan Smith"
-  # list is now ["Megan Smith", "Annie Easley", "Margaret Hamilton"]
+  # list is now ["Megan Smith", "Annie Easley", "Margaret Hamilton", "Grace Hopper"]
   ```
 
 3. On paper, create an array which stores the names of people that inspire you. Then write down two different ways you can access the second-to-last name in your array?  
