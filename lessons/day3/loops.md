@@ -91,7 +91,7 @@ puts "Result: #{total}"
 ```
 
 ```
-1. inputs; 0, -1, 2
+1. inputs: 0, -1, 2
 2. inputs: 33, 6, 2, 9, 0, -1
 3. inputs: 4.2, 1.1, 9.9, -1.0
 ```
