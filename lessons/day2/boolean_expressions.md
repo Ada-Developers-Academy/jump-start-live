@@ -118,7 +118,7 @@ end
 ```
 
 #### Common Mistake
-It's important to understand that there is a right way to combine relational operators with logical operators.
+It's important to understand how to combine relational operators with logical operators.
 
 You cannot for example ...
 
