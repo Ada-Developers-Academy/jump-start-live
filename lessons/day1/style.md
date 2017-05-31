@@ -70,10 +70,10 @@ The style in your code is just as important as the code itself. Programmers use 
 	```ruby
 	# good style
 	# read in the type of animal from the user
+	puts "Enter an animal: "
 	animal = gets.chomp
 
 	# output a message based on the animal type
-	puts "Enter an animal: "
 	if animal == "Fish"
 	  puts "Wonderful in the Water!"
 	elsif animal == "Camel"

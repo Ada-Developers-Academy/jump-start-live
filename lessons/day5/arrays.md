@@ -123,6 +123,7 @@ list << false
 # list is now [true, false, false]
 list << false, true # error!
 ```
+
 It is possible to have an array of arrays, but be careful when using shovel (i.e., don't shovel an array onto an array, unless that is your intention)
 
 ```ruby
@@ -134,9 +135,8 @@ nums << [7]
 
 ### Iterating over an array
 Iterating over an array, is a process to look at each element of an array and perform some action.
-You can use either a `do ... end` block or a block with curly braces for the each method. By convention `do ... end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have higher precedence when compared to `do ... end` blocks.
 
-You can use either a `do ... end` block or a block with curly braces for the each method. By convention `do ... end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have higher precedence when compared to `do ... end` blocks.
+You can use either a `do ... end` block or a block with curly braces for the each method. By convention `do ... end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have high precedence when compared to `do ... end` blocks.
 
 #### each
 ```ruby
@@ -184,17 +184,17 @@ nums.each_with_index { |num, index| puts "#{index}: #{num}" }
   list = Array.new(4) { |i| (i + 2) * (i + 2) }
   ```
 
-2. Given an array that contains three people, Ada Lovelace, Anita Borg, and Margaret Hamilton (1) Add one new person of your choice, (2) Output Annie Easley using the array, (3) Replace Ada Lovelace with Megan Smith
+2. Given an array that contains three people, Ada Lovelace, Annie Easley, and Margaret Hamilton (1) Add one new person of your choice, (2) Output Annie Easley using the array, (3) Replace Ada Lovelace with Megan Smith
 
   ```ruby
   people = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
   people << "Grace Hopper"
   puts people[1] # outputs Annie Easley
   people[0] = "Megan Smith"
-  # list is now ["Megan Smith", "Annie Easley", "Margaret Hamilton"]
+  # list is now ["Megan Smith", "Annie Easley", "Margaret Hamilton", "Grace Hopper"]
   ```
 
-3. On paper, create an array which will store the names of people that inspire you. Then write down two different ways you can access the second-to-last name in your array?  
+3. On paper, create an array which stores the names of people that inspire you. Then write down two different ways you can access the second-to-last name in your array?  
 
 4. On paper, create an array which stores the numbers 1 – 15. Then write down two different ways of accessing the middle number?  
 

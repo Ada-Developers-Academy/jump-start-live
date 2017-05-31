@@ -12,10 +12,6 @@ When the user enters the data and then presses enter (or return) a `\n` (also ca
 ### Converting user input
 `gets` gives you back a string, no matter what the user enters, even if they enter a number. Two common methods for converting that string into a number are described below.
 
-Returns the result of interpreting leading characters in str as an integer base base (between 2 and 36). Extraneous characters past the end of a valid number are ignored. If there is not a valid number at the start of str, 0 is returned. This method never raises an exception when base is valid.
-
-Returns the result of interpreting leading characters in str as a floating point number. Extraneous characters past the end of a valid number are ignored. If there is not a valid number at the start of str, 0.0 is returned. This method never raises an exception.
-
 #### `to_i`
 Converts a string into a `fixnum`, which is an integer value. If there is not a valid `fixnum` at the beginning of the string, then `0` is given instead. Any extra characters at the end that are not part of the `fixnum` are ignored.
 

@@ -4,16 +4,18 @@ _Jumpstart Live (JSL)_
 
 ### Definitions
 <dl>
-  <dt>Loop</dt>
-  <dd>Repeating a sequence of statements; telling the program to do something a certain number of times, or until a certain condition is met</dd>
-  <dt>Infinite loop</dt>
-  <dd>A loop that runs until you kill the program</dd>
-  <dt>Sentinel-controlled loop</dt>
-  <dd>When the number of loops cannot be determined prior to loop execution (e.g, while, until)</dd>
+	<dt>Loop</dt>
+	<dd>Repeating a sequence of statements; telling the program to do something a certain number of times, or until a certain condition is met</dd>
+	<dt>Infinite loop</dt>
+	<dd>A loop that runs until you kill the program</dd>
+	<dt>Sentinel-controlled loop</dt>
+	<dd>When the number of loops cannot be determined prior to loop execution (e.g, while, until)</dd>
+	<dt>Counter-controlled loop</dt>
+	<dd>When the number of loops can be determined prior to loop execution (e.g, times)</dd>
 </dl>
 
 ### Sentinel-controlled Loops
-#### While loop
+#### `while` loop
 * Executes code over and over again, while a condition is true
 
 ```
@@ -51,28 +53,48 @@ until rand_num == guess do
 end
 ```
 
-### Loop Tables
-1. Create a loop table for the code below, assuming the inputs noted below
+### Counter-controlled Loops
+#### `times`
+* when `times` is used without an iteration variable it is a loop, when it is used with an iteration variable it becomes an iterator
+* `times` must be associated with a block
 
-	```ruby
-	puts "Hello! We are going to total some numbers!"
-	puts "Enter a negative number to quit."
+```ruby
+# times syntax as a loop with no iteration variable
+Fixnum.times
+   code
+end
+```
 
-	total = 0
-	input = gets.chomp.to_i
-	while input > -1
-	  total += input
-	  input = gets.chomp.to_i
-	end
+```ruby
+# code example
+# prints out "hello" 5 times
+5.times do
+	puts "hello"
+end
+```
 
-	puts "Result: #{total}"
-	```
+### Loop Table
+Create a loop table for the code below, assuming the inputs noted below
 
-	```
-	1. inputs; 0, -1, 2
-	2. inputs: 33, 6, 2, 9, 0, -1
-	3. inputs: 4.2, 1.1, 9.9, -1.0
-	```
+```ruby
+puts "Hello! We are going to total some numbers!"
+puts "Enter a negative number to quit."
+
+total = 0
+input = gets.chomp.to_i
+while input > -1
+  total += input
+  input = gets.chomp.to_i
+end
+
+puts "Result: #{total}"
+```
+
+```
+1. inputs: 0, -1, 2
+2. inputs: 33, 6, 2, 9, 0, -1
+3. inputs: 4.2, 1.1, 9.9, -1.0
+```
 
 ### Resources
-* [Ada Loops Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=de97b3c0-a134-4fb5-a671-300f290f38cc) (17:31)
+* [Ada Loops Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8e72dc31-0a75-4bd8-9db5-0e8b322cb26d) (9:11)

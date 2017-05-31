@@ -55,7 +55,7 @@ If you want to store single pieces of information use an array. If your data is 
 	```ruby
 	# c7 is an array of 3 hashes
 	# each hash has information on a single person
-	# they keys for each hash are name, age, and color
+	# the keys for each hash are name, age, and color
 	c7 = [
 		{
 			name: "Riley"
