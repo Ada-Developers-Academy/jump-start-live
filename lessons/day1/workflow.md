@@ -70,7 +70,7 @@ When programming you should always have a Terminal window open
   * `\u` – user name
   * `\W` – current working directory
   * You can even add emoji, in atom, click Edit > Emjoi & Symbols
-* When you are done editing, save in atom and then type `source ~/.bash_profile` in Terminal to apply the changes
+* When you are done editing, save in Atom and then type `source ~/.bash_profile` in Terminal to apply the changes
 
 ### Resources
 * [Ada Workflow Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6dae66cc-d38a-4308-bea1-a0ce3202ff64) (8:34)
