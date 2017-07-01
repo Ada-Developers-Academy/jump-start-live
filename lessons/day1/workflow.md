@@ -69,7 +69,7 @@ When programming you should always have a Terminal window open
   * `\t` – current time
   * `\u` – user name
   * `\W` – current working directory
-  * You can even add emoji, in atom, click Edit > Emjoi & Symbols
+  * You can even add emoji, in Atom, click Edit > Emjoi & Symbols
 * When you are done editing, save in Atom and then type `source ~/.bash_profile` in Terminal to apply the changes
 
 ### Resources
