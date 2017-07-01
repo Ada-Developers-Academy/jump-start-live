@@ -23,58 +23,58 @@ _Jumpstart Live (JSL)_
 
 1. How would you modify the code below to improve the code style and readability?
 
-  ```ruby
-  foods = ["shrimp", "cauliflower", "salmon", "garlic", "oysters",
-  "salami", "tomatoes", "okra", "zucchini", "avocado"]
-  print "\nHow many foods would you like to see? I suggest 10, but it's up to you. "
-  items=gets.chomp.to_i
-  if items >10
-  puts "Best I can do is 10. Let's do 10."
-  items=10
-  elsif items >=1 && items<= 10
-  puts "Ok! Let's do " + items + "."
-  else
-  puts "We'll just pretend you said 10."
-  items = 10
-  end
-  puts "...Your Fancy Random Menu..."
-  items.times do |i|
-  y = foods[rand(0...(foods.length))]
-  puts i.to_s+": "+y
-  end
-  ```
+    ```ruby
+    foods = ["shrimp", "cauliflower", "salmon", "garlic", "oysters",
+    "salami", "tomatoes", "okra", "zucchini", "avocado"]
+    print "\nHow many foods would you like to see? I suggest 10, but it's up to you. "
+    items=gets.chomp.to_i
+    if items >10
+    puts "Best I can do is 10. Let's do 10."
+    items=10
+    elsif items >=1 && items<= 10
+    puts "Ok! Let's do " + items + "."
+    else
+    puts "We'll just pretend you said 10."
+    items = 10
+    end
+    puts "...Your Fancy Random Menu..."
+    items.times do |i|
+    y = foods[rand(0...(foods.length))]
+    puts i.to_s+": "+y
+    end
+    ```
 
 1. Revisit your MadLibs code, and update your code to improve its style
 
 1. Bio Program
-  * Create a program that accepts input from the user and outputs a bio with that information
-  * Use up to five different attributes about the person to populate the bio
-  * Output should consist of a paragraph of output created from the users input
+    * Create a program that accepts input from the user and outputs a bio with that information
+    * Use up to five different attributes about the person to populate the bio
+    * Output should consist of a paragraph of output created from the users input
 
-  ####Use Case
-  _Input_
-  ```
-  Name: Viola Davis
-  Birthday: August 11th, 1980
-  Occupation: Actress
-  ```
+    #### Use Case
+    _Input_
+    ```
+    Name: Viola Davis
+    Birthday: August 11th, 1980
+    Occupation: Actress
+    ```
 
-  _Output_
-  ```
-  Viola Davis is an actress who is 50 years old.
-  Her birthday is on August 11th.
-  She is a(n) actress.
-  ```
+    _Output_
+    ```
+    Viola Davis is an actress who is 50 years old.
+    Her birthday is on August 11th.
+    She is a(n) actress.
+    ```
 
-  ####Optional Challenge
-  Use the attributes provided to do some calculations to make your bio a bit more interesting.
+    #### Optional Challenge
+    Use the attributes provided to do some calculations to make your bio a bit more interesting.
 
-  _Output_
-  ```
-  Viola Davis is an actress who is 50 years old.
-  Her birthday is 34 days from today, on August 11th.
-  She is a(n) actress.
-  ```
+    _Output_
+    ```
+    Viola Davis is an actress who is 50 years old.
+    Her birthday is 34 days from today, on August 11th.
+    She is a(n) actress.
+    ```
 
 ## Debrief
 * What new things did you learn today?
