@@ -13,7 +13,7 @@ When the user enters the data and then presses enter (or return) a `\n` (also ca
 `gets` gives you back a string, no matter what the user enters, even if they enter a number. Two common methods for converting that string into a number are described below.
 
 #### `to_i`
-Converts a string into an `integer`, eg: -1, 0, 1, 3, etc.... If there is not a valid `integer` at the beginning of the string, then `0` is given instead. Any extra characters at the end that are not part of the `integer` are ignored.
+Converts a string into an `integer` (e.g., ..., 2, -1, 0, 1, 2, ...). If there is not a valid `integer` at the beginning of the string, then `0` is given instead. Any extra characters at the end that are not part of the `integer` are ignored.
 
 ```ruby
 puts "2".to_i	# prints 2
