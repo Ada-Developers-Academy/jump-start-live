@@ -8,7 +8,7 @@ Everything in Ruby is an object. There are 7 data types you should know about no
 | Data Type | Description | Example |
 | :--- | :--- | :--- |
 | String | Anything surrounded by single or double quotes | `"hello"`, `'hello'` |
-| Fixnum | Integer value (no decimal) | `1`, `0`, `-7` |
+| Integer | Whole number (no decimal) | `1`, `0`, `-7` |
 | Float | Real value (decimal) | `0.5` |
 | Array | An ordered list | `[5, 0, 1]` |
 | Symbol | A named object | `:apple` |
@@ -21,7 +21,7 @@ To determine the type of an object you can use `.class`
 
 ```ruby
 x = 1
-puts x.class #Fixnum
+puts x.class #Integer
 
 word = "hello"
 puts word.class #String
