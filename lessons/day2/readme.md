@@ -32,7 +32,7 @@ _In one Ruby file, write code to solve the problems below. Your code should prin
 1. Prompt for a jersey number. If that number is `12`, `71`, or `80`, print `That number is retired from the Seattle Seahawks!`, otherwise do nothing.
 1. Prompt for a state. If the state is `Washington`, `Oregon`, or `Idaho`, print `This state is in the PNW`, otherwise print `You should move to the PNW; it’s great here!`
 1. Prompt for a one of the following: `SHORT`, `TALL`, `GRANDE`, `VENTI`. Print out the number of ounces that drink includes (`8`, `12`, `16`, `20` respectively). 
-1. Prompt for rate of pay and hours worked. Calculate gross pay. Provide time-and-a-half for hours worked beyond `40`  (e.g., if you get paid $10/hr and work 45 hours in a week, you would gross $745 (`40 x 10 + 5 x 15`).
+1. Prompt for rate of pay and hours worked. Calculate gross pay. Provide time-and-a-half for hours worked beyond `40`  (e.g., if you get paid $10/hr and work 45 hours in a week, you would gross $475 (`40 x 10 + 5 x 15`).
 1. Rewrite the solution to the previous problem adding this modification: do not process any employee if their hours worked is greater than `60`, instead display the message `Please see manager`.
 
 ## Debrief
