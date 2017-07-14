@@ -32,7 +32,7 @@ _Jumpstart Live (JSL)_
     puts "Best I can do is 10. Let's do 10."
     items=10
     elsif items >=1 && items<= 10
-    puts "Ok! Let's do " + items + "."
+    puts "Ok! Let's do " + items.to_s + "."
     else
     puts "We'll just pretend you said 10."
     items = 10
