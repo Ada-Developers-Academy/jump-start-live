@@ -173,32 +173,32 @@ nums.each_with_index { |num, index| puts "#{index}: #{num}" }
 
 1. Create an array which will store the square of each value between 2 and 5, inclusive.
 
-  ```ruby
-  list = []
-  (2..5).each do |i|
-    list.push(i * i)
-  end
-  ```
+    ```ruby
+    list = []
+    (2..5).each do |i|
+      list.push(i * i)
+    end
+    ```
 
-  ```ruby
-  list = Array.new(4) { |i| (i + 2) * (i + 2) }
-  ```
+    ```ruby
+    list = Array.new(4) { |i| (i + 2) * (i + 2) }
+    ```
 
-2. Given an array that contains three people, Ada Lovelace, Annie Easley, and Margaret Hamilton (1) Add one new person of your choice, (2) Output Annie Easley using the array, (3) Replace Ada Lovelace with Megan Smith
+1. Given an array that contains three people, Ada Lovelace, Annie Easley, and Margaret Hamilton (1) Add one new person of your choice, (2) Output Annie Easley using the array, (3) Replace Ada Lovelace with Megan Smith
 
-  ```ruby
-  people = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
-  people << "Grace Hopper"
-  puts people[1] # outputs Annie Easley
-  people[0] = "Megan Smith"
-  # list is now ["Megan Smith", "Annie Easley", "Margaret Hamilton", "Grace Hopper"]
-  ```
+    ```ruby
+    people = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
+    people << "Grace Hopper"
+    puts people[1] # outputs Annie Easley
+    people[0] = "Megan Smith"
+    # list is now ["Megan Smith", "Annie Easley", "Margaret Hamilton", "Grace Hopper"]
+    ```
 
-3. On paper, create an array which stores the names of people that inspire you. Then write down two different ways you can access the second-to-last name in your array?  
+1. On paper, create an array which stores the names of people that inspire you. Then write down two different ways you can access the second-to-last name in your array?  
 
-4. On paper, create an array which stores the numbers 1 – 15. Then write down two different ways of accessing the middle number?  
+1. On paper, create an array which stores the numbers 1 – 15. Then write down two different ways of accessing the middle number?  
 
-5. On paper, write code that will create an array named powers_of_2, and stores the fist 10 powers of 2
+1. On paper, write code that will create an array named powers_of_2, and stores the fist 10 powers of 2
 
 ### Resources
 * [Ada Arrays Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5) (15:34)

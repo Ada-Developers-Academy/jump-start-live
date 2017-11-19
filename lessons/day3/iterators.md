@@ -67,7 +67,7 @@ end
 
 ```ruby
 # times syntax with iteration variable
-Fixnum.times do |variable|
+Integer.times do |variable|
    code
 end
 ```

@@ -60,7 +60,7 @@ end
 
 ```ruby
 # times syntax as a loop with no iteration variable
-Fixnum.times
+Integer.times
    code
 end
 ```
