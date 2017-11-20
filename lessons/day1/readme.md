@@ -2,7 +2,7 @@ _Jumpstart Live (JSL)_
 # Day 1
 
 ## Prep work
-* Review your [Madlibs](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/09-programming-grammar/assignments/madlibs.md) solution and be prepared to talk with others about your code
+* Review your [Madlibs](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/grammar) solution and be prepared to talk with others about your code
 
 ## Goals
 * Have a big picture idea of your own work flow and how to improve it
@@ -87,6 +87,5 @@ _Jumpstart Live (JSL)_
 * [Good style madlibs](code/good_style_madlibs.rb)
 
 ## Homework
-* Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/assignments/candy-machine.md) solution and be prepared to talk with others about your code
-* Review the [Conditional notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/conditionals.md) from Jumpstart
-* Review the [Operators notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/operators.md) from Jumpstart
+* Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) solution and be prepared to talk with others about your code
+* Review the [Conditional and operators notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) from Jumpstart
