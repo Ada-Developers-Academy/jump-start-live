@@ -1,4 +1,4 @@
-_Jumpstart Live (JSL)_
+_JumpStart Live (JSL)_
 # Day 1
 ## Strings
 

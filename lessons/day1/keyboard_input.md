@@ -1,4 +1,4 @@
-_Jumpstart Live (JSL)_
+_JumpStart Live (JSL)_
 # Day 1
 ## Keyboard Input
 Keyboard input is a way to accept input from the user, when running the program in Terminal.

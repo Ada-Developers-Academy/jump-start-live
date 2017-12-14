@@ -1,9 +1,10 @@
-_Jumpstart Live (JSL)_
+_JumpStart Live (JSL)_
 # Day 4
 
 ## Prep Work
-* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from Jumpstart
-* Finish all exercises from [Day 3's class](../day3)
+* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from JumpStart
+* Watch [Day 4 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=59509728-df2d-4580-9077-55ad28795a7f) and review [lesson notes](#lessons).
+* Complete the [exercise](#exercise) listed below and be prepared to discuss it with others in class.
 
 ## Warm up
 * Walk your partner through one of the loop exercises you completed last class
@@ -19,7 +20,7 @@ _Jumpstart Live (JSL)_
 
 		Many companies have password requirements (must include a letter, a number and a symbol for example and require a password of a specific length). We're going to write a program that will read in a proposed password and only accept it, if it meets all rules.  
 
-		Create a program that will: 
+		Create a program that will:
 		* Prompt a user for input (for a new password)
 		* Read in the proposed Password to a variable
 		* If the password contains a number and a symbol (@, %, \*, or !) and contains 8 or more characters then accept the password and congratulate the user, if not make them reenter the password until they enter an acceptable password
@@ -37,7 +38,5 @@ _Jumpstart Live (JSL)_
 * [Day 4 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=59509728-df2d-4580-9077-55ad28795a7f)
 
 ## Homework
-* Finish Password Verification Exercise
-* Review your [Student Account Generator Part 1](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/arrays/assignments/account-generator.md) solution and be prepared to talk with others about your code
-* Review the [Array notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/arrays) from Jumpstart
-* Watch the [Day 5 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=646484ef-baaf-4352-9378-2f95849d2a51) (~20 minutes)
+* Revise your code for exercises for the day based on discussions in class. Share the gist with the JumpStart instructor(s).
+* See [Prep Work for Day 5](https://github.com/Ada-Developers-Academy/jump-start-live/tree/master/lessons/day5#prep-work)

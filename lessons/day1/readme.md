@@ -1,8 +1,10 @@
-_Jumpstart Live (JSL)_
+_JumpStart Live (JSL)_
 # Day 1
 
 ## Prep work
 * Review your [Madlibs](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/grammar) solution and be prepared to talk with others about your code
+* Watch [Day 1 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=66c9e5fc-8a11-4db2-b0fe-ebc516d45071) and review [lesson notes](#lessons).
+* Complete [exercises](#exercises) listed below and be prepared to discuss them with others in class.
 
 ## Goals
 * Have a big picture idea of your own work flow and how to improve it
@@ -19,9 +21,9 @@ _Jumpstart Live (JSL)_
 * [Strings](strings.md)
 
 ## Exercises
-1. Discuss [bad style Madlibs example](code/bad_style_madlibs.rb) 
+1. Discuss [bad style Madlibs example](code/bad_style_madlibs.rb)
 
-1. How would you modify the code below to improve the code style and readability?
+2. How would you modify the code below to improve the code style and readability?
 
     ```ruby
     foods = ["shrimp", "cauliflower", "salmon", "garlic", "oysters",
@@ -44,9 +46,9 @@ _Jumpstart Live (JSL)_
     end
     ```
 
-1. Revisit your MadLibs code, and update your code to improve its style
+3. Revisit your MadLibs code, and update your code to improve its style
 
-1. Bio Program
+4. Bio Program
     * Create a program that accepts input from the user and outputs a bio with that information
     * Use up to five different attributes about the person to populate the bio
     * Output should consist of a paragraph of output created from the users input
@@ -87,5 +89,5 @@ _Jumpstart Live (JSL)_
 * [Good style madlibs](code/good_style_madlibs.rb)
 
 ## Homework
-* Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) solution and be prepared to talk with others about your code
-* Review the [Conditional and operators notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) from Jumpstart
+* Revise your code for exercises for the day based on discussions in class. Share the gist with the JumpStart instructor(s).
+* See [Prep Work for Day 2](https://github.com/Ada-Developers-Academy/jump-start-live/tree/master/lessons/day2#prep-work)

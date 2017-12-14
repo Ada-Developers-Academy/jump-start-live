@@ -1,13 +1,13 @@
-_Jumpstart Live (JSL)_
+_JumpStart Live (JSL)_
 
 # Optional Assessment
 
 ## Overview
 This is a completely optional assessment for anyone that would like to practice combining the concepts learned in JSL. The point of this optional assessment is to give you practice with concepts you are not yet confident yet, so try and use new concepts as much as possible.
 
-This is an intentionally difficult problem designed to not only give students practice with newly learned concepts but to also give students an opportunity to work on their problem solving skills. 
+This is an intentionally difficult problem designed to not only give students practice with newly learned concepts but to also give students an opportunity to work on their problem solving skills.
 
-Students are encouraged to work together if they desire, and to reach out to the Jumpstart instructors for guidance and feedback as they work through the problem. We estimate this program to take a pair of students ~10 hours to complete fully.
+Students are encouraged to work together if they desire, and to reach out to the JumpStart instructors for guidance and feedback as they work through the problem. We estimate this program to take a pair of students ~10 hours to complete fully.
 
 ## Specification
 Write a Ruby program that allows two users to play a game of _Nim_ together. If you are not familiar with the game start by reading the [Nim Wikipedia article](https://en.wikipedia.org/wiki/Nim).
@@ -62,10 +62,10 @@ Piles
 A: 1		B: 4		C: 2
 
 Susan, choose a pile: B
-Susan, how many would you 
+Susan, how many would you
 like to remove from pile B? 0
 Susan, you cannot remove 0 from pile B!
-Susan, how many would you 
+Susan, how many would you
 like to remove from pile B? 1
 
 Piles
