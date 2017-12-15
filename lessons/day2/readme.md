@@ -2,10 +2,10 @@ _JumpStart Live (JSL)_
 # Day 2
 
 ## Prep Work
-* Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) solution and be prepared to talk with others about your code
-* Review the [Conditional and operators notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) from JumpStart
+* Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) solution and be prepared to talk with others about your code.
+* Review the [Conditional and operators notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) from JumpStart.
 * Watch [Day 2 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=43637773-8776-4592-977d-938f3fac6ef2) and review [lesson notes](#lessons).
-* Complete [exercises](#exercises) listed below and be prepared to discuss them with others in class.
+* Complete the [exercises](#exercises) and be prepared to discuss them with others in class.
 
 ## Goals
 * Understand order of operations
@@ -48,5 +48,8 @@ _In one Ruby file, write code to solve the problems below. Your code should prin
 * [Operators notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/operators.md) from JumpStart
 
 ## Homework
-* Revise your code for exercises for the day based on discussions in class. Share the gist with the JumpStart instructor(s).
-* See [Prep Work for Day 3](https://github.com/Ada-Developers-Academy/jump-start-live/tree/master/lessons/day3#prep-work)
+* Revise your code for exercises for the day based on discussions in class. Share the gist with the instructor(s).
+* Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/iterators/assignments/election.md) solution and be prepared to talk with others about your code.
+* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from JumpStart.
+* Watch [Day 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339) and review [lesson notes](../day3/readme.md#lessons).
+* Complete the [Day 3 exercises](../day3/readme.md#exercises) and be prepared to discuss them with others in class.

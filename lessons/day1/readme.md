@@ -2,9 +2,9 @@ _JumpStart Live (JSL)_
 # Day 1
 
 ## Prep work
-* Review your [Madlibs](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/grammar) solution and be prepared to talk with others about your code
+* Review your [Madlibs](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/grammar) solution and be prepared to talk with others about your code.
 * Watch [Day 1 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=66c9e5fc-8a11-4db2-b0fe-ebc516d45071) and review [lesson notes](#lessons).
-* Complete [exercises](#exercises) listed below and be prepared to discuss them with others in class.
+* Complete the [exercises](#exercises) and be prepared to discuss them with others in class.
 
 ## Goals
 * Have a big picture idea of your own work flow and how to improve it
@@ -89,5 +89,8 @@ _JumpStart Live (JSL)_
 * [Good style madlibs](code/good_style_madlibs.rb)
 
 ## Homework
-* Revise your code for exercises for the day based on discussions in class. Share the gist with the JumpStart instructor(s).
-* See [Prep Work for Day 2](https://github.com/Ada-Developers-Academy/jump-start-live/tree/master/lessons/day2#prep-work)
+* Revise your code for exercises for the day based on discussions in class. Share the gist with the instructor(s).
+* Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) solution and be prepared to talk with others about your code.
+* Review the [Conditional and operators notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) from JumpStart.
+* Watch [Day 2 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=43637773-8776-4592-977d-938f3fac6ef2) and review [lesson notes](../day2/readme.md#lessons).
+* Complete the [Day 2 exercises](../day2/readme.md#exercises) and be prepared to discuss them with others in class.
