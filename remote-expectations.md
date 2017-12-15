@@ -4,9 +4,6 @@ _JumpStart Live (JSL)_
 ## Overview
 As a remote-student participating in JumpStart Live you will be assigned a group with between 2 – 3 other students. You will also be assigned a mentor from the previous Ada cohort. You will work through all of the JumpStart Live curriculum individually and then meet with your group over video chat to discuss your answers, answer questions, and support each other through the learning process.
 
-## Participating Students
-We expect students participating in JumpStart Live to not yet be well-versed in using loops and arrays. We ask our more experienced Ada students to leave this space for those still learning how to use loops and arrays effectively, so they can feel confident in the material that you already know before the first day of Ada classes.
-
 ## Communication
 You are expected to check your groups Slack channel daily and be responsive and receptive to your group members' needs and questions. You should be communicating with your mentor at least two times a week in similar fashion.
 

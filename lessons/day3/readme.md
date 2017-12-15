@@ -35,7 +35,7 @@ _JumpStart Live (JSL)_
 	YOU GOT IT IN 5 GUESSES!
 	```
 
-2. Write a program that plays duck duck goose. Allow the user to enter the player's number they want to call goose on, and then say "duck" for each player before the "goose", then say "goose" for the chosen player.
+1. Write a program that plays duck duck goose. Allow the user to enter the player's number they want to call goose on, and then say "duck" for each player before the "goose", then say "goose" for the chosen player.
 
 	```
 	Which player do you want to Goose? 5
@@ -47,9 +47,9 @@ _JumpStart Live (JSL)_
 	Player 5: Goose
 	```
 
-3. Write a program that allows a user to enter the number of petals on a flower. Then one by one, print “plucking petal #1: they love me!”. Alternate “They love me” and “They love me not” as well as increase the petal number for each petal.
+1. Write a program that allows a user to enter the number of petals on a flower. Then one by one, print “plucking petal #1: they love me!”. Alternate “They love me” and “They love me not” as well as increase the petal number for each petal.
 
-4. You don't trust your users. Modify the program below to require the user to enter the same value twice in order to add that value to the total.
+1. You don't trust your users. Modify the program below to require the user to enter the same value twice in order to add that value to the total.
 
 	#### Code
 

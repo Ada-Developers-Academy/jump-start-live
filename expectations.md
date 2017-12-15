@@ -1,9 +1,6 @@
 _JumpStart Live (JSL)_
 # In-person Student Expectations
 
-## Participating Students
-We expect students participating in JumpStart Live to not yet be well-versed in using loops, arrays, and hashes. We ask our more experienced Ada students to leave this space for those still learning how to use loops, arrays, and hashes effectively, so they can feel confident in the material that you already know before the first day of Ada classes.
-
 ## Punctuality
 We expect all participating students to arrive on time to class except for in cases of emergency. If you do arrive late, please respect the other students learning and take a seat in the back putting forth great effort to reduce distracting other students when you arrive.
 
