@@ -1,9 +1,12 @@
-_Jumpstart Live (JSL)_
+_JumpStart Live (JSL)_
 # Day 3
 
 ## Prep Work
-* Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/iterators/assignments/election.md) solution and be prepared to talk with others about your code
-* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from Jumpstart
+* Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/iterators/assignments/election.md) solution and be prepared to talk with others about your code.
+* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from JumpStart.
+* Watch [Day 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339) (~33 minutes).
+* Review [lesson notes for Day 3](#lessons).
+* Complete the [exercises](#exercises) and be prepared to discuss them with others in class.
 
 ## Goals
 * Understand and be able to use iterators and loops
@@ -33,7 +36,7 @@ _Jumpstart Live (JSL)_
 	YOU GOT IT IN 5 GUESSES!
 	```
 
-2. Write a program that plays duck duck goose. Allow the user to enter the player's number they want to call goose on, and then say "duck" for each player before the "goose", then say "goose" for the chosen player.
+1. Write a program that plays duck duck goose. Allow the user to enter the player's number they want to call goose on, and then say "duck" for each player before the "goose", then say "goose" for the chosen player.
 
 	```
 	Which player do you want to Goose? 5
@@ -45,9 +48,9 @@ _Jumpstart Live (JSL)_
 	Player 5: Goose
 	```
 
-3. Write a program that allows a user to enter the number of petals on a flower. Then one by one, print “plucking petal #1: they love me!”. Alternate “They love me” and “They love me not” as well as increase the petal number for each petal.
+1. Write a program that allows a user to enter the number of petals on a flower. Then one by one, print “plucking petal #1: they love me!”. Alternate “They love me” and “They love me not” as well as increase the petal number for each petal.
 
-4. You don't trust your users. Modify the program below to require the user to enter the same value twice in order to add that value to the total.
+1. You don't trust your users. Modify the program below to require the user to enter the same value twice in order to add that value to the total.
 
 	#### Code
 
@@ -89,8 +92,11 @@ _Jumpstart Live (JSL)_
 
 ## Resources
 * [Day 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339)
-* [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from Jumpstart
+* [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from JumpStart
 
 ## Homework
-* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from Jumpstart
-* Finish all exercises from today's class
+* Revise your code for exercises for the day based on discussions in class. Share the gist with the instructor(s).
+* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from JumpStart.
+* Watch [Day 4 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=59509728-df2d-4580-9077-55ad28795a7f) (~8 minutes).
+* Review [lesson notes for Day 4](../day4/readme.md#lessons).
+* Complete the [Day 4 exercise](../day4/readme.md#exercise) and be prepared to discuss it with others in class.

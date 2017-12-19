@@ -1,9 +1,12 @@
-_Jumpstart Live (JSL)_
+_JumpStart Live (JSL)_
 # Day 2
 
 ## Prep Work
-* Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) solution and be prepared to talk with others about your code
-* Review the [Conditional and operators notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) from Jumpstart
+* Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) solution and be prepared to talk with others about your code.
+* Review the [Conditional and operators notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) from JumpStart.
+* Watch [Day 2 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=43637773-8776-4592-977d-938f3fac6ef2) (~45 minutes).
+* Review [lesson notes for Day 2](#lessons).
+* Complete the [exercises](#exercises) and be prepared to discuss them with others in class.
 
 ## Goals
 * Understand order of operations
@@ -30,7 +33,7 @@ _In one Ruby file, write code to solve the problems below. Your code should prin
 1. Prompt for a number. If the number is less than `10`, print `ONE DIGIT`. If the number is `100` or greater, print `THREE DIGITS`, otherwise print `TWO DIGITS`.
 1. Prompt for a jersey number. If that number is `12`, `71`, or `80`, print `That number is retired from the Seattle Seahawks!`, otherwise do nothing.
 1. Prompt for a state. If the state is `Washington`, `Oregon`, or `Idaho`, print `This state is in the PNW`, otherwise print `You should move to the PNW; it’s great here!`
-1. Prompt for a one of the following: `SHORT`, `TALL`, `GRANDE`, `VENTI`. Print out the number of ounces that drink includes (`8`, `12`, `16`, `20` respectively). 
+1. Prompt for a one of the following: `SHORT`, `TALL`, `GRANDE`, `VENTI`. Print out the number of ounces that drink includes (`8`, `12`, `16`, `20` respectively).
 1. Prompt for rate of pay and hours worked. Calculate gross pay. Provide time-and-a-half for hours worked beyond `40`  (e.g., if you get paid $10/hr and work 45 hours in a week, you would gross $475 (`40 x 10 + 5 x 15`).
 1. Rewrite the solution to the previous problem adding this modification: do not process any employee if their hours worked is greater than `60`, instead display the message `Please see manager`.
 
@@ -42,9 +45,13 @@ _In one Ruby file, write code to solve the problems below. Your code should prin
 
 ## Resources
 * [Day 2 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=43637773-8776-4592-977d-938f3fac6ef2)
-* [Conditional notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/conditionals.md) from Jumpstart
-* [Operators notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/operators.md) from Jumpstart
+* [Conditional notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/conditionals.md) from JumpStart
+* [Operators notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/operators.md) from JumpStart
 
 ## Homework
-* Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/iterators/assignments/election.md) solution and be prepared to talk with others about your code
-* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from Jumpstart
+* Revise your code for exercises for the day based on discussions in class. Share the gist with the instructor(s).
+* Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/iterators/assignments/election.md) solution and be prepared to talk with others about your code.
+* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from JumpStart.
+* Watch [Day 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339) (~33 minutes).
+* Review [lesson notes for Day 3](../day3/readme.md#lessons).
+* Complete the [Day 3 exercises](../day3/readme.md#exercises) and be prepared to discuss them with others in class.

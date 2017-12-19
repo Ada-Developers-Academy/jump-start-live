@@ -1,11 +1,12 @@
-_Jumpstart Live (JSL)_
+_JumpStart Live (JSL)_
 # Day 5
 
 ## Prep Work
-* Finish Day 4's [Password Verification Exercise](../day4#exercise)
-* Review your [Student Account Generator Part 1](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/arrays/assignments/account-generator.md) solution and be prepared to talk with others about your code
-* Review the [Array notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/arrays) from Jumpstart
-* Watch the [Day 5 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=646484ef-baaf-4352-9378-2f95849d2a51) (~20 minutes)
+* Review your [Student Account Generator Part 1](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/arrays/assignments/account-generator.md) solution and be prepared to talk with others about your code.
+* Review the [Array notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/arrays) from JumpStart.
+* Watch the [Day 5 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=646484ef-baaf-4352-9378-2f95849d2a51) (~20 minutes).
+* Review [lesson notes for Day 5](#lessons).
+* Complete the [exercises](#exercises) and be prepared to discuss it with others in class.
 
 ## Warm up
 * Share what you learned from our last two sessions about loops
@@ -44,6 +45,9 @@ _In one Ruby file, write code to solve the problems below. Your code should prin
 * [Ruby Documentation on Arrays](http://ruby-doc.org/core-2.4.0/Array.html)
 
 ## Homework
-* Review your [Student Account Generator Part 2](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/hashes/assignments/account-generator-cont.md) solution and be prepared to talk with others about your code
-* Review the [Hash notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/hashes) from Jumpstart
-* Watch the [Day 6 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=1cdf49b7-a75f-434c-a140-8fbd3d344512) (~16 minutes)
+* Revise your code for exercises for the day based on discussions in class. Share the gist with the instructor(s).
+* Review your [Student Account Generator Part 2](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/hashes/assignments/account-generator-cont.md) solution and be prepared to talk with others about your code.
+* Review the [Hash notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/hashes) from JumpStart.
+* Watch the [Day 6 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=1cdf49b7-a75f-434c-a140-8fbd3d344512) (~16 minutes).
+* Review [lesson notes for Day 6](../day6/readme.md#lessons).
+* Complete the [Day 6 exercise](../day6/readme.md#exercise) and be prepared to discuss it with others in class.
