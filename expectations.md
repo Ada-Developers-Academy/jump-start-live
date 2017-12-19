@@ -5,7 +5,7 @@ _JumpStart Live (JSL)_
 We expect all participating students to arrive on time to class except for in cases of emergency. If you do arrive late, please respect the other students learning and take a seat in the back putting forth great effort to reduce distracting other students when you arrive.
 
 ## Prep Work
-* JumpStart Live follows the inverted classroom model, allowing for more discussion and time for questions in classroom. All participating students are expected to complete all prep work for each class. You can find information about the prep work in each day's folder.
+* All participating students are expected to complete all prep work for each class. This will allow more time for discussion and questions during class. You can find information about the prep work in each day's folder.
 * We also expect students to come to class with relevant ideas, and questions related to the class topics.
 
 ## Participation

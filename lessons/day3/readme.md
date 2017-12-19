@@ -4,7 +4,8 @@ _JumpStart Live (JSL)_
 ## Prep Work
 * Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/iterators/assignments/election.md) solution and be prepared to talk with others about your code.
 * Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from JumpStart.
-* Watch [Day 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339) and review [lesson notes](#lessons).
+* Watch [Day 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339) (~33 minutes).
+* Review [lesson notes for Day 3](#lessons).
 * Complete the [exercises](#exercises) and be prepared to discuss them with others in class.
 
 ## Goals
