@@ -6,7 +6,7 @@ _JumpStart Live (JSL)_
 * Review the [Hash notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/hashes) from JumpStart.
 * Watch the [Day 6 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=1cdf49b7-a75f-434c-a140-8fbd3d344512) (~16 minutes).
 * Review [lesson notes for Day 6](#lessons).
-Complete the [exercise](#exercise) and be prepared to discuss it with others in class.
+* Complete the [exercise](#exercise) and be prepared to discuss it with others in class.
 
 ## Warm up
 * Share what you learned from our last session on arrays
