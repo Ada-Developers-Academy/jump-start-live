@@ -97,5 +97,6 @@ _JumpStart Live (JSL)_
 ## Homework
 * Revise your code for exercises for the day based on discussions in class. Share the gist with the instructor(s).
 * Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from JumpStart.
-* Watch [Day 4 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=59509728-df2d-4580-9077-55ad28795a7f) and review [lesson notes](../day4/readme.md#lessons).
+* Watch [Day 4 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=59509728-df2d-4580-9077-55ad28795a7f) (~8 minutes).
+* Review [lesson notes for Day 4](../day4/readme.md#lessons).
 * Complete the [Day 4 exercise](../day4/readme.md#exercise) and be prepared to discuss it with others in class.

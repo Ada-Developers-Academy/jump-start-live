@@ -93,5 +93,6 @@ _JumpStart Live (JSL)_
 * Revise your code for exercises for the day based on discussions in class. Share the gist with the instructor(s).
 * Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) solution and be prepared to talk with others about your code.
 * Review the [Conditional and operators notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) from JumpStart.
-* Watch [Day 2 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=43637773-8776-4592-977d-938f3fac6ef2) and review [lesson notes](../day2/readme.md#lessons).
+* Watch [Day 2 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=43637773-8776-4592-977d-938f3fac6ef2) (~45 minutes).
+* Review [lesson notes for Day 2](../day2/readme.md#lessons).
 * Complete the [Day 2 exercises](../day2/readme.md#exercises) and be prepared to discuss them with others in class.

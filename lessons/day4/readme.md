@@ -42,5 +42,6 @@ _JumpStart Live (JSL)_
 * Revise your code for exercises for the day based on discussions in class. Share the gist with the instructor(s).
 * Review your [Student Account Generator Part 1](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/arrays/assignments/account-generator.md) solution and be prepared to talk with others about your code.
 * Review the [Array notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/arrays) from JumpStart.
-* Watch the [Day 5 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=646484ef-baaf-4352-9378-2f95849d2a51) (~20 minutes) and review [lesson notes](../day5/readme.md#lessons).
+* Watch the [Day 5 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=646484ef-baaf-4352-9378-2f95849d2a51) (~20 minutes).
+* Review [lesson notes for Day 5](../day5/readme.md#lessons).
 * Complete the [Day 5 exercises](../day5/readme.md#exercises) and be prepared to discuss it with others in class.
