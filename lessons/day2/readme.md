@@ -2,7 +2,7 @@ _JumpStart Live (JSL)_
 # Day 2
 
 ## Prep Work
-* Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) solution and be prepared to talk with others about your code.
+* Review your [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions#candy-machine-assignment) solution and be prepared to talk with others about your code.
 * Review the [Conditional and operators notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/programming-expressions) from JumpStart.
 * Watch [Day 2 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=43637773-8776-4592-977d-938f3fac6ef2) (~45 minutes).
 * Review [lesson notes for Day 2](#lessons).
