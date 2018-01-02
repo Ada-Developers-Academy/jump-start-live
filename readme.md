@@ -33,7 +33,6 @@ JSL takes place in person at Ada headquarters 4 weeks prior to the start of the 
 ## Resources
 | Resource | Information |
 | :--- | :--- |
-| [Overview Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1c9d71c0-7952-48ab-a55b-b29b25066509) | ~4 min video overview of JumpStart Live |
 | [All JumpStart Live Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=c75a411a-82bb-49a7-916c-a8d819f4225e) | All videos for the JumpStart Live lessons |
 | [In-person Student Expectations](expectations.md) | Expectations for all students participating in-person |
 | [Remote Student Expectations](remote-expectations.md) | Expectations for all students participating remotely |
