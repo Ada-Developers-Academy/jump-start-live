@@ -48,7 +48,7 @@ _JumpStart Live (JSL)_
 * [Ruby Documentation on Hashes](http://ruby-doc.org/core-2.4.0/Hash.html)
 
 ## Homework
-* Revise your code for exercises for the day based on discussions in class then hare the gist with the instructors
-* Reattempt the code challenge your submitted during the admission process leveraging loops, arrays and hashes then share the gist with the instructors
+* Revise your code for exercises for the day based on discussions in class, then share the gist with the instructors
+* Reattempt the code challenge your submitted during the admission process leveraging loops, arrays and hashes, then share the gist with the instructors
 * Relax, and enjoy your week before the start of Ada
 * Complete the [optional assessment](optional-assessment.md), if desired
