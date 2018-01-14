@@ -2,11 +2,11 @@ _JumpStart Live (JSL)_
 # Day 6
 
 ## Prep Work
-* Review your [Student Account Generator Part 2](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/hashes/assignments/account-generator-cont.md) solution and be prepared to talk with others about your code.
-* Review the [Hash notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/hashes) from JumpStart.
-* Watch the [Day 6 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=1cdf49b7-a75f-434c-a140-8fbd3d344512) (~16 minutes).
-* Review [lesson notes for Day 6](#lessons).
-* Complete the [exercise](#exercise) and be prepared to discuss it with others in class.
+* Review your [Student Account Generator Part 2](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/hashes/assignments/account-generator-cont.md) solution and be prepared to talk with others about your code
+* Review the [Hash notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/hashes) from JumpStart
+* Watch the [Day 6 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=1cdf49b7-a75f-434c-a140-8fbd3d344512) (~16 minutes)
+* Review [lesson notes for Day 6](#lessons)
+* Complete the [exercise](#exercise) and be prepared to discuss it with others in class
 
 ## Warm up
 * Share what you learned from our last session on arrays
@@ -48,7 +48,7 @@ _JumpStart Live (JSL)_
 * [Ruby Documentation on Hashes](http://ruby-doc.org/core-2.4.0/Hash.html)
 
 ## Homework
-* Revise your code for exercises for the day based on discussions in class. Share the gist with the instructor(s).
-* Reattempt the code challenge your submitted during the admission process leveraging loops, arrays and hashes. Share the gist with the instructor(s).
+* Revise your code for exercises for the day based on discussions in class then hare the gist with the instructors
+* Reattempt the code challenge your submitted during the admission process leveraging loops, arrays and hashes then share the gist with the instructors
 * Relax, and enjoy your week before the start of Ada
-* Complete the [optional assessment](optional-assessment.md), if desired.
+* Complete the [optional assessment](optional-assessment.md), if desired

@@ -2,11 +2,11 @@ _JumpStart Live (JSL)_
 # Day 3
 
 ## Prep Work
-* Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/iterators/assignments/election.md) solution and be prepared to talk with others about your code.
-* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from JumpStart.
-* Watch [Day 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339) (~33 minutes).
-* Review [lesson notes for Day 3](#lessons).
-* Complete the [exercises](#exercises) and be prepared to discuss them with others in class.
+* Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/iterators/assignments/election.md) solution and be prepared to talk with others about your code
+* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from JumpStart
+* Watch [Day 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339) (~33 minutes)
+* Review [lesson notes for Day 3](#lessons)
+* Complete the [exercises](#exercises) and be prepared to discuss them with others in class
 
 ## Goals
 * Understand and be able to use iterators and loops
@@ -95,8 +95,8 @@ _JumpStart Live (JSL)_
 * [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/11-iterators/notes) from JumpStart
 
 ## Homework
-* Revise your code for exercises for the day based on discussions in class. Share the gist with the instructor(s).
-* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from JumpStart.
-* Watch [Day 4 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=59509728-df2d-4580-9077-55ad28795a7f) (~8 minutes).
-* Review [lesson notes for Day 4](../day4/readme.md#lessons).
-* Complete the [Day 4 exercise](../day4/readme.md#exercise) and be prepared to discuss it with others in class.
+* Revise your code for exercises for the day based on discussions in class then hare the gist with the instructors
+* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from JumpStart
+* Watch [Day 4 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=59509728-df2d-4580-9077-55ad28795a7f) (~8 minutes)
+* Review [lesson notes for Day 4](../day4/readme.md#lessons)
+* Complete the [Day 4 exercise](../day4/readme.md#exercise) and be prepared to discuss it with others in class
