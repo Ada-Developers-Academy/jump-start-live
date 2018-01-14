@@ -49,7 +49,7 @@ _In one Ruby file, write code to solve the problems below. Your code should prin
 * [Operators notes](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/10-programming-expressions/notes/operators.md) from JumpStart
 
 ## Homework
-* Revise your code for exercises for the day based on discussions in class then hare the gist with the instructors
+* Revise your code for exercises for the day based on discussions in class, then share the gist with the instructors
 * Review your [Election time](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/iterators/assignments/election.md) solution and be prepared to talk with others about your code
 * Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from JumpStart
 * Watch [Day 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339) (~33 minutes)
