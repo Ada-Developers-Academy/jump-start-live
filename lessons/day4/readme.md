@@ -2,7 +2,7 @@ _JumpStart Live (JSL)_
 # Day 4
 
 ## Prep Work
-* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/iterators) from JumpStart
+* Review the [Iterator notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/learning-to-code/iterators) from JumpStart
 * Watch [Day 4 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=59509728-df2d-4580-9077-55ad28795a7f) (~8 minutes)
 * Review [lesson notes for Day 4](#lessons)
 * Complete the [exercise](#exercise) and be prepared to discuss it with others in class
@@ -40,8 +40,8 @@ _JumpStart Live (JSL)_
 
 ## Homework
 * Revise your code for exercises for the day based on discussions in class, then share the gist with the instructors
-* Review your [Student Account Generator Part 1](https://github.com/Ada-Developers-Academy/jump-start/blob/master/lessons/arrays/assignments/account-generator.md) solution and be prepared to talk with others about your code
-* Review the [Array notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/lessons/arrays) from JumpStart
+* Review your [Student Account Generator Part 1](https://github.com/Ada-Developers-Academy/jump-start/blob/master/learning-to-code/arrays/assignments/account-generator.md) solution and be prepared to talk with others about your code
+* Review the [Array notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/learning-to-code/arrays) from JumpStart
 * Watch the [Day 5 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=646484ef-baaf-4352-9378-2f95849d2a51) (~20 minutes)
 * Review [lesson notes for Day 5](../day5/readme.md#lessons)
 * Complete the [Day 5 exercises](../day5/readme.md#exercises) and be prepared to discuss it with others in class
