@@ -17,7 +17,7 @@ The style in your code is just as important as the code itself. Programmers use 
 * All code inside a `if`, `elsif`, or `else` should be indented
 
 #### Variable names
-* Variable name should clearly describe what they hold
+* Variable names should clearly describe what they hold
 * Use `snake_case` for variable names (e.g, user_full_name instead of userfullname)
 
 #### Comments
@@ -29,7 +29,8 @@ The style in your code is just as important as the code itself. Programmers use 
 * Use underscores to make big numbers easy to read, (e.g., use `num = 3_000_000` instead of `num = 3000000`)
 
 #### Calling Methods
-* If the method accepts an argument, always use parens, (e.g., use `push("apple")` instead of `push "apple"`), note that `puts` is an exception to this rule `puts "hello"` is good style, whereas `puts("hello")` is bad style
+* If the method accepts an argument, always use parens, (e.g., use `push("apple")` instead of `push "apple"`)
+	* Exception: `puts "hello"` is good style, whereas `puts("hello")` is bad style
 * If a method does not accept arguments, do not use parens, (e.g, use `chomp` instead of `chomp()`)
 
 #### Strings
