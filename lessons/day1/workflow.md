@@ -50,6 +50,7 @@ When programming you should always have a Terminal window open
 * Type `ruby` followed by the name of the Ruby file (e.g., `ruby hello_world.rb`)
 
 ### Atom
+* If Atom is not already in your Applications folder move it there
 * In Atom, click the Atom menu and then _Install Shell Commands_
 * Now, to launch Atom from terminal, type `atom` followed by the file name or directory name
 
