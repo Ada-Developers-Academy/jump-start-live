@@ -58,18 +58,18 @@ If you want to store single pieces of information use an array. If your data is 
 	# the keys for each hash are name, age, and color
 	c7 = [
 		{
-			name: "Riley"
-			age: 29
+			name: "Riley",
+			age: 29,
 			color: "blue"
-		}
+		},
 		{
-			name: "Sam"
-			age: 42
+			name: "Sam",
+			age: 42,
 			color: "yellow"
-		}
+		},
 		{
-			name: "Alex"
-			age: 29
+			name: "Alex",
+			age: 29,
 			color: "blue"
 		}
 	]
