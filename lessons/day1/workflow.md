@@ -56,7 +56,7 @@ When programming you should always have a Terminal window open
 
 ### Bash Profile
 * `.bash_profile` is a hidden file in your user directoy that you can edit to customize the terminal prompt (among a number of other things)
-* Type `atom ~/.bash_profile` to open it (if it doesn't already exist, this command will create it)
+* Type `code ~/.bash_profile` to open it (if it doesn't already exist, this command will create it)
 
 #### PS1
 * `PS1` is the enviornment variable for the bash prompt
@@ -70,8 +70,8 @@ When programming you should always have a Terminal window open
   * `\t` – current time
   * `\u` – user name
   * `\W` – current working directory
-  * You can even add emoji, in Atom, click Edit > Emjoi & Symbols
-* When you are done editing, save in Atom and then type `source ~/.bash_profile` in Terminal to apply the changes
+  * You can even add emoji, in Code, click Edit > Emjoi & Symbols
+* When you are done editing, save in VS Code and then type `source ~/.bash_profile` in Terminal to apply the changes
 
 ### Resources
 * [Ada Workflow Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6dae66cc-d38a-4308-bea1-a0ce3202ff64) (8:34)
