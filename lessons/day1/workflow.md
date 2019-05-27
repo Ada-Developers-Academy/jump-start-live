@@ -49,10 +49,10 @@ When programming you should always have a Terminal window open
 #### Running Ruby files in Terminal
 * Type `ruby` followed by the name of the Ruby file (e.g., `ruby hello_world.rb`)
 
-### Atom
-* If Atom is not already in your Applications folder move it there
-* In Atom, click the Atom menu and then _Install Shell Commands_
-* Now, to launch Atom from terminal, type `atom` followed by the file name or directory name
+### VS Code
+* If [VS Code](https://code.visualstudio.com/) is not already in your Applications folder move it there
+* In VS Code, type `shift-command-p` and type shell command to install the terminal shell command.
+* Now, to launch VS Code from terminal, type `code` followed by the file name or directory name
 
 ### Bash Profile
 * `.bash_profile` is a hidden file in your user directoy that you can edit to customize the terminal prompt (among a number of other things)
