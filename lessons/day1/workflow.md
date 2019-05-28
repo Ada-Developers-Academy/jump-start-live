@@ -74,4 +74,4 @@ When programming you should always have a Terminal window open
 * When you are done editing, save in VS Code and then type `source ~/.bash_profile` in Terminal to apply the changes
 
 ### Resources
-* [Ada Workflow Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6dae66cc-d38a-4308-bea1-a0ce3202ff64) (8:34)
+* [Ada Workflow Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e55d147a-6134-45c6-9720-aa5a01840988) (~13 min)
