@@ -12,10 +12,9 @@ _JumpStart Live (JSL)_
 
 ## Goals
 
-* Understand order of operations
-* Understand and be able to use relational and logical operators
 * Understand and be able to write boolean expressions
 * Understand and be able to write conditional statements
+* Understand and be able to use `while` loops.
 
 ## Warm up
 
@@ -24,9 +23,9 @@ _JumpStart Live (JSL)_
 
 ## Lessons
 
-* [Assignment Statements](assignment_statements.md)
 * [Boolean Expressions](boolean_expressions.md)
 * [Conditionals](conditionals.md)
+* [While Loops](while_loops.md)
 
 ## Exercises
 
