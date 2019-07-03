@@ -9,15 +9,18 @@ _JumpStart Live (JSL)_
 * Complete the [exercises](#exercises) and be prepared to discuss them with others in class
 
 ## Goals
+
 * Understand and be able to use iterators and loops
 
 ## Warm up
+
 * Share what you learned from our last session about conditionals
 * Walk your partner though your Election time code focusing on using programming vocabulary (e.g, blocks, loops, iterator, variable assignment, conditional statement)
 
 ## Lessons
-* [Scope](scope.md)
+
 * [Loops](loops.md)
+* [Scope](scope.md)
 * [Iterators](iterators.md)
 
 ## Exercises
