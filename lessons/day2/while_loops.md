@@ -4,6 +4,13 @@
 
 A loop, is a programming control structure which enables the developer to repeat the execution of code.  All high-level programming languages provide forms of loops.  Ruby, like many languages provides a type of loop called a `while` loop, which executes as long as a condition is true.  
 
+```ruby
+# code syntax
+while <boolean expression> do
+   code
+end
+```
+
 ## Example of a counter-controlled While Loop
 
 ```ruby
