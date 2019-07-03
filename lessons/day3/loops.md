@@ -1,8 +1,11 @@
 _JumpStart Live (JSL)_
+
 # Day 3
+
 ## Loops
 
 ### Definitions
+
 <dl>
 	<dt>Loop</dt>
 	<dd>Repeating a sequence of statements; telling the program to do something a certain number of times, or until a certain condition is met</dd>
@@ -15,29 +18,25 @@ _JumpStart Live (JSL)_
 </dl>
 
 ### Sentinel-controlled Loops
-#### `while` loop
-* Executes code over and over again, while a condition is true
 
-```
-# code syntax
-while <boolean expression> do
-   code
-end
-```
+#### `while` loop
+
+* Executes code over and over again, while a condition is true
 
 ```ruby
 # code example
 rand_num = rand(5)
 guess = gets.chomp.to_i
 while rand_num != guess do
-	guess = gets.chomp.to_i
+  guess = gets.chomp.to_i
 end
 ```
 
 #### `until` loop
+
 * Executes code over and over again, until the condition is true
 
-```
+```ruby
 # code syntax
 until <boolean expression> do
    code
@@ -49,12 +48,16 @@ end
 rand_num = rand(5)
 guess = gets.chomp.to_i
 until rand_num == guess do
-	guess = gets.chomp.to_i
+  guess = gets.chomp.to_i
 end
 ```
 
 ### Counter-controlled Loops
+
 #### `times`
+
+Times loops are always used for counter-based loops.  The number of executions can be determined by a constant number `3.times do` or using a varaible `x.times do`.
+
 * when `times` is used without an iteration variable it is a loop, when it is used with an iteration variable it becomes an iterator
 * `times` must be associated with a block
 
@@ -74,6 +77,7 @@ end
 ```
 
 ### Loop Table
+
 Create a loop table for the code below, assuming the inputs noted below
 
 ```ruby
@@ -97,4 +101,5 @@ puts "Result: #{total}"
 ```
 
 ### Resources
+
 * [Ada Loops Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8e72dc31-0a75-4bd8-9db5-0e8b322cb26d) (9:11)
