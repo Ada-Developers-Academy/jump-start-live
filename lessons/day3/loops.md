@@ -120,4 +120,5 @@ puts "Result: #{total}"
 ```
 
 ### Resources
+
 * [Ada Loops Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8e72dc31-0a75-4bd8-9db5-0e8b322cb26d) (9:11)
