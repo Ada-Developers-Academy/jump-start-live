@@ -1,5 +1,7 @@
 _JumpStart Live (JSL)_
+
 # Day 3
+
 ## Loops
 
 ### Definitions
@@ -97,6 +99,7 @@ end
 ```
 
 ### Loop Table
+
 Create a loop table for the code below, assuming the inputs noted below
 
 ```ruby
