@@ -21,7 +21,11 @@ _JumpStart Live (JSL)_
 
 #### `while` loop
 
+A `while` loop executes code over and over again, while a condition is true.
+
 * Executes code over and over again, while a condition is true
+
+In the example below this loop will run while the number input with `gets.chomp` is not equal to `rand_num.  
 
 ```ruby
 # code example
@@ -32,9 +36,11 @@ while rand_num != guess do
 end
 ```
 
+
 #### `until` loop
 
-* Executes code over and over again, until the condition is true
+
+`until` loops are similar to `while` loops except that they execute code over and over again, until the condition is true, so as long as the condition is false. 
 
 ```ruby
 # code syntax
@@ -50,6 +56,20 @@ guess = gets.chomp.to_i
 until rand_num == guess do
   guess = gets.chomp.to_i
 end
+```
+
+It is common to use sentinel controlled loops for input validation. The loop below will run until the user enters a value in the correct range.
+
+```ruby
+puts "Please enter a grade (0-100)."
+grade = gets.chomp.to_i
+
+until grade >= 0 && grade <= 100 do
+	puts "That was an invalid grade.  Please enter a value 0-100."
+	grade = gets.chomp.to_i
+end
+
+puts "Accepted thank you..."
 ```
 
 ### Counter-controlled Loops

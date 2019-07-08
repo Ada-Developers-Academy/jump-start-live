@@ -1,14 +1,18 @@
 _JumpStart Live (JSL)_
+
 # Day 3
+
 ## Iterators
 
 ### Definitions
+
 <dl>
   <dt>Iterator</dt>
   <dd>An object that traverses (i.e., iterates) over the elements in a collection (e.g., array) and usually does something with those elements</dd>
 </dl>
 
 ### Overview
+
 * Iterators are methods
 * All iterators require blocks, and execute those blocks as many times as there are iterations
 * Iterators return all the elements of a collection, one after the other
@@ -16,6 +20,7 @@ _JumpStart Live (JSL)_
 * The collection can later be changed without having to update the code block using the iterator, it handles those changes for you
 
 ### `each`
+
 * `each` is an iterator that returns each value of the collection, one by one, to the block
 * `each` must be associated with a block
 * the iteration variable is optional with `each`, but usually used
@@ -39,6 +44,7 @@ end
 ```
 
 #### Using `each` with `range`
+
 * A range is a set of values with a beginning and an end
 * Ranges always include the beginning value
 * When two dots are used, the end value is included
@@ -61,6 +67,7 @@ end
 ```
 
 ### `times` as an iterator
+
 * when `times` is used with an iteration variable it becomes an iterator over a certain range of values
 * `times` must be associated with a block, but the iteration variable is optional
 * `times` starts counting at `0`, and goes up to `1 -` the value placed before `.times`
@@ -81,53 +88,56 @@ end
 ```
 
 ### Iterator Tables
+
 1. `range`/`each`
 
-	```ruby
-	(1..3).each do |num|
-	   puts num * num
-	end
-	```
+```ruby
+(1..3).each do |num|
+   puts num * num
+end
+```
 
-	| num | output |
-	| :--- | :--- |
-	| ~~1~~ | ~~1~~ |
-	| ~~2~~ | ~~4~~ |
-	| 3 | 9 |
+| num | output |
+| :--- | :--- |
+| ~~1~~ | ~~1~~ |
+| ~~2~~ | ~~4~~ |
+| 3 | 9 |
 
 2. `range`/`each` with sum
 
-	```ruby
-	total = 0
+```ruby
+total = 0
 
-	(1..3).each do |num|
-	   total = total + num
-	end
+(1..3).each do |num|
+   total = total + num
+end
 
-	puts total
-	```
+puts total
+```
 
-	| num | total | output |
-	| :--- | :--- | :--- |
-	| - | ~~0~~ | - |
-	| ~~1~~ | ~~1~~ | - |
-	| ~~2~~ | ~~3~~ | - |
-	| ~~3~~ | ~~6~~ | - |
-	| 3 | 6 | 6 |
+| num | total | output |
+| :--- | :--- | :--- |
+| - | ~~0~~ | - |
+| ~~1~~ | ~~1~~ | - |
+| ~~2~~ | ~~3~~ | - |
+| ~~3~~ | ~~6~~ | - |
+| 3 | 6 | 6 |
 
 ### Loop vs. Iterator Comparison
+
 1. `times` example
-	* What is the difference between these two sections of code?
-	* Which is a better style solution?
 
-	```ruby
-	2.times do
-	  puts "dance"
-	end
-	```
+* What is the difference between these two sections of code?
+* Which is a better style solution?
 
-	```ruby
-	2.times do |i|
-	  puts "dance"
-	end
-	```
+```ruby
+2.times do
+  puts "dance"
+end
+```
+
+```ruby
+2.times do |i|
+  puts "dance"
+end
+```
