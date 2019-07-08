@@ -23,12 +23,7 @@ _JumpStart Live (JSL)_
 
 A `while` loop executes code over and over again, while a condition is true.
 
-```
-# code syntax
-while <boolean expression> do
-   code
-end
-```
+* Executes code over and over again, while a condition is true
 
 In the example below this loop will run while the number input with `gets.chomp` is not equal to `rand_num.  
 
@@ -37,16 +32,17 @@ In the example below this loop will run while the number input with `gets.chomp`
 rand_num = rand(5)
 guess = gets.chomp.to_i
 while rand_num != guess do
-	guess = gets.chomp.to_i
+  guess = gets.chomp.to_i
 end
 ```
 
 
 #### `until` loop
 
+
 `until` loops are similar to `while` loops except that they execute code over and over again, until the condition is true, so as long as the condition is false. 
 
-```
+```ruby
 # code syntax
 until <boolean expression> do
    code
@@ -58,7 +54,7 @@ end
 rand_num = rand(5)
 guess = gets.chomp.to_i
 until rand_num == guess do
-	guess = gets.chomp.to_i
+  guess = gets.chomp.to_i
 end
 ```
 
@@ -79,6 +75,8 @@ puts "Accepted thank you..."
 ### Counter-controlled Loops
 
 #### `times`
+
+Times loops are always used for counter-based loops.  The number of executions can be determined by a constant number `3.times do` or using a varaible `x.times do`.
 
 * when `times` is used without an iteration variable it is a loop, when it is used with an iteration variable it becomes an iterator
 * `times` must be associated with a block
