@@ -20,6 +20,7 @@ _JumpStart Live (JSL)_
 * [Ruby types](ruby_types.md)
 * [Keyboard input](keyboard_input.md)
 * [Strings](strings.md)
+* [Assignment Statements](assignment_statements.md)
 
 ## Exercises
 1. Discuss [bad style Madlibs example](code/bad_style_madlibs.rb)
