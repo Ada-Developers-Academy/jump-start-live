@@ -6,7 +6,7 @@ A loop, is a programming control structure which enables the developer to repeat
 
 ```ruby
 # code syntax
-while <boolean expression> do
+while <boolean expression> 
    code
 end
 ```
