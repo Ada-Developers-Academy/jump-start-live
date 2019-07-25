@@ -20,6 +20,7 @@ _JumpStart Live (JSL)_
 * [Symbols](symbols.md)
 * [Arrays vs Hashes Comparison](arrays_vs_hashes.md)
 * [Hashes](hashes.md)
+* [Nested Hashes](nested-hashes.md)
 
 ## Exercise
 
