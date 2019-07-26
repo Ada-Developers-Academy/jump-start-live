@@ -8,7 +8,7 @@ _JumpStart Live (JSL)_
 
 By the end of this lesson students will be able to:
 
-- Build a nested data structure involving hashe and arrays
+- Build a nested data structure involving hashes and arrays
 - Access element in a nested data structure
 - Navigate a nested data structure using a loop
 
