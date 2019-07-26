@@ -1,8 +1,11 @@
 _JumpStart Live (JSL)_
+
 # Day 6
+
 ## Hashes
 
 ### Overview
+
 * Hashes are a collection of paired information
 * Sometimes described as a collection of key-value pairs, or as a "look up table"
 * Hashes use any object for their index
@@ -37,6 +40,7 @@ hash[key] = value
 ```
 
 #### Example
+
 ```ruby
 students[:Riley] = 29
 # now the hash holds one key,value pair
@@ -51,7 +55,7 @@ puts "Student Riley is #{students[:Riley]} years old"
 ```ruby
 # iterating over key,value pairs
 students.each do |name, age|
-	puts "Student #{name} is #{age} years old"
+  puts "Student #{name} is #{age} years old"
 end
 
 # iterating over key,value pairs (better style)
@@ -59,7 +63,7 @@ students.each { |name, age| puts "Student #{name} is #{age} years old" }
 
 # iterating over keys only
 students.each_key do |name|
-	puts "#{name}"
+  puts "#{name}"
 end
 
 # iterating over keys only (better style)
@@ -67,7 +71,7 @@ students.each_key { |name| puts "#{name}" }
 
 # iterating over values only
 students.each_value do |age|
-	puts "#{age}"
+  puts "#{age}"
 end
 
 # iterating over values only (better style)
@@ -88,28 +92,30 @@ students.each_value { |age| puts "#{age}" }
 | `h.value?(value)` | Return true if value is present in hash h |
 
 ### Examples
+
 _We will complete these examples in pairs on paper_
 
 1. We want to be able to quickly determine the state abbreviation for the states in the United States. 
 
-	Determine whether it is best to use an array or a hash, and create it storing at least 4 states and their abbreviations.
+  Determine whether it is best to use an array or a hash, and create it storing at least 4 states and their abbreviations.
 
-	Then write code to print out only the states, then only the abbreviations, and finally nicely formatted output displaying both the states and their abbreviations (e.g., The abbreviation for Nebraska is NE)
+  Then write code to print out only the states, then only the abbreviations, and finally nicely formatted output displaying both the states and their abbreviations (e.g., The abbreviation for Nebraska is NE)
 
 2. We want to be able to quickly determine the amount of different types of food items you have in your house.
 
-	Determine whether it is best to use an array or a hash, and create it storing at least 4 food items and their quantities.
+  Determine whether it is best to use an array or a hash, and create it storing at least 4 food items and their quantities.
 
-	Then write code to print out all the items and their quantities using nicely formatted output.
+  Then write code to print out all the items and their quantities using nicely formatted output.
 
-	```
-	# Example output
-	3 Oranges
-	12 Tortillas
-	1 Cookie
-	4 Popsicles
-	```
+  ```bash
+  # Example output
+  3 Oranges
+  12 Tortillas
+  1 Cookie
+  4 Popsicles
+  ```
 
 ### Resources
+
 * [Ada Hashes Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6bcf8425-d83c-43b3-8cdc-8792acca77ef) (7:34)
 * [Ruby Documentation on Hashes](http://ruby-doc.org/core-2.4.0/Hash.html)
