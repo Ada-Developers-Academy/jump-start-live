@@ -66,10 +66,10 @@ c7 = {
 # the keys for each hash are name, age, and color
 c7 = [
   {
-        name: "Riley",
+    name: "Riley",
     age: 29,
     color: "blue"
-    },
+  },
   {
     name: "Sam",
     age: 42,
