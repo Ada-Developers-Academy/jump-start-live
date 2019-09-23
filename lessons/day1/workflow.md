@@ -55,11 +55,11 @@ When programming you should always have a Terminal window open
 * Now, to launch VS Code from terminal, type `code` followed by the file name or directory name
 
 ### Bash Profile
-* `.bash_profile` is a hidden file in your user directoy that you can edit to customize the terminal prompt (among a number of other things)
+* `.bash_profile` is a hidden file in your user directory that you can edit to customize the terminal prompt (among a number of other things)
 * Type `code ~/.bash_profile` to open it (if it doesn't already exist, this command will create it)
 
 #### PS1
-* `PS1` is the enviornment variable for the bash prompt
+* `PS1` is the environment variable for the bash prompt
 * `PS1` stands for _Prompt String 1_, there is also `PS2`, `PS3`, and `PS4`
 * The default string stored in `PS1` is `\s-\v\$`
 * To change `PS1`, add `export PS1=" "` to your `.bash_profile` (no spaces on either side of the equal sign)
