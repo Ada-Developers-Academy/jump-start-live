@@ -1,8 +1,10 @@
 _JumpStart Live (JSL)_
 # Day 1
+
 ## Strings
 
 ### Overview
+
 Strings in Ruby are objects that hold a sequence of characters. You can create a string be surrounding the sequence of characters with double or single quotes, both `"hello"` and `'hello'` are strings.
 
 If you use double quotes, you can also use string interpolation and escape sequences. If you use single quotes you cannot use string interpolation, and you can only use the escape sequence `\\`.
@@ -24,6 +26,7 @@ puts str # prints hello \\nworld
 ```
 
 ### String Interpolation
+
 String interpolation allows Ruby code to appear within a string. The code is evaluated, and the result appears in the string.
 
 ```ruby
@@ -35,6 +38,7 @@ String interpolation allows Ruby code to appear within a string. The code is eva
  ```
 
 ### String Concatenation
+
 * When combining strings, you can use the `+` operator, or the `<<` operator
 * When using the `+` operator, Ruby creates a new string in memory, when using `<<` Ruby modifies the original string (this is super important when working with lots of data! `+` is super slow).
 
@@ -57,6 +61,7 @@ puts output
 ```
 
 ### % Notation
+
 The % notation is a method for creating arrays of strings.
 * Use %w to create a non-interpolated array of strings
 * Use %W to create an interpolated array of strings
@@ -71,5 +76,6 @@ oranges = 2
 ```
 
 ### Resources
+
 * [Ada Strings Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f78798dc-c888-4615-befd-966edf9e165b) (12:30)
 * [Ruby Documentation on Strings](http://ruby-doc.org/core-2.4.0/String.html)
