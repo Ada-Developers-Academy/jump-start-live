@@ -1,14 +1,18 @@
 _JumpStart Live (JSL)_
+
 # Day 1
+
 ## Ruby Style
 
 The style in your code is just as important as the code itself. Programmers use code standards along with company _style guides_ to ensure that all programmers are using the same style. Code with good style is easy to read, understand, and modify.
 
 ### Concepts
+
 #### File naming
 * Use `snake_case` for naming files and directories
 
 #### Whitespace
+
 * Code should be separated into thoughts, similar to how you might use paragraphs when writing an essay; every thought should be separated with a blank line
 * There should be a single space on either side of most operators (e.g, `x = x * 2` instead of `x=x*2`)
 * There should be a single space after all commas and colons
@@ -17,26 +21,32 @@ The style in your code is just as important as the code itself. Programmers use 
 * All code inside a `if`, `elsif`, or `else` should be indented
 
 #### Variable names
+
 * Variable names should clearly describe what they hold
-* Use `snake_case` for variable names (e.g, user_full_name instead of userfullname)
+* Use `snake_case` for variable names (e.g, user_full_name instead of userfullname or usefullName)
 
 #### Comments
+
 * Use comments to describe your code
 * Comments should describe _what the code does_ and not _how the code does it_ (i.e., do not include implementation details in your comments)
 * Use one space between the `#` and the text of the comment
 
 #### Big Numbers
+
 * Use underscores to make big numbers easy to read, (e.g., use `num = 3_000_000` instead of `num = 3000000`)
 
 #### Calling Methods
+
 * If the method accepts an argument, always use parens, (e.g., use `push("apple")` instead of `push "apple"`)
 	* Exception: `puts "hello"` is good style, whereas `puts("hello")` is bad style
 * If a method does not accept arguments, do not use parens, (e.g, use `chomp` instead of `chomp()`)
 
 #### Strings
+
 * Use string interpolation and string formatting instead of string concatenation
 
 ### Examples
+
 1. _Consider indentation, variable names, and comments_
 	```ruby
 	# poor style
@@ -149,6 +159,7 @@ The style in your code is just as important as the code itself. Programmers use 
 	```
 
 ### Resources
+
 * [Ada Ruby Style Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7387c766-7e2c-43b6-84f5-3f8b45d0f1f0) (~15 min)
 * [Crowd-sourced Ruby style guide](https://github.com/bbatsov/ruby-style-guide)
 * [Github's Ruby style guide](https://github.com/github/rubocop-github/blob/master/STYLEGUIDE.md)
