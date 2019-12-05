@@ -1,10 +1,12 @@
 _JumpStart Live (JSL)_
 # Day 2
+
 ## Conditionals
 
 Conditionals are a programming construct that will allow you to control the flow of a program through branching (they allow your program to make decisions)
 
 ### `if`/`elsif`/`else` Statements
+
 * `elsif` and `else` statements can only be used when paired with an if
 
 ```ruby
@@ -48,6 +50,7 @@ end
 ```
 
 ### Postfix Conditional
+
 A way to shorten your code, when you only have one test to perform.
 
 ```ruby
@@ -61,6 +64,7 @@ puts "Drink more water!" unless drink == "water"
 ```
 
 ### Case Statements
+
 * A good option when you are wanting to test a number of cases on a single variable
 
 ```ruby
@@ -92,9 +96,11 @@ end
 ```
 
 ### Practice Problems
+
 1. Single `if` statement
   
   #### Questions
+  
   * What is the boolean expression in the code below?
   * Provide a value of `test_score` that will cause the code to print `You got an A!`
   * Provide a value of `test_score` that will cause the code to not print anything
@@ -179,4 +185,5 @@ end
   ```
 
 ### Resources
+
 * [Ada Conditionals Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=22e94763-7a38-4237-a39b-96154f090cbf) (14:21)
