@@ -35,4 +35,5 @@ puts word.class #String
 ```
 
 ### Resources
-* [Ada Ruby Types Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a3aad23-0e7d-4dca-b6bb-f1ed3bed8692) (5:52)
+
+- [Ada Ruby Types Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d255100-dfac-4d62-8f0c-aa5b0031ed0a) ~ 8min
