@@ -1,17 +1,21 @@
 # JumpStart Live (JSL)
+
 _In person program for selected [Ada Developers Academy](http://adadevelopersacademy.org/) students_
 
 ## Overview
+
 JumpStart Live (JSL) was launched in January 2016 to support newly admitted Ada Developers Academy students. This JSL curriculum is a companion to the [JumpStart curriculum](https://github.com/Ada-Developers-Academy/jump-start).
 
 JSL takes place in person at Ada headquarters 4 weeks prior to the start of the full-program. JSL reviews the most important content from the [JumpStart curriculum](https://github.com/Ada-Developers-Academy/jump-start) and will not cover any new material.
 
 ## Time Commitment
+
 * 2 hours in person, twice a week for 3 weeks
 * 4 hours of prep work before each classes
 * 1 hour of homework after each class
 
 ## Class Structure
+
 * 2 hours, twice a week for 3 weeks
 * General class plan
 	* Welcome, goals, warm-up (25 mins)
@@ -21,6 +25,7 @@ JSL takes place in person at Ada headquarters 4 weeks prior to the start of the 
 	* Debrief (10 mins)
 
 ## [Lessons](lessons)
+
 | Day | Topics |
 | :--- | :--- |
 | [Day 1](lessons/day1) | programming work flow, ruby style, ruby types, user input, string interpolation, assignment statements |
@@ -31,6 +36,7 @@ JSL takes place in person at Ada headquarters 4 weeks prior to the start of the 
 | [Day 6](lessons/day6) | symbols, hashes |
 
 ## Resources
+
 | Resource | Information |
 | :--- | :--- |
 | [All JumpStart Live Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=c75a411a-82bb-49a7-916c-a8d819f4225e) | All videos for the JumpStart Live lessons |
@@ -46,3 +52,14 @@ JSL takes place in person at Ada headquarters 4 weeks prior to the start of the 
 	JumpStart is a curriculum that all accepted Ada students are expected to complete prior to the start of the in-person classroom experience.
 
 	JumpStart Live(JSL) is a 3-week in person class prior to the start of Ada to help prepare incoming Ada students who are not yet well-versed using loops, arrays, and hashes.
+
+2. What should I have installed on my computer prior to JumpStart Live?
+
+  Prior to JSL, you are not _required_ to have anything previously installed.  It can however be very helpful if you have the following installed.
+
+	1.  Visual Studio Code
+	2.  Ruby 2.5.5 installed with RBenv
+	3.  Slack
+	4.  Google Chrome & Firefox
+
+  You can find a instructions on how to install these on the Ada Textbook Curriculum [installfest](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/00-programming-fundamentals/installfest.md).
