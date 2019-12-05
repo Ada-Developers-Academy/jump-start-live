@@ -3,16 +3,20 @@ _JumpStart Live (JSL)_
 ## Workflow
 
 ### MacOSX splitting your screen
+
 There are number of ways to split your screen, and move your windows around, a few options are listed below
+
 * Native to MacOSX, use Desktops and Split Views
 * Install [Spectacle](https://www.spectacleapp.com/) (Free)
 * Install [Moom](https://manytricks.com/moom/) ($10)
 * Install [Divvy](http://mizage.com/divvy/) ($13.99)
 
 ### Terminal
+
 When programming you should always have a Terminal window open
 
 #### Opening Terminal
+
 * `cmd+spacebar` to open spotlight, then type Terminal
 * Drag Terminal to your Dock (if it's not already there)
 
@@ -54,11 +58,17 @@ When programming you should always have a Terminal window open
 * In VS Code, type `shift-command-p` and type shell command to install the terminal shell command.
 * Now, to launch VS Code from terminal, type `code` followed by the file name or directory name
 
+## Customizing Your Shell - Optional
+
 ### Bash Profile
+
+If you are running a Mac computer with an operating system prior to Catalina your terminal uses a shell (command-line program) called Bash.  You can customize your Bash shell with a unique prompt and other items.
+
 * `.bash_profile` is a hidden file in your user directory that you can edit to customize the terminal prompt (among a number of other things)
 * Type `code ~/.bash_profile` to open it (if it doesn't already exist, this command will create it)
 
 #### PS1
+
 * `PS1` is the environment variable for the bash prompt
 * `PS1` stands for _Prompt String 1_, there is also `PS2`, `PS3`, and `PS4`
 * The default string stored in `PS1` is `\s-\v\$`
@@ -73,5 +83,12 @@ When programming you should always have a Terminal window open
   * You can even add emoji, in Code, click Edit > Emjoi & Symbols
 * When you are done editing, save in VS Code and then type `source ~/.bash_profile` in Terminal to apply the changes
 
+## zsh Profile
+
+If you are running Catalina, the latest Mac operating system, you are probably using the zsh shell.  There is a wonderful tutorial on [sriptingosx.com](https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/) which walks you through different ways to customize zsh.  I particularly like the part on git integration.  
+
+To customize your zsh shell you can edit or create the `~/.zshrc` file and put your configurations in there.  There is also a nice zsh plugin called [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh).
+
 ### Resources
+
 * [Ada Workflow Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e55d147a-6134-45c6-9720-aa5a01840988) (~13 min)
