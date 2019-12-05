@@ -1,11 +1,14 @@
 _JumpStart Live (JSL)_
 # Day 2
+
 ## Boolean Expressions
 
 ### Overview
+
 A boolean expression is an expression that evaluates to either `true` or `false`. They are commonly used in `if/elsif` statements and `while` loops.
 
 ### Precedence
+
 * Also commonly called order-of-operations
 
 | __Priority__ | __Operation__ |
@@ -20,6 +23,7 @@ A boolean expression is an expression that evaluates to either `true` or `false`
 | 8 | or |
 
 ### Relational Operators
+
 * Relational operators allow you to compare two values
 * In ruby you can use relational operators on numbers and strings
 * The opposite of `>` is `<=` and the opposite of `<` is `>=`
@@ -34,6 +38,7 @@ A boolean expression is an expression that evaluates to either `true` or `false`
 | `>=` | greater than or equal to | `5.0 >= 5.0` | `true` |
  
 ### Boolean values
+
 * The two possible values of a boolean data type are `true` and `false`
 * A non-boolean value that evaluates to true, is called "truthy"
 	* Everything in ruby is "truthy" except for `nil` 
@@ -41,6 +46,7 @@ A boolean expression is an expression that evaluates to either `true` or `false`
 	* `nil` is the only "falsey" value in ruby
 
 #### Examples
+
 ```ruby
 if 2
 	puts "2 is truthy"
@@ -56,6 +62,7 @@ end
 ```
 
 ### Logical operators
+
 * Logical operators allow you to combine or modify boolean expressions
 
 | __Operator__ | __Description__ | __Example__ | __Result__ |
@@ -77,11 +84,13 @@ end
 | `false` | `true` |
 
 #### DeMorgan's Laws
+
 Named after Augustus De Morgan, a 19th-century British mathematician, they are a set of rules that describe what happens when you perform a negation on a `&&` statement, or an `||` statement.
 * `!(p && q)` can also be described as `!p || !q`
 * `!(p || q)` can also be described as `!p && !q`
 
 #### Short Circuit Evaluation
+
 Short Circuit Evaluation describes a semantic rule related to logical operators in boolean expressions. It states that the second argument is only evaluated if the first argument is not enough to determine the overall value of the expression.
 
 Specifically, when the first argument of an `&&` statement evaluates to false, the second argument is not considered since the entire statement will evaluate to false. Conversely, if the first argument of an `||` statement evaluates to true, the second argument is not considered since the entire statement will evaluate to true.
@@ -118,6 +127,7 @@ end
 ```
 
 #### Common Mistake
+
 It's important to understand how to combine relational operators with logical operators.
 
 You cannot for example ...
@@ -149,4 +159,5 @@ end
 ```
 
 ### Resources
+
 * [Ada Boolean Expressions Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=db632849-5d1c-4483-aa7e-cb95ec754490) (20:06)
