@@ -160,6 +160,6 @@ The style in your code is just as important as the code itself. Programmers use 
 
 ### Resources
 
-* [Ada Ruby Style Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7387c766-7e2c-43b6-84f5-3f8b45d0f1f0) (~15 min)
+* [Ada Ruby Style Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=271e9de5-57df-4248-a656-aa5a015efbda) (~15 min)
 * [Crowd-sourced Ruby style guide](https://github.com/bbatsov/ruby-style-guide)
 * [Github's Ruby style guide](https://github.com/github/rubocop-github/blob/master/STYLEGUIDE.md)
