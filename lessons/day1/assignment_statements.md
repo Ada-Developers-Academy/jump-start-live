@@ -1,10 +1,12 @@
 _JumpStart Live (JSL)_
 # Day 2
+
 ## Assignment Statements
 
 Understanding how to read and use assignment statements is a critical skill in programming
 
 ### Reading Assignment Statements
+
 * Assignment statements are read from right-to-left, not from left-to-right
 * Use phrases like _assigns_, or _stores the value_, instead of _equals_, or _equal to_
 
@@ -26,6 +28,7 @@ y = x
 ```
 
 #### Practice Reading and Evaluating
+
 1. What is the value of x, after the following code is executed?
 
 	```ruby
@@ -44,6 +47,7 @@ y = x
 	```
 
 ### Compound Assignment Statements
+
 To make your code shorter, you can used compound assignment statements. These only work if the variable on the left-side of the statement has a value other than `nil`
 
 | Compound Statement | Long-form statement |
@@ -54,4 +58,5 @@ To make your code shorter, you can used compound assignment statements. These on
 | `x *= 8` | `x = x * 8` |
 
 ### Resources
-* [Ada Assignment Statements Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7d4167a7-8bc9-4d38-b58a-0cf78392cc2b) (11:09)
+
+- [Ada Assignment Statements Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7d4167a7-8bc9-4d38-b58a-0cf78392cc2b) (11:09)
