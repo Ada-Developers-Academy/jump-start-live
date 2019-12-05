@@ -1,8 +1,10 @@
 _JumpStart Live (JSL)_
 # Day 1
+
 ## Ruby Types
 
 ### Overview
+
 Everything in Ruby is an object. There are 7 data types you should know about now.
 
 | Data Type | Description | Example |
