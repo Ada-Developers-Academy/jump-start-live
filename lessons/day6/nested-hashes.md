@@ -112,9 +112,7 @@ end
 <summary>Solution</summary>
 
 ```ruby
-classes[:containers].each do |student|
-  puts student
-end
+classes[:clusters] << "Christine Martin"
 ```
 </details>
 
