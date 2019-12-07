@@ -51,7 +51,7 @@ You can also use these links to navigate to a specific day
       const slideDeck = new URL(window.location.href).searchParams.get("slides")
       console.log(slideDeck)
       if (slideDeck !== null) {
-        options.sourceUrl = `/slides/${slideDeck}.md`
+        options.sourceUrl = `slides/${slideDeck}.md`
       }
 
       var slideshow = remark.create(options);
