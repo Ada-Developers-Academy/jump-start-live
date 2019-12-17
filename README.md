@@ -56,11 +56,11 @@ JSL takes place in person at Ada headquarters 4 weeks prior to the start of the 
 
 2. What should I have installed on my computer prior to JumpStart Live?
 
-  Prior to JSL, you are not _required_ to have anything previously installed.  It can however be very helpful if you have the following installed.
+    Prior to JSL, you are not _required_ to have anything previously installed.  It can however be very helpful if you have the following installed.
 
 	1.  Visual Studio Code
 	2.  Ruby 2.5.5 installed with RBenv
 	3.  Slack
 	4.  Google Chrome & Firefox
 
-  You can find a instructions on how to install these on the Ada Textbook Curriculum [installfest](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/00-programming-fundamentals/installfest.md).
+    You can find a instructions on how to install these on the Ada Textbook Curriculum [installfest](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/00-programming-fundamentals/installfest.md).
