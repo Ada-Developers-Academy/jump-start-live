@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Awesome Presentation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+# Jumpstart Live in class slides
+
+This is the landing page for the slides used in the Jumpstart Live class. To
+load a slide deck, add its name as the `slides` url parameter to this page.
+
+For example, to load the slide deck for the first day, simply add
+
+```js
+?slides=day1
+```
+
+to the url. One caveat, though, is that the parameter **must** appear before
+any hashtags (**`#`**) present in the url.
+
+You can also use these links to navigate to a specific day
+
+1. [day 1](?slides=day1)
+2. [day 2](?slides=day2)
+3. [day 3](?slides=day3)
+4. [day 4](?slides=day4)
+5. [day 5](?slides=day5)
+6. [day 6](?slides=day6)
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      const options = {
+      }
+
+      // Determine which presentation to load
+      const slideDeck = new URL(window.location.href).searchParams.get("slides")
+      console.log(slideDeck)
+      if (slideDeck !== null) {
+        options.sourceUrl = `slides/${slideDeck}.md`
+      }
+
+      var slideshow = remark.create(options);
+    </script>
+  </body>
+</html>
