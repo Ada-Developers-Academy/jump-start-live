@@ -15,6 +15,19 @@ Introduce yourself!
 
 ---
 
+# Agenda
+
+1.  Welcomes (already done)
+2.  Learning Goals
+3.  Reviewing Candy Machine
+4.  Getting Familiar with our editor
+5.  Ruby Style Guide
+6.  Ruby data types
+7.  Time to work Day 2 Exercises
+8.  Debrief
+
+---
+
 # Peer code review: Candy Machine
 
 Pointers for code review:
