@@ -264,7 +264,7 @@ end
 
 --
 
-The statement does nothing. Better to remove it in the first place.
+But this was probably meant to be an `elsif` statement
 
 ---
 
