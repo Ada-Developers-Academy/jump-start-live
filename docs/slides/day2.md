@@ -559,3 +559,19 @@ irb(main):005:0> x.to_i.to_s != x
 
 ---
 
+# Working on JSL day 3
+
+Get a jump start (hah!) on day 3 exercises
+
+https://github.com/Ada-Developers-Academy/jump-start-live/blob/master/lessons/day3/readme.md#exercises
+
+---
+
+# Debrief
+* What new things did you learn today?
+
+* What topics are you still struggling with?
+
+* What did you especially enjoy about today's class?
+
+* What can be improved for future classes?
