@@ -109,7 +109,9 @@ On your computer
   - `$ touch hello.rb`
   - `$ code .`
 
-Then lets create and run this file/
+---
+
+# Lets Create This File
 
 ![hello.rb](day1_images/hello-rb.png)
 ![Running hello.rb](day1_images/hello-running.png)
