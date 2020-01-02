@@ -1,5 +1,11 @@
 class: middle, center
 
+<style>
+  img {
+    max-width: 100%;
+  }
+</style>
+
 # Jumpstart Live
 
 In classroom conversation for day 1
