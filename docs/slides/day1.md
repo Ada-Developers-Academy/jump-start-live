@@ -4,6 +4,14 @@ class: middle, center
   img {
     max-width: 100%;
   }
+
+  img[alt="left bad style example"] {
+    max-width: 49%;
+  }
+
+    img[alt="right bad style example"] {
+    max-width: 49%;
+  }
 </style>
 
 # Jumpstart Live
@@ -138,7 +146,7 @@ What would you do to improve'em?
 
 | Data Type  	| Description 	| Example 	|
 |---	|---	|---	|
-| String 	| Anything surrounded by single/double quotes 	| "hello", 'hello' 	|
+| String 	| Anything surrounded by single/double <br />quotes 	| "hello", 'hello' 	|
 | Integer 	| A number with no decimal 	| 1, 0, -7 	|
 | Float 	| A "real" value (decimal) 	| 0.5, -2.75 	|
 | Array 	| An ordered list of values 	| ['hey', 3, 7] 	|
