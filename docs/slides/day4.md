@@ -194,15 +194,33 @@ end
 
 --
 
-How can I use the `.times` loop to print the fruit names?
+.left-column[
+```console
+brooks@ada:~$ ruby fruit.rb
+0
+1
+2
+apples
+bananas
+oranges
+```
+]
 
 --
 
+.right-column[
+How can I use the `.times` loop to print the fruit names?
+]
+
+--
+
+.right-column[
 ```ruby
 my_array.count.times do |x|
     puts my_array[x]
 end
 ```
+]
 
 ---
 
@@ -302,4 +320,205 @@ puts # add a final newline
 
 ---
 
-# TODO: need to work on slide 10 and onwards
+# Exercise: fence post
+
+Complete the following program
+
+```ruby
+puts "I'm throwing a party for my friends!"
+print "Let me tell you who's coming... "
+friends = ["Harry", "Hermione", "Ron", "Luna"]
+
+count = friends.count
+```
+List all the friends in a sentence. Their names should appear on the same line,
+and without any surrounding brackets. For example:
+
+```console
+brooks@ada:~$ ruby harry.rb
+I'm throwing a party for my friends!
+Let me tell you who's coming... Harry, Hermione, Ron, Luna.
+```
+```console
+brooks@ada:~$ ruby harry.rb
+I'm throwing a party for my friends!
+Let me tell you who's coming... Harry, Hermione, Ron and Luna.
+```
+```console
+brooks@ada:~$ ruby harry.rb
+I'm throwing a party for my friends!
+Let me tell you who's coming... Harry, Hermione, Ron, and Luna.
+```
+
+---
+
+# Fence post - solution 1
+
+```ruby
+puts "I'm throwing a party for my friends!"
+print "Let me tell you who's coming... "
+friends = ["Harry", "Hermione", "Ron", "Luna"]
+```
+
+```ruby
+# first friend name outside the loop
+print friends[0]
+
+# loop through the rest of the friends and print them out
+(friends.count - 1).times do |i|
+    print ", #{friends[i + 1]}"
+end
+
+puts "."
+```
+
+<hr>
+
+```console
+brooks@ada:~$ ruby harry.rb
+I'm throwing a party for my friends!
+Let me tell you who's coming... Harry, Hermione, Ron, Luna.
+```
+
+---
+
+# Fence post - solution 2
+
+```ruby
+puts "I'm throwing a party for my friends!"
+print "Let me tell you who's coming... "
+friends = ["Harry", "Hermione", "Ron", "Luna"]
+```
+
+```ruby
+# first friend name outside the loop
+print friends[0]
+
+# loop through the all but two friends
+(friends.count - 2).times do |i|
+    print ", #{friends[i + 1]}"
+end
+
+# print the last friend
+puts " and #{friends[-1]}"
+```
+
+<hr>
+
+```console
+brooks@ada:~$ ruby harry.rb
+I'm throwing a party for my friends!
+Let me tell you who's coming... Harry, Hermione, Ron and Luna.
+```
+
+---
+
+# Fence post - solution 3
+
+```ruby
+puts "I'm throwing a party for my friends!"
+print "Let me tell you who's coming... "
+friends = ["Harry", "Hermione", "Ron", "Luna"]
+```
+
+```ruby
+# loop through all but one friend
+(friends.count - 1).times do |i|
+    print "#{friends[i + 1]}, "
+end
+
+# print the last friend
+puts " and #{friends[-1]}"
+```
+
+<hr>
+
+```console
+brooks@ada:~$ ruby harry.rb
+I'm throwing a party for my friends!
+Let me tell you who's coming... Harry, Hermione, Ron, and Luna.
+```
+
+---
+
+# Boolean zen
+Change the following pieces of code to follow [boolean
+zen](https://github.com/Ada-Developers-Academy/jump-start-live/blob/master/lessons/day4/boolean_zen.md)
+
+.left-column[
+```ruby
+# exercise 1
+flag = true
+puts "Flag is #{flag}"
+while flag == true
+    if 2 < 4 == true
+        flag = false
+        puts "Flag is now #{flag}"
+    end
+end
+```
+]
+
+.right-column[
+```ruby
+# exercise 2
+flag = false
+puts "Flag is #{flag}"
+while flag == false
+    if 2 > 4 == false
+        flag = true
+        puts "Flag is now #{flag}"
+    end
+end
+```
+]
+
+--
+
+.left-column[
+```ruby
+# solution 1
+flag = true
+puts "Flag is #{flag}"
+*while flag
+*   if 2 < 4
+        flag = false
+        puts "Flag is now #{flag}"
+    end
+end
+```
+]
+
+--
+
+.right-column[
+```ruby
+# solution 2
+flag = false
+puts "Flag is #{flag}"
+*while !flag
+*   if !(2 > 4) # or 2 <= 4
+        flag = true
+        puts "Flag is now #{flag}"
+    end
+end
+```
+]
+
+---
+
+# Get a jump start on day 5 exercises
+
+https://github.com/Ada-Developers-Academy/jump-start-live/tree/master/lessons/day5#exercises
+
+---
+
+# Debrief
+
+* Why are arrays useful in programming?
+
+* What topics are you still struggling with?
+
+* What did you especially enjoy about today's class?
+
+* What can be improved for future classes?
