@@ -1,6 +1,7 @@
 # Slide Decks
 
-For use during the classroom portion of JumpStart Live
+For use during the classroom portion of JumpStart Live. They can be viewed
+online at https://ada-developers-academy.github.io/jump-start-live
 
 ## How does it work?
 
@@ -14,26 +15,27 @@ To keep things simple,
   internet connection to access the slides.
 
 ## You said I can look at the slides?
-Absolutely! Go to Ada-Developers-Academy.github.io/jump-start-live to see.
+Absolutely! Go to https://ada-developers-academy.github.io/jump-start-live
 
 ## I made changes, how can I view the slides locally?
 That's awesome, thank you so much for contributing!
 
 So long as you have a locally running webserver that is able to serve the
 contents of this directory, you can view them. Python's `http.server` module
-works fine for this purpose. In a terminal, navigate to this directory
+works fine for this purpose. In a terminal, navigate to the `docs` directory of
+this repository, like so
 ```console
 $ pwd
 /home/brooks/code/jump-start-live/docs
 ```
 
-start the server
+then start a server
 ```console
 $ python3 -m http.server --bind 127.0.0.1
 Serving HTTP on 127.0.0.1 port 8000 (http://127.0.0.1:8000/) ...
 ```
 
-Then point your browser to http://localhost:8000
+and point your browser to http://localhost:8000
 
 ## Slide syntax
 
