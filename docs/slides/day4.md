@@ -29,6 +29,7 @@ puts "Result: #{total}"
 ---
 
 # Instructor code review
+What could make this code better?
 
 ```ruby
 puts "Hello! We are going to total some numbers!"
