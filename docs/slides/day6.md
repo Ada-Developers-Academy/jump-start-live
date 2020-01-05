@@ -615,6 +615,27 @@ ID | Property | Guest name | Check-in | Check-out
 4 | Condo | Patience Phillips | 2016-01-02 | 2016-01-03
 5 | Townhouse | Wanda Maximoff | 2016-01-06 | 2016-01-14
 
+--
+
+```ruby
+stays = [
+  {
+    id: 1,
+    property: "Condo",
+    guest_name: "Marie D'Ancando",
+    check_in: "2014-08-14",
+    check_out: "2014-08-16",
+  },
+  ...
+]
+```
+
+???
+
+* You *could* rely on the index for the id
+    * but having an id field means you can sort the list, and still have a way
+      to revert back to the original order.
+
 ---
 
 class: middle, center
