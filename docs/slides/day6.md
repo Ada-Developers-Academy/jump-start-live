@@ -317,7 +317,7 @@ Name? Hermione
 Hours per week? 25
 Name? Ron
 Hours per week? 10
-[["Ron", 10.0], ["Ron", 10.0]]
+*[["Ron", 10.0], ["Ron", 10.0]]
 ```
 
 Oops! The values inside `volunteer` were re-assigned, but `volunteer` never
@@ -340,7 +340,65 @@ https://github.com/Ada-Developers-Academy/jump-start/blob/master/learning-to-cod
 
 ---
 
-# Symbol vs string object_ids
+class: middle, center
+
+# Back to the volunteer registration desk
+
+Could we use hashes?
+
+---
+
+# Approach #3, array of hashes
+
+Volunteer name | Email address | Hours available
+---|---|---
+Harry Potter | harry.potter@hogwarts.com | 15
+Hermione Granger | hermione.granger@hogwarts.com | 25
+Ron Weasley | ron.weasley@hogwarts.com | 10
+
+* one large array to hold everything
+
+* each volunteer becomes a new **hash** within the larger array
+
+* columns become keys in the hash
+
+---
+
+# Approach #3, array of hashes
+
+```ruby
+volunteers = [] # or Array.new
+
+print "How many volunteers are in line? "
+num_volunteers = gets.chomp.to_i
+
+num_volunteers.times do
+    current_volunteer = Hash.new # or {}
+
+    print "Name? "
+    current_volunteer[:name] = gets.chomp
+
+    print "Email address? "
+    current_volunteer[:email] = gets.chomp
+
+    print "How many hours can you volunteer for? "
+    current_volunteer[:hours_available] = gets.chomp.to_f
+
+    volunteers << current_volunteer
+end
+
+puts "\nHere's the volunteer list:"
+puts "Volunteer name\tEmail address\tHours available"
+volunteers.each do |volunteer|
+    print "#{volunteer[:name]}"
+    print "\t#{volunteer[:email]}"
+    puts "\t#{volunteer[:hours_available]}"
+end
+```
+
+---
+
+# Symbols vs strings
 Open `irb` and try these for yourself. What do you notice?
 
 .left-column[
@@ -370,7 +428,7 @@ irb(main):13:0> your_symbol.object_id
 
 ---
 
-# Symbol vs string object_ids
+# Symbols vs strings
 Open `irb` and try these for yourself. What do you notice?
 
 .left-column[
@@ -447,64 +505,6 @@ up additional memory.
 
 ---
 
-class: middle, center
-
-# Back to the volunteer registration desk
-
-Could we use hashes?
-
----
-
-# Approach #3, array of hashes
-
-Volunteer name | Email address | Hours available
----|---|---
-Harry Potter | harry.potter@hogwarts.com | 15
-Hermione Granger | hermione.granger@hogwarts.com | 25
-Ron Weasley | ron.weasley@hogwarts.com | 10
-
-* one large array to hold everything
-
-* each volunteer becomes a new **hash** within the larger array
-
-* columns become keys in the hash
-
----
-
-# Approach #3, array of hashes
-
-```ruby
-volunteers = [] # or Array.new
-
-print "How many volunteers are in line? "
-num_volunteers = gets.chomp.to_i
-
-num_volunteers.times do
-    current_volunteer = Hash.new # or {}
-
-    print "Name? "
-    current_volunteer[:name] = gets.chomp
-
-    print "Email address? "
-    current_volunteer[:email] = gets.chomp
-
-    print "How many hours can you volunteer for? "
-    current_volunteer[:hours_available] = gets.chomp.to_f
-
-    volunteers << current_volunteer
-end
-
-puts "\nHere's the volunteer list:"
-puts "Volunteer name\tEmail address\tHours available"
-volunteers.each do |volunteer|
-    print "#{volunteer[:name]}"
-    print "\t#{volunteer[:email]}"
-    puts "\t#{volunteer[:hours_available]}"
-end
-```
-
----
-
 # Arrays or hashes?
 
 * Arrays are an ordered list of items. The order is based on indexing.
@@ -517,7 +517,7 @@ end
 
 * However, to maintain a list of ordered entries (eg: the next applicant in
   line, or ascending/descending ordered values), arrays are the data structure
-  you're looking for
+  you're looking for.
 
 ---
 
