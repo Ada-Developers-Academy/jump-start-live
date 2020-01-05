@@ -333,7 +333,8 @@ We pushed two of the same `volunteer` into the `volunteers` array.
 Identify
 
 * Two things you learned
-* One things you would like to work on
+
+* One thing you would like to work on
 
 https://github.com/Ada-Developers-Academy/jump-start/blob/master/learning-to-code/hashes/assignments/account-generator-cont.md
 
@@ -436,6 +437,14 @@ person = {
 }
 ```
 
+???
+
+Since strings with the same value are different objects, every duplicate key
+takes up memory in string form.
+
+Since symbols of the same value are the same object, duplicate keys do not take
+up additional memory.
+
 ---
 
 class: middle, center
@@ -512,7 +521,104 @@ end
 
 ---
 
-# TODO: stopped at slide 16
+# Accessing nested data structures
+
+.left-column[
+```ruby
+students = [
+  {
+    name: "Alice Jones",
+    id: 111,
+    email: "alice@adadev.org",
+  },
+  {
+    name: "Ada Lovelace",
+    id: 112,
+    email: "ada@adadev.org",
+  },
+  {
+    name: "Brook Zoolander",
+    id: 113,
+    email: "brook@adadev.org",
+  },
+]
+```
+]
+
+.right-column[
+How would you access
+
+* Ada's email?
+* Alice's ID number?
+* Brook's full name?
+]
+
+--
+
+.right-column[
+```ruby
+students[1][:email] # ada@adadev.org
+students[0][:id] # 111
+students[2][:name] # Brook Zoolander
+```
+]
 
 ---
 
+# Accessing nested data structures
+
+How would you loop through and print all the students in Clusters?
+.left-column[
+```ruby
+classes = {
+  clusters: [
+    "Ada Lovelace",
+    "Amahle Elna",
+    "Lucia Santos",
+  ],
+  containers: [
+    "Dee del Rosario",
+    "Devin Helmgren",
+    "Becca Elenzil",
+  ],
+}
+```
+]
+
+--
+
+.right-column[
+```ruby
+classes[:clusters].each do |student|
+  puts student
+end
+```
+
+```console
+brooks@ada:~$ ruby classes.rb
+Ada Lovelace
+Amahle Elna
+Lucia Santos
+```
+]
+
+---
+
+# Data design exercise
+How would you organize the following data in Ruby?
+
+ID | Property | Guest name | Check-in | Check-out
+---|---|---|---|---
+1 | Condo | Marie D'Ancanto | 2014-08-14 | 2014-08-16
+2 | Townhouse | Barbara Wilson | 2014-09-20 | 2014-09-21
+3 | Condo | Kitty Pryde | 2015-12-14 | 2015-12-27
+4 | Condo | Patience Phillips | 2016-01-02 | 2016-01-03
+5 | Townhouse | Wanda Maximoff | 2016-01-06 | 2016-01-14
+
+---
+
+class: middle, center
+
+# Feedback
+
+https://bit.ly/2LVyEef
