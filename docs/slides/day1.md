@@ -29,6 +29,18 @@ Introduce yourself!
 
 ---
 
+# Learning Goals
+
+## Today we will 
+
+* Get more familiar with Ada, instructors and classmates
+* Gain some practice using VS Code
+* Work on learning to write more readable code
+* Review Ruby data types & assignment statements
+* Practice writing & talking about Ruby code
+
+---
+
 # Agenda
 
 1.  Welcomes (already done)
@@ -178,6 +190,8 @@ Exercise:
 
 ![Example gets.chomp solution](day1_images/sample-gets1.png)
 
+--
+
 ![Example gets.chomp solution output](day1_images/example-gets-output.png)
 
 ---
@@ -188,6 +202,8 @@ Exercise:
   - The string must span multiple lines when printed
   - It should include a contraction (don’t, can’t, I’m, etc..)
   - It must also include a user-supplied string within it
+
+--
 
 ![Example Output](day1_images/cart.png)
 
