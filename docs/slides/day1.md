@@ -233,6 +233,19 @@ Exercise:
 
 ---
 
+# Output
+
+```ruby
+14:44 $ ruby software.rb 
+sOFTWARE eNGINEER
+sOFTWARE eNGINEER
+Software Engineering Manager
+```
+
+## Why???
+
+---
+
 # Working on JSL Day 2
 
 Get a jump start on day 2 exercises
