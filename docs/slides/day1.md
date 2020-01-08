@@ -14,7 +14,7 @@ class: middle, center
   }
 </style>
 
-# Jumpstart Live
+# JumpStart Live
 
 In classroom conversation for day 1
 

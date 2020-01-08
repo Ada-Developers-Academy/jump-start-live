@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Awesome Presentation</title>
+    <title>JumpStart Live Slides</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <style type="text/css">
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -36,9 +36,9 @@
   </head>
   <body>
     <textarea id="source">
-# Jumpstart Live in class slides
+# JumpStart Live in class slides
 
-This is the landing page for the slides used in the Jumpstart Live class. To
+This is the landing page for the slides used in the JumpStart Live class. To
 load a slide deck, add its name as the `slides` url parameter to this page.
 
 For example, to load the slide deck for the first day, simply add
@@ -68,8 +68,9 @@ You can also use these links to navigate to a specific day
 
       // Determine which presentation to load
       const slideDeck = new URL(window.location.href).searchParams.get("slides")
-      console.log(slideDeck)
       if (slideDeck !== null) {
+        console.log(`loading ${slideDeck} slide deck`)
+        document.title = slideDeck + ' | ' + document.title
         options.sourceUrl = `slides/${slideDeck}.md`
       }
 
