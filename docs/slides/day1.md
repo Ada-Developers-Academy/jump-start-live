@@ -229,7 +229,18 @@ Exercise:
 
 # Assignment - When you give a set a variable to a value
 
-![Variable Assignment](day1_images/assignment2.png)
+```ruby
+my_career = "Software Engineer"
+your_career = my_career
+their_career = your_career + "ing Manager"
+
+your_career.swapcase!
+
+puts my_career
+puts your_career
+puts their_career
+```
+
 
 ---
 
