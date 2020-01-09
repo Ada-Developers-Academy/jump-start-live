@@ -32,11 +32,11 @@ name = gets.chomp
 num = gets.chomp.to_i
 
 while num > 0
-	# num and name are within scope
-	# because they are defined outside
-	# of a block
-	num -= 1 # num = num - 1
-	name << " birthday! "
+  # num and name are within scope
+  # because they are defined outside
+  # of a block
+  num -= 1 # num = num - 1
+  name << " birthday! "
 end
 
 puts name
@@ -47,9 +47,9 @@ puts name
 	```ruby
 	x = gets.chomp.to_i
 	if x > 0
-		y = 1
+	  y = 1
 	else
-		y = -1
+	  y = -1
 	end
 	
 	puts y # No error, if statements are not considered blocks in Ruby
@@ -59,8 +59,9 @@ puts name
 
 	```ruby
 	(1..3).each do |num|
-		last = num
+	  last = num
 	end
+	
 	puts last 	# NameError: undefined local variable or method x
 	```
 
