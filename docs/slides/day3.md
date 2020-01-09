@@ -264,3 +264,9 @@ Lets work on [Day 4 Exercises](https://github.com/Ada-Developers-Academy/jump-st
 * What topics are you still struggling with?
 * What did you especially enjoy about today's class?
 * What can be improved for future classes?
+
+---
+
+# JSL Day 3 Survey
+
+[Please give us feedback!](https://airtable.com/shraPA0Opxd8fzOmY)
