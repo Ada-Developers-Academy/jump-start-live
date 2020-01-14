@@ -35,9 +35,9 @@ y = 2
 z = 3
 
 if z * x - y > 0
-    puts "positive"
+  puts "positive"
 else
-    puts "zero or negative"
+  puts "zero or negative"
 end
 ```
 Reference: [boolean expressions](https://github.com/Ada-Developers-Academy/jump-start-live/blob/master/lessons/day2/boolean_expressions.md)
@@ -64,9 +64,9 @@ y = 2
 z = 3
 
 if z * (x - y) > 0
-    puts "positive"
+  puts "positive"
 else
-    puts "zero or negative"
+  puts "zero or negative"
 end
 ```
 Reference: [boolean expressions](https://github.com/Ada-Developers-Academy/jump-start-live/blob/master/lessons/day2/boolean_expressions.md)
@@ -94,9 +94,9 @@ y = -2
 z = 4
 
 if x = 1 || y = -1
-    puts "x = 1 or y = -1"
+  puts "x = 1 or y = -1"
 elsif z = 4
-    puts "z = 4"
+  puts "z = 4"
 end
 ```
 Reference: [boolean expressions](https://github.com/Ada-Developers-Academy/jump-start-live/blob/master/lessons/day2/boolean_expressions.md)
@@ -127,9 +127,9 @@ y = -2
 z = 4
 
 if x == 3 || 4
-    puts "x is 3 or 4"
+  puts "x is 3 or 4"
 else
-    puts "x is not 3 or 4"
+  puts "x is not 3 or 4"
 end
 ```
 Reference: [boolean expressions](https://github.com/Ada-Developers-Academy/jump-start-live/blob/master/lessons/day2/boolean_expressions.md)
@@ -168,7 +168,7 @@ z = 4
 ```ruby
 # Option 1
 if x > 0 && y < 0
-    puts "it's true!"
+  puts "it's true!"
 end
 ```
 
@@ -177,7 +177,7 @@ end
 ```ruby
 # Option 2
 if !(x <= 0 || y >= 0)
-    puts "it's true!"
+  puts "it's true!"
 end
 ```
 
@@ -191,11 +191,11 @@ print "What size drink would you like? (SHORT or TALL or GRANDE): "
 order = gets.chomp.upcase
 
 if order == "SHORT"
-    puts "8"
+  puts "8"
 elsif order == "TALL"
-    puts "12"
+  puts "12"
 else order == "GRANDE"
-    puts "16"
+  puts "16"
 end
 ```
 
@@ -237,11 +237,11 @@ print "What size drink would you like? (SHORT or TALL or GRANDE): "
 order = gets.chomp.upcase
 
 if order == "SHORT"
-    puts "8"
+  puts "8"
 elsif order == "TALL"
-    puts "12"
+  puts "12"
 *else order == "GRANDE"
-    puts "16"
+  puts "16"
 end
 ```
 
@@ -253,12 +253,12 @@ print "What size drink would you like? (SHORT or TALL or GRANDE): "
 order = gets.chomp.upcase
 
 if order == "SHORT"
-    puts "8"
+  puts "8"
 elsif order == "TALL"
-    puts "12"
+  puts "12"
 else
-*   order == "GRANDE"
-    puts "16"
+* order == "GRANDE"
+  puts "16"
 end
 ```
 
@@ -274,13 +274,13 @@ print "What size drink would you like? (SHORT or TALL or GRANDE): "
 order = gets.chomp.upcase
 
 if order == "SHORT"
-    puts "8"
+  puts "8"
 elsif order == "TALL"
-    puts "12"
+  puts "12"
 elsif order = "GRANDE"
-    puts "16"
+  puts "16"
 else
-    puts "unknown size"
+  puts "unknown size"
 end
 ```
 
@@ -308,13 +308,13 @@ print "What size drink would you like? (SHORT or TALL or GRANDE): "
 order = gets.chomp.upcase
 
 if order == "SHORT"
-    puts "8"
+  puts "8"
 elsif order == "TALL"
-    puts "12"
+  puts "12"
 *elsif order = "GRANDE"
-    puts "16"
+  puts "16"
 else
-    puts "unknown size"
+  puts "unknown size"
 end
 ```
 
@@ -340,13 +340,13 @@ print "What size drink would you like? (SHORT or TALL or GRANDE): "
 order = gets.chomp.upcase
 
 if order == "SHORT"
-    puts "8"
+  puts "8"
 elsif order == "TALL"
-    puts "12"
+  puts "12"
 *elsif order == "GRANDE"
-    puts "16"
+  puts "16"
 else
-    puts "unknown size"
+  puts "unknown size"
 end
 ```
 
@@ -378,15 +378,15 @@ What size drink would you like? (SHORT or TALL or GRANDE): no thank you
 puts "SHORT, TALL, GRANDE, or VENTI? "
 order = gets.chomp.upcase
 if order == "SHORT"
-    print "8"
+  print "8"
 elsif order == "TALL"
-    print "12"
+  print "12"
 elsif order == "GRANDE"
-    print "16"
+  print "16"
 elsif order == "VENTI"
-    print "20"
+  print "20"
 else
-    print "unknown size"
+  print "unknown size"
 end
 ```
 ]
@@ -399,16 +399,16 @@ end
 puts "SHORT, TALL, GRANDE, or VENTI? "
 order = gets.chomp.upcase
 if order == "SHORT"
-    print "8"
+  print "8"
 end
 if order == "TALL"
-    print "12"
+  print "12"
 end
 if order == "GRANDE"
-    print "16"
+  print "16"
 end
 if order == "VENTI"
-    print "20"
+  print "20"
 end
 ```
 ]
@@ -438,11 +438,11 @@ Which option should we choose?
 puts "How much money do you have? "
 money = gets.chomp
 if money.to_i.to_s != money
-    puts "Not a number, try again"
-    exit # exit program
+  puts "Not a number, try again"
+  exit # exit program
 else
-    money = money.to_f
-    # ... remaining program logic
+  money = money.to_f
+  # ... remaining program logic
 end
 ```
 ]
@@ -455,9 +455,9 @@ end
 puts "How much money do you have? "
 money = gets.chomp
 while money.to_i.to_s != money
-    puts "Not a number, try again"
-    puts "How much money do you have? "
-    money = gets.chomp
+  puts "Not a number, try again"
+  puts "How much money do you have? "
+  money = gets.chomp
 end
 money = money.to_f
 # ... remaining program logic
@@ -472,15 +472,15 @@ puts "How much money do you have? "
 money = gets.chomp
 attempt = 0
 while money.to_i.to_s != money
-    if attempt < 3
-        puts "Not a number, try again"
-        puts "How much money do you have? "
-        money = gets.chomp
-        attempt += 1
-    else
-        puts "Not a number, exiting"
-        exit # no more chances
-    end
+  if attempt < 3
+    puts "Not a number, try again"
+    puts "How much money do you have? "
+    money = gets.chomp
+    attempt += 1
+  else
+    puts "Not a number, exiting"
+    exit # no more chances
+  end
 end
 money = money.to_f
 puts "money: $ #{money}"
@@ -507,7 +507,7 @@ Which one is better?
 
 ```ruby
 *while money.to_i.to_s != money
-    # ... prompt user again to enter a value
+  # ... prompt user again to enter a value
 end
 ```
 
