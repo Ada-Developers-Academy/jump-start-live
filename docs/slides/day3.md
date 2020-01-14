@@ -90,6 +90,8 @@ end
     ```
 ]
 
+--
+
 .right-column[
     ```ruby
     puts "Hello we're going to total 
@@ -191,6 +193,8 @@ Useful for looping over a collection
     end
     ```
 ]
+
+--
 
 .right-column[
     What about now?
