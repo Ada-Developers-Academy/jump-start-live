@@ -12,12 +12,12 @@ Scope in programming defines when something (usually a variable) is visible to s
 
 You will not need to know about most of these until a few weeks into Ada, but it's important to have a general idea about the different types of variables and their scope. You should understand local variables and their scope by the end of JumpStart Live.
 
-| Variable type | Syntax | Scope |
-| :--- | :--- | :--- |
-| Class variable | `@@name` | Visible to the class, and sub classes |
-| Instance variable | `@name` | Visible to a specific object, and the instance methods of that object |
-| Global variable | `$name` | Visible to everything in the file |
-| Local variable | `name`| Depends! |
+| Variable type     | Syntax   | Scope                                                                 |
+| :---------------- | :------- | :-------------------------------------------------------------------- |
+| Class variable    | `@@name` | Visible to the class, and sub classes                                 |
+| Instance variable | `@name`  | Visible to a specific object, and the instance methods of that object |
+| Global variable   | `$name`  | Visible to everything in the file                                     |
+| Local variable    | `name`   | Depends!                                                              |
 
 ### Local variables and scope
 
@@ -25,21 +25,37 @@ You will not need to know about most of these until a few weeks into Ada, but it
 
 #### Examples
 
-* In ruby, local variables created outside of a block, are visible to everything inside of that file
+* In ruby, local variables created outside of a block, are visible to everything inside of that file.  What does this print?
 	
 ```ruby
-name = gets.chomp
-num = gets.chomp.to_i
+list = ["Goofy", "Minnie", "Daisy"]
+name = "Donald"
 
-while num > 0
-  # num and name are within scope
-  # because they are defined outside
-  # of a block
-  num -= 1 # num = num - 1
+list.each do |name|
   name << " birthday! "
 end
 
 puts name
+```
+
+In Ruby, if a variable is redefined inside a block, that is a new variable with scope only inside that block.
+
+```ruby
+list = ["Goofy", "Minnie", "Daisy"]
+greeting = ""
+
+list.each do |name|
+	name << " birthday! "
+	greeting = name
+end
+
+puts greeting
+```
+
+Output:
+
+```bash
+Daisy birthday! 
 ```
 
 * In ruby, local variables created inside if statements, are visible outside of those if statements
