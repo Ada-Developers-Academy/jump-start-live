@@ -36,6 +36,7 @@ What's the difference between the following types of loops?
 
 * Sentinel Controlled
 * Counter Controlled
+* Iteration through a collection
 * Infinite
 
 
