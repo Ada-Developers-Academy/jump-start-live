@@ -1,5 +1,9 @@
 # JumpStart Live (JSL)
 
+## Note - Expiration Date:  August 2020
+
+For Cohort 15 and the Fall 2020 application window, this repository does not apply.  We are moving Ada to Python for Cohort 15.  We encourage you to check out our [Ada Build](https://github.com/ada-developers-academy/ada-build) to learn our intro to Python curriculum.
+
 _In person program for selected [Ada Developers Academy](http://adadevelopersacademy.org/) students_
 
 ## Overview
