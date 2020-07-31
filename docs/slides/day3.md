@@ -1,6 +1,6 @@
 class: middle, center
 
-# JumpStart Live
+# Pre-Ada Live
 
 In classroom conversation for day 3
 
