@@ -276,3 +276,7 @@ https://github.com/Ada-Developers-Academy/jump-start-live/blob/master/lessons/da
 - What can be improved for future classes?
 
 ---
+
+# Give us feedback
+
+[Give us feedback](https://airtable.com/shraPA0Opxd8fzOmY)
