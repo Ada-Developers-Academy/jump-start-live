@@ -18,6 +18,10 @@ class: middle, center
 
 In classroom conversation for day 1
 
+Rename yourself in Zoom with
+* Preferred Name
+* Pronouns
+
 ---
 
 # Hello
@@ -45,16 +49,15 @@ Introduce yourself!
 
 1.  Welcomes (already done)
 2.  Learning Goals
-3.  Reviewing Candy Machine
+3.  Review Unit 2 Exercises
 4.  Getting Familiar with our editor
 5.  Ruby Style Guide
 6.  Ruby data types & assignment statements
-7.  Time to work Day 2 Exercises
-8.  Debrief
+7.  Debrief
 
 ---
 
-# Peer code review: Candy Machine
+# Peer code review: Unit 2 Exercises
 
 Pointers for code review:
 * Ruby style guides: snake_case, spaces, comments, indentation
@@ -66,13 +69,8 @@ Pointers for code review:
 * User experience
     * Are the prompts useful, educational, and sufficient for the user of the
       program who is unaware of the requirements?
-
     * What is the user enters information in an incorrect format? (case
       insensitive input, detailed error messages, prompt for re-entry)
-
-P.S: for easier code reviews, save files with `.rb` extensions in your gists.
-This allows for better formatting. Saving multiple `.rb` files helps scope the
-feedback and test code as you make changes.
 
 ---
 
@@ -268,7 +266,7 @@ https://github.com/Ada-Developers-Academy/jump-start-live/blob/master/lessons/da
 
 ---
 
-# Debrief
+# Debrief - Breakout Rooms
 
 - What new things did you learn today?
 - What topics are you still struggling with?
