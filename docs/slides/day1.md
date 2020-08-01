@@ -14,7 +14,7 @@ class: middle, center
   }
 </style>
 
-# JumpStart Live
+# Pre-Ada Live
 
 In classroom conversation for day 1
 
@@ -256,13 +256,6 @@ Software Engineering Manager
 --
 
 Pass by reference...
-
----
-
-# Working on JSL Day 2
-
-Get a jump start on day 2 exercises
-https://github.com/Ada-Developers-Academy/jump-start-live/blob/master/lessons/day2/readme.md#exercises
 
 ---
 
