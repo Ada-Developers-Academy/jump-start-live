@@ -33,6 +33,25 @@ Introduce yourself!
 
 ---
 
+# About Me - Chris McAnally
+
+## He/Him
+
+.left-column[
+  - Pronounced: Kris (rhymes with kiss)
+  - I teach at Ada CS Fundamentals and pretty much anything needed
+  - Former IT Administrator/Teacher
+  - Cyclist & Gamer
+  - I lived overseas for about 10 years
+  - 大家好！
+]
+
+.right-column[
+  ![pic of me](day1_images/chrismc.png)
+]
+
+---
+
 # Learning Goals
 
 ## Today we will 
