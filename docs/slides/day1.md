@@ -52,6 +52,24 @@ Introduce yourself!
 
 ---
 
+# About Me - Ariana Bray
+
+## She/Her
+
+.left-column[
+  - Pronounced: Ah-Ree-Ah-Nuh (rhymes with nothing)
+  - I'm a Developer Programs Engineer at Google
+  - Formerly Chris' favorite student
+  - I'm learning how to roller skate! 
+  - At the moment I type this, I have a 301-day streak on Duolingo
+]
+
+.right-column[
+  ![picture of Ari](day1_images/aribray.png)
+  ]
+
+---
+
 # Learning Goals
 
 ## Today we will 
@@ -191,7 +209,7 @@ Useful tools, irb &  the `.class` method.
 
 ---
 
-# Lets **do* something!
+# Lets **do** something!
 
 Goal:  
 - Practice writing a program which uses keyboard input.
