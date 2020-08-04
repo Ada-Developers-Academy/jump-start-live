@@ -1,6 +1,6 @@
 class: middle, center
 
-# JumpStart Live
+# Ada Build Live
 In classroom conversation for day 3
 
 ---
@@ -224,33 +224,33 @@ Lets look at the [JSL text on scope](https://github.com/Ada-Developers-Academy/j
 
 ---
 
-# What's The Scope of `spirit_animal`?
+# What's The Scope of `favorite_animal`?
 
 ```ruby
-names = ["Brooks", "Dee", "Devin", "Becca", "Jared"]
+names = ["Kasey", "Steph", "Mina", "Laneia", "Cloudy"]
 names.each do |name|
-  print "What is the spirit animal of #{name}?\t"
-  spirit_animal = gets.chomp
-  puts "\t#{spirit_animal} is mine too!"
+  print "What is the favorite animal of #{name}?\t"
+  favorite_animal = gets.chomp
+  puts "\t#{favorite_animal} is mine too!"
 end
 
-puts "Spirit Animal is #{spirit_animal}"
+puts "Favorite Animal is #{favorite_animal}"
 ```
 
 ---
 
-# What is the scope of spirit animal here?
+# What is the scope of `favorite_animal` here?
 
 ```ruby
 print "What's your first name?"
 name = gets.chomp.capitalize
 
 if name.start_with?("A")
-  print "What is your spirit animal?"
-  spirit_animal = gets.chomp
+  print "What is your favorite animal?"
+  favorite_animal = gets.chomp
 end
 
-puts "Your spirit animal is #{spirit_animal}"
+puts "Your favorite animal is #{favorite_animal}"
 ```
 
 ---
