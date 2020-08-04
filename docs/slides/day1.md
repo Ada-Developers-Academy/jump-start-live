@@ -286,3 +286,7 @@ Pass by reference...
 - What can be improved for future classes?
 
 ---
+
+# Give us feedback
+
+[Give us feedback](https://airtable.com/shraPA0Opxd8fzOmY)

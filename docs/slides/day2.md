@@ -589,3 +589,9 @@ irb(main):005:0> x.to_i.to_s != x
 * What did you especially enjoy about today's class?
 
 * What can be improved for future classes?
+
+---
+
+# Give us feedback
+
+[Give us feedback](https://airtable.com/shraPA0Opxd8fzOmY)
