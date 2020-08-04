@@ -1,7 +1,9 @@
 class: middle, center
+# Pre-Ada Live
 
-# Ada Build Live
 In classroom conversation for day 3
+
+Rename yourself in Zoom with your name & pronouns
 
 ---
 
@@ -257,9 +259,8 @@ puts "Your favorite animal is #{favorite_animal}"
 
 # Exercises
 
-Lets work on [Day 4 Exercises](https://github.com/Ada-Developers-Academy/jump-start-live/tree/master/lessons/day4#exercise)
+Lets review on [Number Guessing Game from Unit 3](https://learn-2.galvanize.com/cohorts/2036/blocks/748/content_files/03-pre-ada03/04-exercise/04-exercise.checkpoint.md?assessment=true)
 
-## Password Verification Program
 
 ---
 
@@ -272,6 +273,6 @@ Lets work on [Day 4 Exercises](https://github.com/Ada-Developers-Academy/jump-st
 
 ---
 
-# Ada Build Day 3 Survey
+# Pre-Ada Day 3 Survey
 
 [Please give us feedback!](https://airtable.com/shraPA0Opxd8fzOmY)
