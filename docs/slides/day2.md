@@ -1,11 +1,27 @@
 class: middle, center
 
-# JumpStart Live
+<style>
+  img {
+    max-width: 100%;
+  }
+
+  img[alt="left bad style example"] {
+    max-width: 49%;
+  }
+
+    img[alt="right bad style example"] {
+    max-width: 49%;
+  }
+</style>
+
+# Pre-Ada Live
+
 In classroom conversation for day 2
 
 ---
 
-# Peer code review: [Candy Machine](https://github.com/Ada-Developers-Academy/jump-start/tree/master/learning-to-code/programming-expressions#candy-machine-assignment)
+# Peer code review: Number Guessing Game
+
 Pointers for code review:
 
 * Ruby style guide: snake_case, spaces, comments, indentation
@@ -17,10 +33,8 @@ Pointers for code review:
 * User experience
     * Are the prompts useful, educational and sufficient for the user of the
       program who is unaware of the requirements?
-
     * What if the user enters information in an incorrect format? (case
       insensitive input, detailed error messages, prompt for re-entry)
-
 * P.S. For easier code reviews, save files with `.rb` extensions in your gists.
   This allows for better formatting. Saving multiple `.rb` files helps scope
   the feedback and test code as you make changes
@@ -40,6 +54,7 @@ else
   puts "zero or negative"
 end
 ```
+
 Reference: [boolean expressions](https://github.com/Ada-Developers-Academy/jump-start-live/blob/master/lessons/day2/boolean_expressions.md)
 
 ???
@@ -50,7 +65,7 @@ Reference: [boolean expressions](https://github.com/Ada-Developers-Academy/jump-
 --
 
 ```console
-brooks@ada:~$ ruby exercise.rb
+CheezItMan@ada:~$ ruby exercise.rb
 positive
 ```
 
@@ -80,7 +95,7 @@ Reference: [boolean expressions](https://github.com/Ada-Developers-Academy/jump-
 --
 
 ```console
-brooks@ada:~$ ruby exercise.rb
+ChrisM@ada:~$ ruby exercise.rb
 zero or negative
 ```
 
@@ -112,7 +127,7 @@ Tricky!
 --
 
 ```console
-brooks@ada:~$ ruby exercise.rb
+chrisM@ada:~$ ruby exercise.rb
 exercise.rb:7: warning: found `= literal' in conditional, should be ==
 x = 1 or y = -1
 ```
@@ -143,13 +158,14 @@ More tricks!
 --
 
 ```console
-brooks@ada:~$ ruby exercise.rb
+ChrisM@ada:~$ ruby exercise.rb
 x is 3 or 4
 ```
 
 ---
 
 # Exercise
+
 * If the value of the variable `x` is `2`, the value of the variable `y` is `-2`,
   and the value of the variable `z` is `4`, write a conditional statement that
   prints `"it's true"` if `x` is greater than `0` and `y` is less than `0`.
@@ -186,6 +202,7 @@ end
 ---
 
 # What does the code below do?
+
 ```ruby
 print "What size drink would you like? (SHORT or TALL or GRANDE): "
 order = gets.chomp.upcase
@@ -208,7 +225,7 @@ end
 --
 
 ```console
-brooks@ada:~$ ruby exercise.rb
+ChrisM@ada:~$ ruby exercise.rb
 What size drink would you like? (SHORT or TALL or GRANDE): short
 8
 ```
@@ -216,7 +233,7 @@ What size drink would you like? (SHORT or TALL or GRANDE): short
 --
 
 ```console
-brooks@ada:~$ ruby exercise.rb
+chrisM@ada:~$ ruby exercise.rb
 What size drink would you like? (SHORT or TALL or GRANDE): grande
 16
 ```
@@ -224,7 +241,7 @@ What size drink would you like? (SHORT or TALL or GRANDE): grande
 --
 
 ```console
-brooks@ada:~$ ruby exercise.rb
+chrisM@ada:~$ ruby exercise.rb
 What size drink would you like? (SHORT or TALL or GRANDE): no thank you
 16
 ```
@@ -232,6 +249,7 @@ What size drink would you like? (SHORT or TALL or GRANDE): no thank you
 ---
 
 # What does the code below do?
+
 ```ruby
 print "What size drink would you like? (SHORT or TALL or GRANDE): "
 order = gets.chomp.upcase
@@ -248,6 +266,7 @@ end
 ---
 
 # What does the code below do?
+
 ```ruby
 print "What size drink would you like? (SHORT or TALL or GRANDE): "
 order = gets.chomp.upcase
@@ -269,6 +288,7 @@ But this was probably meant to be an `elsif` statement
 ---
 
 # What does the code below do?
+
 ```ruby
 print "What size drink would you like? (SHORT or TALL or GRANDE): "
 order = gets.chomp.upcase
@@ -287,14 +307,14 @@ end
 --
 
 ```console
-brooks@ada:~$ ruby exercise.rb
+ChrisM@ada:~$ ruby exercise.rb
 exercise.rb:8: warning: found `= literal' in conditional, should be ==
 What size drink would you like? (SHORT or TALL or GRANDE): grande
 16
 ```
 
 ```console
-brooks@ada:~$ ruby exercise.rb
+ChrisM@ada:~$ ruby exercise.rb
 exercise.rb:8: warning: found `= literal' in conditional, should be ==
 What size drink would you like? (SHORT or TALL or GRANDE): no thank you
 16
@@ -319,14 +339,14 @@ end
 ```
 
 ```console
-brooks@ada:~$ ruby exercise.rb
+ChrisM@ada:~$ ruby exercise.rb
 *exercise.rb:8: warning: found `= literal' in conditional, should be ==
 What size drink would you like? (SHORT or TALL or GRANDE): grande
 16
 ```
 
 ```console
-brooks@ada:~$ ruby exercise.rb
+ChrisM@ada:~$ ruby exercise.rb
 *exercise.rb:8: warning: found `= literal' in conditional, should be ==
 What size drink would you like? (SHORT or TALL or GRANDE): no thank you
 16
@@ -351,13 +371,13 @@ end
 ```
 
 ```console
-brooks@ada:~$ ruby exercise.rb
+ChrisM@ada:~$ ruby exercise.rb
 What size drink would you like? (SHORT or TALL or GRANDE): grande
 16
 ```
 
 ```console
-brooks@ada:~$ ruby exercise.rb
+ChrisM@ada:~$ ruby exercise.rb
 What size drink would you like? (SHORT or TALL or GRANDE): no thank you
 *unknown size
 ```
@@ -428,6 +448,7 @@ Why is option 1 better than option 2?
 class: middle, center
 
 # Discussion - user input retries
+
 Which option should we choose?
 
 ---
@@ -519,7 +540,7 @@ Everybody follow along on their laptops
 
 .left-column[
 ```ruby
-brooks@ada:~$ irb
+ChrisM@ada:~$ irb
 irb(main):001:0> x = gets.chomp
 50  # <-- enter in a number
 irb(main):002:0> x
@@ -543,7 +564,7 @@ irb(main):005:0> x.to_i.to_s != x
 
 .right-column[
 ```ruby
-brooks@ada:~$ irb
+ChrisM@ada:~$ irb
 irb(main):001:0> x = gets.chomp
 help  # <-- enter a word
 irb(main):002:0> x
@@ -559,15 +580,8 @@ irb(main):005:0> x.to_i.to_s != x
 
 ---
 
-# Working on JSL day 3
-
-Get a jump start (hah!) on day 3 exercises
-
-https://github.com/Ada-Developers-Academy/jump-start-live/blob/master/lessons/day3/readme.md#exercises
-
----
-
 # Debrief
+
 * What new things did you learn today?
 
 * What topics are you still struggling with?
