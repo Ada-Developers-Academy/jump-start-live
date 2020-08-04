@@ -272,6 +272,6 @@ Lets work on [Day 4 Exercises](https://github.com/Ada-Developers-Academy/jump-st
 
 ---
 
-# JSL Day 3 Survey
+# Ada Build Day 3 Survey
 
 [Please give us feedback!](https://airtable.com/shraPA0Opxd8fzOmY)
