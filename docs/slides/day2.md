@@ -16,11 +16,17 @@ class: middle, center
 
 # Pre-Ada Live
 
-In classroom conversation for day 2
+Rename yourself in Zoom with
+
+    Preferred Name
+    Pronouns
+
 
 ---
 
 # Peer code review: Number Guessing Game
+
+## Introduce Yourselves!
 
 Pointers for code review:
 
