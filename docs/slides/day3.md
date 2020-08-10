@@ -50,7 +50,7 @@ What's the difference between the following types of loops?
     While Loop
 
 ```ruby
-while <something is true>
+while <repeat when something is true>
   # do stuff
 end
 ```
@@ -60,7 +60,7 @@ end
     Until Loop
 
 ```ruby
-until <something is false>
+until <repeat when something is false>
   # do stuff
 end
 ```
@@ -229,7 +229,7 @@ Lets look at the [JSL text on scope](https://github.com/Ada-Developers-Academy/j
 # What's The Scope of `favorite_animal`?
 
 ```ruby
-names = ["Kasey", "Steph", "Mina", "Laneia", "Cloudy"]
+names = ["Beatrice", "Hanh", "Kalkidan", "Anya", "Gessica"]
 names.each do |name|
   print "What is the favorite animal of #{name}?\t"
   favorite_animal = gets.chomp
