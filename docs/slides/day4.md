@@ -197,7 +197,7 @@ end
 
 .left-column[
 ```console
-brooks@ada:~$ ruby fruit.rb
+ari@ada:~$ ruby fruit.rb
 0
 1
 2
@@ -376,7 +376,7 @@ puts "."
 <hr>
 
 ```console
-brooks@ada:~$ ruby harry.rb
+ari@ada:~$ ruby harry.rb
 I'm throwing a party for my friends!
 Let me tell you who's coming... Harry, Hermione, Ron, Luna.
 ```
@@ -407,7 +407,7 @@ puts " and #{friends[-1]}"
 <hr>
 
 ```console
-brooks@ada:~$ ruby harry.rb
+ari@ada:~$ ruby harry.rb
 I'm throwing a party for my friends!
 Let me tell you who's coming... Harry, Hermione, Ron and Luna.
 ```
@@ -435,7 +435,7 @@ puts " and #{friends[-1]}"
 <hr>
 
 ```console
-brooks@ada:~$ ruby harry.rb
+ari@ada:~$ ruby harry.rb
 I'm throwing a party for my friends!
 Let me tell you who's coming... Harry, Hermione, Ron, and Luna.
 ```
