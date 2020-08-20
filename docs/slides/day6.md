@@ -1,6 +1,6 @@
 class: middle, center
 
-# JumpStart Live Day 6
+# Pre-Build Day 6
 You made it!
 
 ![](https://cultofthepartyparrot.com/parrots/hd/parrot.gif)
@@ -595,7 +595,7 @@ end
 ```
 
 ```console
-brooks@ada:~$ ruby classes.rb
+ari@ada:~$ ruby classes.rb
 Ada Lovelace
 Amahle Elna
 Lucia Santos
